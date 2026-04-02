@@ -56,6 +56,13 @@ def _cmd_import_sources(args: argparse.Namespace) -> None:
     logger.info("import_sources_complete", added=added, output=args.existing)
 
 
+def _cmd_serve(args: argparse.Namespace) -> None:
+    """Start the local HTTP server."""
+    from source_identifier_banking.server import run_server
+
+    run_server(host=args.host, port=args.port, candidates_file=args.candidates)
+
+
 def _cmd_apply_decisions(args: argparse.Namespace) -> None:
     """Apply human decisions to candidate sources."""
     from source_identifier_banking.decisions import apply_decisions
@@ -124,6 +131,21 @@ def main() -> None:
         "--rejected", default="config/rejected_sources.yaml", help="Path to write rejected YAML."
     )
 
+    serve_parser = subparsers.add_parser(
+        "serve", help="Start a local HTTP server to browse candidate sources."
+    )
+    serve_parser.add_argument(
+        "--host", default="127.0.0.1", help="Host to bind to (default: 127.0.0.1)."
+    )
+    serve_parser.add_argument(
+        "--port", type=int, default=8000, help="Port to listen on (default: 8000)."
+    )
+    serve_parser.add_argument(
+        "--candidates",
+        default="artifacts/candidate_sources.json",
+        help="Path to candidates JSON file to serve.",
+    )
+
     args = parser.parse_args()
 
     if args.command == "discover":
@@ -132,3 +154,5 @@ def main() -> None:
         _cmd_import_sources(args)
     elif args.command == "apply-decisions":
         _cmd_apply_decisions(args)
+    elif args.command == "serve":
+        _cmd_serve(args)
