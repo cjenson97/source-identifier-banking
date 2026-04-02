@@ -1,0 +1,283 @@
+:root {
+  --brand-blue: #0b5cab;
+  --brand-blue-dark: #084b8a;
+  --brand-green: #00a86b;
+  --brand-green-dark: #008a58;
+  --ink: #0f172a;
+  --muted: #5f7896;
+  --bg: #f3f8ff;
+  --card: #ffffff;
+  --border: #d9e6f5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 980px;
+  max-width: 980px;
+  font-family: "Segoe UI", Inter, system-ui, sans-serif;
+  background: linear-gradient(180deg, #ffffff, var(--bg));
+  color: var(--ink);
+}
+
+.shell {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 14px;
+}
+
+.hero {
+  border-radius: 14px;
+  padding: 16px 18px;
+  background: linear-gradient(120deg, #0e2f56 0%, #0b5cab 58%, #0f7f67 100%);
+  color: #fff;
+  box-shadow: 0 16px 30px rgba(14, 47, 86, 0.22);
+  border-left: 6px solid var(--brand-green);
+}
+
+.eyebrow {
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: 0.9;
+  font-weight: 700;
+}
+
+.hero h1 {
+  margin: 6px 0 4px;
+  font-size: 24px;
+}
+
+.hero p {
+  margin: 0;
+  opacity: 0.95;
+  font-size: 14px;
+}
+
+.chips {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chips span {
+  font-size: 11px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.card {
+  margin-top: 12px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--card);
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.05);
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 12px;
+}
+
+button {
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  padding: 10px 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.run {
+  background: var(--brand-blue);
+}
+
+.run:hover {
+  background: var(--brand-blue-dark);
+}
+
+.export {
+  background: var(--brand-green);
+}
+
+.export:hover {
+  background: var(--brand-green-dark);
+}
+
+.notify {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.status {
+  margin-left: auto;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.covered-card,
+.table-card {
+  padding: 10px;
+}
+
+.covered-card {
+  display: none;
+}
+
+.tabs {
+  padding: 8px;
+}
+
+.tab-row {
+  display: flex;
+  gap: 8px;
+}
+
+.tab-btn {
+  background: #edf4ff;
+  color: #17497f;
+  border: 1px solid #cfe0f5;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-weight: 700;
+}
+
+.tab-btn.active {
+  background: var(--brand-blue);
+  color: #ffffff;
+  border-color: var(--brand-blue-dark);
+}
+
+.tab-panel {
+  display: none;
+}
+
+.tab-panel.active {
+  display: block;
+}
+
+.history-card {
+  padding: 10px;
+}
+
+.current-sources-card {
+  padding: 10px;
+}
+
+.history-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+#historySelect {
+  flex: 1;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 13px;
+  color: var(--ink);
+  background: #fff;
+}
+
+.history-info {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.table-title {
+  font-weight: 800;
+  color: var(--ink);
+  padding: 4px 2px 8px;
+}
+
+#coveredDomains {
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 13px;
+  resize: vertical;
+}
+
+.table-wrap {
+  overflow: auto;
+  max-height: 360px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 900px;
+}
+
+th,
+td {
+  border-bottom: 1px solid #e9f0fb;
+  text-align: left;
+  padding: 9px 8px;
+  vertical-align: top;
+  font-size: 13px;
+}
+
+th {
+  color: #17497f;
+  font-weight: 800;
+  background: #edf4ff;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.empty {
+  color: var(--muted);
+  text-align: center;
+  font-style: italic;
+}
+
+.badge {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.badge.very-strong {
+  background: #dff3eb;
+  color: #0a6d4d;
+}
+
+.badge.strong {
+  background: #dcecff;
+  color: #0b4f91;
+}
+
+.badge.moderate {
+  background: #f2f7ff;
+  color: #2f5f94;
+}
+
+.badge.early {
+  background: #eef2f7;
+  color: #5b6a7c;
+}

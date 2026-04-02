@@ -1,238 +1,503 @@
 domain,article_count,avg_relevance,max_relevance,latest_seen_date,sample_title,sample_url,trust_score,regulator_score,source_type,priority_score,is_new_source
-bernama.com,2,1.0,1,2026-04-01 09:49:58,"BNM Fines Bank Rakyat RM1 Mln For Cybersecurity, Customer Information Protection Breaches - Bernama",https://bernama.com,0,2,Regulator,7.5,True
-biztechmagazine.com,1,4.0,4,2026-03-26 17:06:18,AI for Regulatory Compliance in Banking: From SOX to Real-Time Monitoring - BizTech Magazine,https://biztechmagazine.com,0,2,Regulator,12.25,True
-leadership.ng,1,4.0,4,2026-03-29 05:09:30,Compliance Now Key Capital in Nigeria’s Banking Sector – Fairmoney - LEADERSHIP Newspapers,https://leadership.ng,1,2,Regulator,13.75,True
-ad-hoc-news.de,1,3.0,3,2026-03-27 03:06:58,Cardano Gains Ground with Banking Integration and Regulatory Clarity - AD HOC NEWS,https://www.ad-hoc-news.de,1,2,Regulator,11.75,True
-asianbankingandfinance.net,1,3.0,3,2026-03-29 22:00:00,ZA Bank’s Sidney Siu champions compliance by design - Asian Banking & Finance,https://asianbankingandfinance.net,1,2,Regulator,11.75,True
-bankinfosecurity.com,1,3.0,3,2026-04-01 14:11:55,"New Regulatory Pressures Trigger Compliance Overhaul, Strain on Teams - Bank Info Security",https://www.bankinfosecurity.com,0,2,Regulator,10.25,True
-businessday.ng,1,3.0,3,2026-03-31 17:14:34,Banks hit 96% recapitalisation compliance as ACAMB applauds sector strength - Businessday NG,https://businessday.ng,1,2,Regulator,11.75,True
-businessupturn.com,1,3.0,3,2026-04-02 05:35:12,Central Bank of India updates code of conduct for insider trading compliance - Business Upturn,https://www.businessupturn.com,0,2,Regulator,10.25,True
-dmarketforces.com,1,3.0,3,2026-03-27 14:27:51,"Insider Risk, Systemic Vulnerabilities In Nigeria’s Banking Architecture - MarketForces Africa",https://dmarketforces.com,0,2,Regulator,10.25,True
-law.asia,1,3.0,3,2026-03-31 14:05:47,"FSCA revises compliance fees for banking, finance entities - Law.asia",https://law.asia,1,2,Regulator,11.75,True
-premiumtimesng.com,1,3.0,3,2026-03-30 21:37:03,ACAMB lauds banking sector’s resilience on meeting recapitalisation deadline - Premium Times Nigeria,https://www.premiumtimesng.com,0,2,Regulator,10.25,True
-sokodirectory.com,1,3.0,3,2026-03-30 10:50:40,"Beyond Compliance: How NCBA’s Dual ISO Certification Signals a New Era of Trust, Privacy, and Digital Banking Discipline - Soko Directory",https://sokodirectory.com,0,2,Regulator,10.25,True
-thebanker.com,1,3.0,3,2026-04-01 09:31:29,Countdown starts for Amla supervision - TheBanker.com,https://www.thebanker.com,0,2,Regulator,10.25,True
-a2ztaxcorp.net,1,2.0,2,2026-03-30 12:17:34,"Income tax Dept Clarifies TDS Provisions on Interest under Section 194A for Banking Institutions; Alignment with Income-tax Act, 2025 Explained - A2Z Taxcorp LLP",https://a2ztaxcorp.net,1,2,Regulator,9.75,True
-bankingdive.com,1,2.0,2,2026-03-27 15:08:55,"Visa, Mastercard, PayPal, Stripe warned of debanking consequences - Banking Dive",https://www.bankingdive.com,0,2,Regulator,8.25,True
-binance.com,1,2.0,2,2026-03-31 19:03:08,CrypFine Partners With Elliptic to Strengthen Blockchain Analytics and AML Compliance - Binance,https://www.binance.com,0,0,FIU/AML,5.25,True
-brokernews.com.au,1,2.0,2,2026-03-31 01:46:39,"APRA reshuffle puts seasoned regulators over banking, insurance, super - Australian Broker News",https://www.brokernews.com.au,1,2,Regulator,9.75,True
-bvinews.com,1,2.0,2,2026-03-28 01:38:25,NBVI is seeking a Chief Compliance and Risk Officer - BVI News,https://bvinews.com,0,0,Media,5.25,True
-caclubindia.com,1,2.0,2,2026-03-31 03:53:00,"No TDS Below Threshold: CBDT Clarifies Banking Provisions Under Income Tax Act, 2025 - CAclubindia",https://www.caclubindia.com,0,2,Regulator,8.25,True
-cfotech.com.au,1,2.0,2,2026-04-02 01:48:00,Pexa Clear opens for property AML compliance ahead - CFOtech Australia,https://cfotech.com.au,1,0,FIU/AML,6.75,True
-channeleye.media,1,2.0,2,2026-03-31 10:58:34,Cyber Security Law Workshop – Banking - channeleye.media,https://channeleye.media,1,2,Regulator,9.75,True
-cnbctv18.com,1,2.0,2,2026-03-27 13:39:45,"RBI fines Bank of India, Central Bank for breaking rules on loans, deposits, and KYC checks - CNBC TV18",https://www.cnbctv18.com,0,2,Regulator,8.25,True
-commercialbaking.com,1,2.0,2,2026-03-27 13:02:21,Banking lessons for bakers: Investing in cybersecurity - Commercial Baking,https://commercialbaking.com,0,2,Regulator,8.25,True
-credit-connect.co.uk,1,2.0,2,2026-03-27 07:46:09,Bank of England streamlines reporting and disclosure requirements - Credit Connect,https://www.credit-connect.co.uk,1,2,Regulator,9.75,True
-cyberguy.com,1,2.0,2,2026-04-01 15:03:00,Banking tech data breach exposes 672K in ransomware attack - Kurt the CyberGuy,https://cyberguy.com,0,2,Regulator,8.25,True
-deloitte.com,1,2.0,2,2026-04-01 01:39:24,"AMLA, AML Regulation, and Financial Crime - Deloitte",https://www.deloitte.com,0,0,FIU/AML,5.25,True
-deshkalnews.com,1,2.0,2,2026-03-30 07:51:14,Bangladesh Bank sets 31 Dec deadline for cybersecurity compliance - DeshkalNews,https://www.deshkalnews.com,0,2,Regulator,8.25,True
-etedge-insights.com,1,2.0,2,2026-03-30 00:16:12,Why AI-powered AML systems may be making financial crime risk invisible - ET Edge Insights,https://etedge-insights.com,0,0,FIU/AML,5.25,True
-ey.com,1,2.0,2,2026-03-29 20:48:45,How the EU AML package is transforming compliance for financial firms - EY,https://www.ey.com,0,0,FIU/AML,5.25,True
-globalinvestigationsreview.com,1,2.0,2,2026-03-30 18:15:21,Compliance officer withdraws Ghana International Bank whistleblowing claim - Global Investigations Review,https://globalinvestigationsreview.com,0,2,Regulator,8.25,True
-hoganlovells.com,1,2.0,2,2026-04-01 23:59:00,Amendments to the Regulations of the Federal Law for the Prevention and Identification of Operations with Resources of Illicit Origin (AML Law): Key legal implications - www.hoganlovells.com,https://www.hoganlovells.com,0,0,FIU/AML,5.25,True
-ibtimes.com.au,1,2.0,2,2026-03-30 14:04:28,Is Wells Fargo Online Banking Down Now? Customers Face Access Issues Nationwide - International Business Times Australia,https://www.ibtimes.com.au,1,2,Regulator,9.75,True
-inc42.com,1,2.0,2,2026-03-31 16:25:38,Fino Payments Bank’s Compliance Officer Aashish Pathak Quits - Inc42,https://inc42.com,0,2,Regulator,8.25,True
-infotechlead.com,1,2.0,2,2026-03-30 17:28:34,"Intesa Sanpaolo Fined $36.4 mn Over Data Breach, Exposing Gaps in Banking Cybersecurity Controls - InfotechLead",https://infotechlead.com,0,2,Regulator,8.25,True
-klsescreener.com,1,2.0,2,2026-03-31 03:20:31,Financial system remains resilient on strong regulatory framework – Bank Negara - KLSE Screener,https://www.klsescreener.com,0,2,Regulator,8.25,True
-legal.economictimes.indiatimes.com,1,2.0,2,2026-03-27 17:53:57,"RBI imposes monetary penalty on 3 govt banks, Pine Labs for non-compliance with directions - ETLegalWorld.com",https://legal.economictimes.indiatimes.com,0,2,Regulator,8.25,True
-livelaw.in,1,2.0,2,2026-03-31 13:15:44,Co-operative Society Can Undertake Banking Activities: Kerala High Court Upholds State Co-operative... - Live Law,https://www.livelaw.in,1,2,Regulator,9.75,True
-mccarthy.ca,1,2.0,2,2026-03-31 20:58:58,Canada’s AML Reform Advances: Bill C-12 Brings Hefty Penalties and Higher Compliance Expectations into Force - McCarthy Tétrault,https://www.mccarthy.ca,1,0,Legislation,6.75,True
-moneycontrol.com,1,2.0,2,2026-03-30 03:36:19,Banking Central | RBI has a message for payments industry - Moneycontrol.com,https://www.moneycontrol.com,0,2,Regulator,8.25,True
-myjoyonline.com,1,2.0,2,2026-03-26 13:52:49,BoG unveils six-point strategy to strengthen cybersecurity in banking sector - MyJoyOnline,https://www.myjoyonline.com,0,2,Regulator,8.25,True
-nairametrics.com,1,2.0,2,2026-03-30 16:22:54,"Banks step up ESG compliance ahead of 2028 deadline, insurers lag - Nairametrics",https://nairametrics.com,0,2,Regulator,8.25,True
-omnilert.com,1,2.0,2,2026-03-31 19:18:54,Meet Omnilert at ABA Risk & Compliance Conference 2026 - Omnilert,https://www.omnilert.com,0,0,Other,5.25,True
-openpr.com,1,2.0,2,2026-04-02 09:49:29,Australia Banking Market - openPR.com,https://www.openpr.com,0,2,Regulator,8.25,True
-paloaltonetworks.com,1,2.0,2,2026-03-27 12:04:36,Platformization strengthens UK merchant banking group’s security and accelerates digital transformation - Palo Alto Networks,https://www.paloaltonetworks.com,0,2,Regulator,8.25,True
-patch.com,1,2.0,2,2026-03-26 23:27:17,New Hampshire Mutual Bancorp VP Earns Certified Regulatory Compliance Manager Credential - Patch,https://patch.com,0,2,Other,8.25,True
-proshare.co,1,2.0,2,2026-04-01 11:35:00,"CBN Launches AML/CFT Supervision Pilot with Flutterwave, Paystack, KuCoin and Other VASPs - Proshare",https://proshare.co,1,2,Regulator,9.75,True
-psuconnect.in,1,2.0,2,2026-03-27 13:10:00,"RBI Crackdown: Central Bank of India Slapped with ₹63.6 Lakh Penalty Over KYC, BSBDA Lapses - PSU Connect",https://www.psuconnect.in,1,2,Regulator,9.75,True
-qa-financial.com,1,2.0,2,2026-03-31 03:39:42,Compliance is not enough: Why banks must test AI beyond legal thresholds - QA Financial,https://qa-financial.com,0,2,Regulator,8.25,True
-scanx.trade,1,2.0,2,2026-03-28 02:49:54,Union Bank of India Discloses ₹95.40 Lakh RBI Penalty for Regulatory Violations - scanx.trade,https://scanx.trade,1,2,Regulator,9.75,True
-sg.finance.yahoo.com,1,2.0,2,2026-04-01 14:10:00,Abrigo Now a Nacha Preferred Partner for ACH Experience/Compliance/Risk and Fraud Prevention - Yahoo Finance Singapore,https://sg.finance.yahoo.com,0,0,Other,5.25,True
-studycafe.in,1,2.0,2,2026-03-31 12:33:06,RBI Penalises Central Bank of India Over KYC and Financial Inclusion Violations - Studycafe,https://studycafe.in,1,2,Regulator,9.75,True
-tcs.com,1,2.0,2,2026-03-31 00:21:35,Deutsche Bank Accelerates Compliance with AI-powered Digital Assistant - Tata Consultancy Services,https://www.tcs.com,0,2,Regulator,8.25,True
-technadu.com,1,2.0,2,2026-03-30 11:11:17,"Cyber Job Moves: Security And Tech Appointments In Banking, AI, And Enterprise Systems - TechNadu",https://www.technadu.com,0,2,Regulator,8.25,True
-theijf.org,1,2.0,2,2026-03-27 13:18:40,Canada’s banking regulator gives itself substandard score on cybersecurity - Investigative Journalism Foundation,https://theijf.org,2,2,Regulator,11.25,True
-thenationonlineng.net,1,2.0,2,2026-04-01 05:40:23,"CBN rolls out cybersecurity tool for banks, sets compliance deadlines - The Nation Newspaper",https://thenationonlineng.net,1,2,Regulator,9.75,True
-thewillnews.com,1,2.0,2,2026-04-01 09:40:55,"CBN Tightens Cybersecurity Rules for Banks, Sets Compliance Deadline - thewill news media",https://thewillnews.com,0,2,Regulator,8.25,True
-thisdaylive.com,1,2.0,2,2026-04-01 06:37:21,DataPro Advises Banks on CBN Stress Test Compliance - THISDAYLIVE,https://www.thisdaylive.com,0,2,Regulator,8.25,True
-tipranks.com,1,2.0,2,2026-03-30 09:20:33,Bank of Tianjin Names Executive Director Dong Xiaodong as Chief Compliance Officer - TipRanks,https://www.tipranks.com,0,2,Regulator,8.25,True
-tlt.com,1,2.0,2,2026-03-30 09:42:00,UK Government strengthens AML and crypto controls through the Money Laundering and Terrorist Financing (Amendment) Regulations 2026 - TLT LLP,https://www.tlt.com,0,0,FIU/AML,5.25,True
-tribuneonlineng.com,1,2.0,2,2026-04-01 05:20:00,"CBN rolls out cybersecurity tool for banks, sets compliance deadlines - Tribune Online",https://tribuneonlineng.com,0,2,Regulator,8.25,True
-washingtonreporter.news,1,2.0,2,2026-03-26 16:32:22,"SCOOP: Trump pollster finds that Trump voters and the majority of Americans want payment modernization, open banking - Washington Reporter",https://washingtonreporter.news,1,2,Regulator,9.75,True
-accountantsdaily.com.au,1,1.0,1,2026-03-26 19:51:57,Bodies shed light on referral issues with incoming Tranche 2 AML/CTF reforms - Accountants Daily,https://www.accountantsdaily.com.au,1,0,FIU/AML,4.75,True
-aeon.co,1,1.0,1,2026-03-31 10:02:53,The underground bankers who reshape the flow of global money - Aeon,https://aeon.co,1,2,Regulator,7.75,True
-afr.com,1,1.0,1,2026-03-29 13:01:00,"CBA, Westpac and ANZ systems at risk as tech workers strike - AFR",https://www.afr.com,0,0,Other,3.25,True
-amlintelligence.com,1,1.0,1,2026-03-26 23:50:55,LATEST: UK to overhaul AML rules – here are the main changes - AML Intelligence,https://www.amlintelligence.com,0,0,FIU/AML,3.25,True
-arise.tv,1,1.0,1,2026-03-31 19:44:53,"CBN Mandates Cybersecurity Self-Assessment For Banks, Fintechs - Arise News",https://www.arise.tv,1,2,Regulator,7.75,True
-asgam.com,1,1.0,1,2026-03-31 22:18:59,"Australia’s new AML framework kicks in today, placing greater responsibility on gambling sector - IAG – Inside Asian Gaming",https://asgam.com,0,2,Regulator,6.25,True
-bankofengland.co.uk,1,1.0,1,2026-04-01 09:15:32,CP6/26 – High loan to income lending - Bank of England,https://www.bankofengland.co.uk,1,2,Regulator,7.75,True
-bitcoinke.io,1,1.0,1,2026-04-01 04:00:16,FINTECH AFRICA | Bank of Namibia to Launch a National Instant Payment System by June 2026 - BitKE,https://bitcoinke.io,1,2,Regulator,7.75,True
-bitget.com,1,1.0,1,2026-03-29 14:06:39,Global Crypto ATM Network: Net Removals of 597 Units Signal Compliance-Driven Contraction - Bitget,https://www.bitget.com,0,0,Other,3.25,True
-blockchain-council.org,1,1.0,1,2026-03-31 08:47:30,Stablecoin Regulation in 2026: Rules Explained - Blockchain Council,https://www.blockchain-council.org,2,0,Other,6.25,True
-britannica.com,1,1.0,1,2026-03-26 22:17:00,Cryptocurrency Regulation: A Guide to U.S. & Global Policies - britannica.com,https://www.britannica.com,0,0,Other,3.25,True
-business-standard.com,1,1.0,1,2026-03-27 14:01:15,"RBI imposes penalties on Union Bank, Central Bank, Bank of India, Pine Labs - Business Standard",https://www.business-standard.com,0,2,Regulator,6.25,True
-capitalbrief.com,1,1.0,1,2026-03-30 23:05:00,APRA finalises changes to capital rules for annuities and longevity products - Capital Brief,https://www.capitalbrief.com,0,0,Other,3.25,True
-channelstv.com,1,1.0,1,2026-04-01 12:42:30,CBN Sets Tough Timeline For Banks On Cybersecurity - Channels Television,https://www.channelstv.com,0,2,Regulator,6.25,True
-complianceweek.com,1,1.0,1,2026-03-30 17:59:49,How to establish an anti-corruption and anti-bribery compliance program - Compliance Week,https://www.complianceweek.com,0,0,Other,3.25,True
-complyadvantage.com,1,1.0,1,2026-03-26 15:03:43,"Responsible AI, stablecoins, and gatekeepers: Charting APAC's top regulatory trends for 2026 - ComplyAdvantage",https://complyadvantage.com,0,2,Other,6.25,True
-controlrisks.com,1,1.0,1,2026-03-26 18:07:39,US designations of cartels as FTOs: implications for companies one year on - Control Risks,https://www.controlrisks.com,0,0,Regulator,3.25,True
-cryptorank.io,1,1.0,1,2026-03-28 07:34:16,Trump’s Powerful Bitcoin Endorsement Sparks Crypto Payment Revolution and Regulatory Debate - CryptoRank,https://cryptorank.io,1,2,Other,7.75,True
-cyprus-mail.com,1,1.0,1,2026-03-31 08:24:57,Bank of Cyprus promotes youth role in cybersecurity - Cyprus Mail,https://cyprus-mail.com,0,2,Regulator,6.25,True
-delano.lu,1,1.0,1,2026-04-01 07:19:28,CSSF tightens 2026 fund supervision - Delano.lu,https://delano.lu,1,2,Regulator,7.75,True
-dentons.com,1,1.0,1,2026-03-31 07:42:34,Next chapter in Australia’s Regulation of Payment Service Providers - Dentons,https://www.dentons.com,0,0,Other,3.25,True
-devdiscourse.com,1,1.0,1,2026-04-01 08:27:30,Controversial Death Penalty Law Sparks Fear and Criticism in the West Bank - Devdiscourse,https://www.devdiscourse.com,0,2,Regulator,6.25,True
-eastleighvoice.co.ke,1,1.0,1,2026-04-01 08:09:50,"SASRA warns SACCOs of heightened cyber‑attack risks during Easter, Labour Day - The Eastleigh Voice",https://eastleighvoice.co.ke,1,0,Other,4.75,True
-ecb.europa.eu,1,1.0,1,2026-03-31 15:39:12,The Eurosystem’s comprehensive payments strategy - European Central Bank,https://www.ecb.europa.eu,2,2,Regulator,9.25,True
-en.bd-pratidin.com,1,1.0,1,2026-03-31 05:28:10,Bangladesh Bank issues uniform cyber security framework for financial sector - en.bd-pratidin.com,https://en.bd-pratidin.com,0,2,Regulator,6.25,True
-english.luatvietnam.vn,1,1.0,1,2026-04-01 01:23:13,Bank account names must match ID information from April 1: Central bank - LuatVietnam,https://english.luatvietnam.vn,1,2,Regulator,7.75,True
-fastcompanyme.com,1,1.0,1,2026-03-31 05:00:37,Geopolitics is rewriting fintech compliance in the Middle East—Here’s what that means - Fast Company Middle East,https://fastcompanyme.com,0,0,Other,3.25,True
-fieldfisher.com,1,1.0,1,2026-03-30 07:00:00,"UK, EU and US sanctions on Russia - Fieldfisher",https://www.fieldfisher.com,0,0,Enforcement,3.25,True
-finainews.com,1,1.0,1,2026-03-31 20:47:16,FactSet’s AI-driven AML tool reduces false positives by up to 80% - FinAi News,https://finainews.com,0,0,FIU/AML,3.25,True
-financefeeds.com,1,1.0,1,2026-03-30 10:04:18,FCA Fines Dinosaur Merchant Bank for CFD Surveillance Failures - FinanceFeeds,https://financefeeds.com,0,2,Regulator,6.25,True
-fintech.global,1,1.0,1,2026-04-01 13:23:25,How Australia’s AML reforms are reshaping FinCrime strategies - FinTech Global,https://fintech.global,1,0,FIU/AML,4.75,True
-fintechbiznews.com,1,1.0,1,2026-03-31 03:57:24,"Penalty On UBI (Rs95 lakh), BoI (Rs58 lakh), Central Bank (Rs63 Lakh) - fintechbiznews.com",https://www.fintechbiznews.com,0,2,Regulator,6.25,True
-fintechnews.my,1,1.0,1,2026-04-01 09:40:20,"Bank Rakyat Fined RM1 Million by BNM Over Cybersecurity, Data Safeguard Failures - Fintech News Malaysia",https://fintechnews.my,1,2,Regulator,7.75,True
-ft.com,1,1.0,1,2026-03-27 07:02:11,UK watchdog hits Bank of London with new client freeze - Financial Times,https://www.ft.com,0,2,Regulator,6.25,True
-ftadviser.com,1,1.0,1,2026-04-01 12:13:43,EU anti-corruption directive looks promising for joined-up regulation - FT Adviser,https://www.ftadviser.com,0,0,Other,3.25,True
-fxstreet.com,1,1.0,1,2026-03-27 10:10:45,AML beyond rules and alerts - FXStreet,https://www.fxstreet.com,0,0,FIU/AML,3.25,True
-grafa.com,1,1.0,1,2026-03-31 00:44:55,APRA finalises capital reforms for longevity products - grafa.com,https://grafa.com,0,0,Other,3.25,True
-greaterbirminghamchambers.com,1,1.0,1,2026-04-02 08:47:02,Wilkes rolls out platform to strengthen anti-money laundering and compliance capabilities - Greater Birmingham Chambers of Commerce,https://www.greaterbirminghamchambers.com,0,0,FIU/AML,3.25,True
-group-ib.com,1,1.0,1,2026-03-30 16:41:54,Beyond Compliance: How Financial Institutions Can Meet New Fraud-Sharing Mandates While Respecting Privacy - Group-IB,https://www.group-ib.com,0,0,Other,3.25,True
-gulf-times.com,1,1.0,1,2026-03-27 21:00:00,BoE revamps funding tool for banks used just once since 2008| Gulf Times - Gulf Times,https://www.gulf-times.com,0,2,Regulator,6.25,True
-homeaffairs.gov.au,1,1.0,1,2026-03-30 21:37:32,AML/CTF Transitional Rules - Department of Home Affairs Website,https://www.homeaffairs.gov.au,1,0,FIU/AML,4.75,True
-hsfkramer.com,1,1.0,1,2026-04-01 23:59:43,FinTech Global FS Regulatory Round-up - w/e 27 March 2026 - Herbert Smith Freehills Kramer,https://www.hsfkramer.com,0,2,Other,6.25,True
-independentaustralia.net,1,1.0,1,2026-04-01 00:32:16,Money laundering is big business — especially for banks - independentaustralia.net,https://independentaustralia.net,1,2,Regulator,7.75,True
-indiancooperative.com,1,1.0,1,2026-03-31 08:11:21,RBI imposes Rs 4.50 Lakh penalty on two Co-op Banks - Indian Cooperative,https://www.indiancooperative.com,0,2,Regulator,6.25,True
-investywise.com,1,1.0,1,2026-03-30 12:49:55,Indian Overseas Bank Penalty Order Issued Under CGST Act for ₹8.23 Crore - InvestyWise,https://www.investywise.com,0,2,Regulator,6.25,True
-japantimes.co.jp,1,1.0,1,2026-04-01 02:14:00,Japanese banks to share data on fraudulent accounts from April 2027 - The Japan Times,https://www.japantimes.co.jp,1,2,Regulator,7.75,True
-knews.kathimerini.com.cy,1,1.0,1,2026-03-28 10:14:00,"Cyprus named in three separate non-compliance actions by European Commission - Knews, Kathimerini",https://knews.kathimerini.com.cy,1,0,Media,4.75,True
-law360.com,1,1.0,1,2026-03-31 20:16:00,OCC Scraps Recovery Planning Standards For Big Banks - Law360,https://www.law360.com,0,2,Regulator,6.25,True
-lawgazette.co.uk,1,1.0,1,2026-03-27 00:24:25,Palantir primed to access law firm AML data - The Law Society Gazette,https://www.lawgazette.co.uk,1,2,Legislation,7.75,True
-lawscot.org.uk,1,1.0,1,2026-03-30 12:42:48,Money Laundering Regulations reform - Law Society of Scotland,https://www.lawscot.org.uk,1,0,Legislation,4.75,True
-legalfutures.co.uk,1,1.0,1,2026-03-30 23:16:37,AML in an era of unpredictable threats - Legal Futures,https://www.legalfutures.co.uk,1,0,FIU/AML,4.75,True
-legit.ng,1,1.0,1,2026-03-31 07:26:19,"‘Begin portfolio analysis"": DataPro advises banks as CBN orders stress test - legit.ng",https://www.legit.ng,1,2,Regulator,7.75,True
-lexology.com,1,1.0,1,2026-04-02 09:11:45,Financial services: key global compliance updates (4 Mar – 1 Apr) - Lexology,https://www.lexology.com,0,0,Other,3.25,True
-linkedin.com,1,1.0,1,2026-04-02 08:08:21,"AML MACHINE: A small suburban police station which dedicated just two of its officers to fighting financial crime became an “AML machine”, uncovering money laundering networks and prosecuting more than 200 suspects. The tiny team also discovered crimi - LinkedIn",https://www.linkedin.com,0,2,Regulator,6.25,True
-livemint.com,1,1.0,1,2026-03-31 08:51:13,"CBDT clarifies TDS on bank interest under Income Tax Act 2025: Key updates, thresholds and smart money moves | Explained - Mint",https://www.livemint.com,0,2,Regulator,6.25,True
-maaal.com,1,1.0,1,2026-04-02 03:36:00,(FATF): Stablecoins' Market Capitalization Reaches $300 Billion... A Potential Tool for Money Laundering - صحيفة مال,https://maaal.com,0,0,Legislation,3.25,True
-meyka.com,1,1.0,1,2026-04-01 19:45:26,April 01: Saxony Cybercrime Surge Puts Banks and Platforms on Alert - Meyka,https://meyka.com,0,2,Regulator,6.25,True
-mirror.co.uk,1,1.0,1,2026-03-29 00:55:00,Messages 'could drain your bank account' as new alert issued - The Mirror,https://www.mirror.co.uk,1,2,Regulator,7.75,True
-mlex.com,1,1.0,1,2026-03-31 20:38:00,Whistleblower program aims to enhance US money laundering enforcement - MLex,https://www.mlex.com,0,0,Enforcement,3.25,True
-mondaq.com,1,1.0,1,2026-03-30 07:00:00,From Complaints To Compliance: Understanding The RBI's Integrated Ombudsman Framework (Video) - Mondaq,https://www.mondaq.com,0,0,Other,3.25,True
-moneylife.in,1,1.0,1,2026-03-31 10:27:55,"RBI Imposes ₹36.30 Lakh Penalty on Airtel Payments Bank, Two Cooperative Banks - Moneylife",https://www.moneylife.in,1,2,Regulator,7.75,True
-moneymarketing.co.uk,1,1.0,1,2026-03-26 16:19:07,FCA ramps up AI as client use raises advice risks - Money Marketing,https://www.moneymarketing.co.uk,1,2,Regulator,7.75,True
-msn.com,1,1.0,1,2026-03-31 10:12:33,Bank backed by Peter Mandelson fined £2million for 'failing to act with integrity' - MSN,https://www.msn.com,0,2,Regulator,6.25,True
-mybroadband.co.za,1,1.0,1,2026-04-02 08:01:17,Good news for Standard Bank customers who need a smart ID - MyBroadband,https://mybroadband.co.za,1,2,Regulator,7.75,True
-news.laodong.vn,1,1.0,1,2026-04-01 08:49:31,Russia adjusts gas payment regulations from early April - Laodong.vn,https://news.laodong.vn,1,0,Media,4.75,True
-nst.com.my,1,1.0,1,2026-04-01 10:39:05,Bank Rakyat resolves Bank Negara penalty over cybersecurity incident - NST Online,https://www.nst.com.my,1,2,Regulator,7.75,True
-orfonline.org,1,1.0,1,2026-03-27 05:09:07,Building a Regulatory Framework for Online Gaming in India - orfonline.org,https://www.orfonline.org,2,2,Other,9.25,True
-osborneclarke.com,1,1.0,1,2026-03-26 13:57:46,"Bribery, fraud and anti-money laundering | UK Regulatory Outlook March 2026 - Osborne Clarke",https://www.osborneclarke.com,0,2,FIU/AML,6.25,True
-outlookmoney.com,1,1.0,1,2026-03-29 10:40:01,"RBI Imposes Total Penalty Of Rs 2.17 Crore On Union Bank, Bank Of India, Central Bank - Outlook Money",https://www.outlookmoney.com,0,2,Regulator,6.25,True
-penbaypilot.com,1,1.0,1,2026-03-31 09:00:00,3/31 at Camden Rotary Club: Bank Fraud Prevention - PenBay Pilot,https://www.penbaypilot.com,0,2,Regulator,6.25,True
-pymnts.com,1,1.0,1,2026-03-26 15:51:53,UK’s FCA Says Payments Innovation Is Among Its Regulatory Priorities in 2026 - PYMNTS.com,https://www.pymnts.com,0,2,Regulator,6.25,True
-regulationtomorrow.com,1,1.0,1,2026-03-26 14:25:16,Payday Super Readiness - Global Regulation Tomorrow,https://www.regulationtomorrow.com,0,0,Other,3.25,True
-reinasia.com,1,1.0,1,2026-03-31 22:00:00,APRA sets 1 July start for AILP in longevity product capital rules - (Re)in Asia,https://reinasia.com,0,0,Other,3.25,True
-research.hktdc.com,1,1.0,1,2026-03-31 03:08:53,UAE: Dubai’s Financial Services Authority Clarifies AML/CTF/S Terms - HKTDC Research,https://research.hktdc.com,0,2,Regulator,6.25,True
-scoop.my,1,1.0,1,2026-04-01 10:53:35,Bank Rakyat fined RM1mil over cybersecurity and customer data lapses - scoop.my,https://www.scoop.my,1,2,Regulator,7.75,True
-sharecafe.com.au,1,1.0,1,2026-03-30 23:48:10,Challenger Welcomes APRA’s Capital Framework for Longevity Products - Sharecafe,https://www.sharecafe.com.au,1,0,Other,4.75,True
-simplywall.st,1,1.0,1,2026-03-30 09:25:39,Bank Of America Faces Epstein Settlement And Paris Security Scrutiny - simplywall.st,https://simplywall.st,1,2,Regulator,7.75,True
-taxscan.in,1,1.0,1,2026-03-31 10:01:25,"Banks mandated to deduct TDS on annual interest income exceeding ₹50,000 - Taxscan",https://www.taxscan.in,1,2,Regulator,7.75,True
-tbsnews.net,1,1.0,1,2026-04-01 12:05:51,Cenbank introduces new cybersecurity framework for financial sector - The Business Standard,https://www.tbsnews.net,1,2,Regulator,7.75,True
-techcabal.com,1,1.0,1,2026-04-01 17:43:49,"CBN begins virtual asset anti-money laundering supervision, names Paystack, Flutterwave for pilot - TechCabal",https://techcabal.com,0,2,Regulator,6.25,True
-the420.in,1,1.0,1,2026-03-31 04:21:17,"Massive Bank Fraud Crackdown: 1,105 Cases Probed, ₹64,920 Crore Assets Seized - The420.in",https://the420.in,1,2,Regulator,7.75,True
-theedgemalaysia.com,1,1.0,1,2026-03-31 03:21:15,"Over 280 supervisory, enforcement actions imposed against financial institutions in 2025, BNM says - The Edge Malaysia",https://theedgemalaysia.com,0,0,Enforcement,3.25,True
-theguildng.com,1,1.0,1,2026-04-02 07:25:37,JUST IN: Lagos Govt. seals Access Bank over pollution - theguildng.com,https://theguildng.com,0,2,Regulator,6.25,True
-thehawk.in,1,1.0,1,2026-03-30 01:10:00,RBI imposes monetary penalty on Airtel Payments Bank - thehawk.in,https://www.thehawk.in,1,2,Regulator,7.75,True
-theintermediary.co.uk,1,1.0,1,2026-03-31 07:00:00,"Regulation, not demand, is driving the shape of lending - The Intermediary",https://theintermediary.co.uk,1,0,Media,4.75,True
-themalaysianreserve.com,1,1.0,1,2026-04-01 10:38:26,"BNM fines Bank Rakyat RM1m over cybersecurity, customer data breaches - The Malaysian Reserve",https://themalaysianreserve.com,0,2,Regulator,6.25,True
-thequantuminsider.com,1,1.0,1,2026-03-27 07:00:00,15+ Global Banks Exploring Quantum Technologies [2026] - The Quantum Insider,https://thequantuminsider.com,0,2,Regulator,6.25,True
-thestar.com.my,1,1.0,1,2026-04-01 09:55:00,"Bank Negara fines Bank Rakyat RM1mil for cybersecurity, customer information protection breaches - The Star",https://www.thestar.com.my,1,2,Regulator,7.75,True
-thunes.com,1,1.0,1,2026-03-30 03:01:51,Why Real-Time Payment Compliance Is a Competitive Advantage - Thunes,https://www.thunes.com,0,0,Other,3.25,True
-travelandtourworld.com,1,1.0,1,2026-04-02 06:09:32,Tourists Beware: Europe’s New Stablecoin Regulations Will Make Paying for Your Dream Vacation Easier Than Ever! - Travel And Tour World,https://www.travelandtourworld.com,0,0,Media,3.25,True
-urbanmilwaukee.com,1,1.0,1,2026-03-26 14:29:00,Milwaukee City Attorney Files One of the Largest Public Nuisance Enforcement Actions in City History - Urban Milwaukee,https://urbanmilwaukee.com,0,0,Enforcement,3.25,True
-vanguardngr.com,1,1.0,1,2026-03-29 23:28:19,"CBN, financial system and regulatory balance - Vanguard News",https://www.vanguardngr.com,0,2,Media,6.25,True
-visionias.in,1,1.0,1,2026-03-27 18:30:00,Reserve Bank of India (RBI) announces the 'Payments Vision 2028' - Vision IAS,https://visionias.in,1,2,Regulator,7.75,True
-vocal.media,1,1.0,1,2026-03-28 07:38:00,"Netherlands Cryptocurrency Market 2026: Digital Finance Expansion, Regulatory Clarity & Rising Investor Adoption - vocal.media",https://vocal.media,1,2,Media,7.75,True
-walesonline.co.uk,1,1.0,1,2026-03-29 01:05:00,Three text messages 'could empty your bank account' - Wales Online,https://www.walesonline.co.uk,1,2,Regulator,7.75,True
-washingtontimes.com,1,1.0,1,2026-03-31 22:46:26,Protests erupt in West Bank as Israel approves death penalty for Palestinians convicted of murder - Washington Times,https://www.washingtontimes.com,0,2,Regulator,6.25,True
-westafricatradehub.com,1,1.0,1,2026-03-27 08:46:49,AML for Crypto Course: CPD-Accredited Online Training - West Africa Trade Hub,https://westafricatradehub.com,0,0,FIU/AML,3.25,True
-zeenews.india.com,1,1.0,1,2026-03-30 13:45:04,RBI imposes monetary penalty on Airtel Payments Bank - Zee News,https://zeenews.india.com,0,2,Regulator,6.25,True
-abc.net.au,1,0.0,0,2026-03-30 23:16:04,"RBA to remove surcharges on debit, credit cards, card networks including eftpos, Mastercard and Visa - Australian Broadcasting Corporation",https://www.abc.net.au,1,0,Other,2.75,True
-africanlawbusiness.com,1,0.0,0,2026-03-30 06:30:00,Controls must not become our constraints - African Law & Business,https://www.africanlawbusiness.com,0,0,Media,1.25,True
-atlanticcouncil.org,1,0.0,0,2026-04-01 19:09:00,Global payment systems are fragmenting. Here’s what the G20 can do. - Atlantic Council,https://www.atlanticcouncil.org,2,0,Other,4.25,True
-burges-salmon.com,1,0.0,0,2026-03-30 13:49:01,FCA Consults on the Handbook’s Application to Regulated Cryptoassets - Burges Salmon,https://www.burges-salmon.com,0,2,Regulator,4.25,True
-businessreport.co.za,1,0.0,0,2026-03-28 02:32:34,Unpacking a year of SA being greylisted - businessreport.co.za,https://businessreport.co.za,1,0,Regulator,2.75,True
-businesswire.com,1,0.0,0,2026-03-31 17:37:00,"Cybersecurity Firm TAC Security Surpasses 10,000 Clients, Emerges Among the Top 5 Vulnerability Management, AppSec Companies Globally - Business Wire",https://www.businesswire.com,0,2,Regulator,4.25,True
-cato.org,1,0.0,0,2026-04-02 07:22:49,Oh BOI: Reforming Financial Reporting - Cato Institute,https://www.cato.org,2,0,Other,4.25,True
-coindesk.com,1,0.0,0,2026-03-26 14:32:17,The privacy paradox: regulating zero-knowledge finance in the EU and beyond - CoinDesk,https://www.coindesk.com,0,0,Other,1.25,True
-community.nasscom.in,1,0.0,0,2026-03-31 07:07:14,RBI Payments Vision 2028: Analysis and Key Takeaways - Nasscom,https://community.nasscom.in,1,0,Other,2.75,True
-crowe.com,1,0.0,0,2026-03-31 10:02:29,Financial reporting judgements under increased scrutiny - Crowe,https://www.crowe.com,0,0,Other,1.25,True
-cryptonews.net,1,0.0,0,2026-04-01 03:05:47,"Flexa Retires SPEDN After 7 Years, Shifts to Scalable Crypto Payment Infrastructure - Cryptonews.net",https://cryptonews.net,1,0,Media,2.75,True
-curacaochronicle.com,1,0.0,0,2026-04-01 13:46:09,IMF Urges Stronger Oversight of Anti-Money Laundering Framework - curacaochronicle.com,https://www.curacaochronicle.com,0,0,FIU/AML,1.25,True
-decrypt.co,1,0.0,0,2026-04-01 18:05:57,Fed's Barr Says Stablecoins Need Tighter Controls to Fight Money Laundering - Decrypt,https://decrypt.co,1,0,FIU/AML,2.75,True
-easternherald.com,1,0.0,0,2026-04-01 10:41:40,AI Casino Scam Exposed Targeting UK Gamblers - The Eastern Herald,https://easternherald.com,0,0,Other,1.25,True
-english.mathrubhumi.com,1,0.0,0,2026-03-29 03:54:00,"End of Financial Year: Kerala govt tightens treasury controls, caps bill clearance at Rs 25 lakh - Mathrubhumi English",https://english.mathrubhumi.com,0,2,Legislation,4.25,True
-enterpriseai.economictimes.indiatimes.com,1,0.0,0,2026-03-31 09:09:17,India's critical infrastructure faces rising cyber threats from state actors - Indiatimes,https://enterpriseai.economictimes.indiatimes.com,0,0,Other,1.25,True
-eurasiareview.com,1,0.0,0,2026-03-27 23:30:06,Major Operation Targets One Of Scotland’s Most Violent Crime Networks - Eurasia Review,https://www.eurasiareview.com,0,0,Other,1.25,True
-eureporter.co,1,0.0,0,2026-04-01 05:01:59,New anti-corruption rules only a 'first step' - EU Reporter,https://www.eureporter.co,1,0,Other,2.75,True
-facilitiesmanagement-now.com,1,0.0,0,2026-04-01 11:31:05,New FCA Operational Incident & Third‑Party Reporting Rules: What You Need to Know - facilitiesmanagement-now.com,https://www.facilitiesmanagement-now.com,0,2,Regulator,4.25,True
-finance.yahoo.com,1,0.0,0,2026-04-01 18:05:57,Fed's Barr Says Stablecoins Need Tighter Controls to Fight Money Laundering - Yahoo Finance,https://finance.yahoo.com,0,0,FIU/AML,1.25,True
-financialnewswire.com.au,1,0.0,0,2026-03-30 19:24:42,APRA looks internally to fill exec director roles - Financial Newswire,https://financialnewswire.com.au,1,0,Media,2.75,True
-fintechweekly.com,1,0.0,0,2026-04-01 18:38:00,When Instant Payments Meet Digital Dollars - FinTech Weekly,https://www.fintechweekly.com,0,0,Other,1.25,True
-fticonsulting.com,1,0.0,0,2026-04-01 01:04:10,The Lifeblood of Recovery: Venezuela and the Global Financial System - FTI Consulting,https://www.fticonsulting.com,0,0,Other,1.25,True
-fxnewsgroup.com,1,0.0,0,2026-04-01 05:50:13,Australian regulator imposes additional licence conditions on Fiducian - FX News Group,https://fxnewsgroup.com,0,2,Media,4.25,True
-ghanaweb.com,1,0.0,0,2026-03-28 10:22:43,Make cybersecurity core business infrastructure - GAB - GhanaWeb,http://www.ghanaweb.com,0,2,Regulator,4.25,True
-gijn.org,1,0.0,0,2026-04-02 08:46:45,How Journalists Can Fight Back Against the Rising Tide of Money Laundering - Global Investigative Journalism Network (GIJN),https://gijn.org,2,0,FIU/AML,4.25,True
-gulfnews.com,1,0.0,0,2026-04-02 05:07:55,Dubai launches ‘Amer’ cybersecurity reporting service to combat online fraud - Gulf News,https://gulfnews.com,0,2,Regulator,4.25,True
-housingwire.com,1,0.0,0,2026-03-27 18:02:05,FinCEN’s anti-money laundering rule struck down — now what? - HousingWire,https://www.housingwire.com,0,0,FIU/AML,1.25,True
-images.dawn.com,1,0.0,0,2026-03-28 08:01:00,Hamza Ali Abbasi distances himself from sister Fazeela Abbasi’s money laundering case - Dawn Images,https://images.dawn.com,0,0,FIU/AML,1.25,True
-insurancebusinessmag.com,1,0.0,0,2026-03-30 06:24:35,APRA adjusts executive ranks with dual director promotions - Insurance Business,https://www.insurancebusinessmag.com,0,0,Other,1.25,True
-itnews.com.au,1,0.0,0,2026-03-30 19:32:00,APRA pulls data submission system after security pentest - iTnews,https://www.itnews.com.au,1,2,Regulator,5.75,True
-jdsupra.com,1,0.0,0,2026-03-30 22:53:06,FinCEN Targets MBaer with Most Severe Section 311 Measure - JD Supra,https://www.jdsupra.com,0,2,Regulator,4.25,True
-justsecurity.org,1,0.0,0,2026-03-31 19:14:03,The Financial Action Task Force: An Accountability Mechanism for the United States - Just Security,https://www.justsecurity.org,2,2,Regulator,7.25,True
-kathmandupost.com,1,0.0,0,2026-03-31 01:23:14,"Authorities intensify money laundering probe against Deuba, his family members and relatives - The Kathmandu Post",https://kathmandupost.com,0,0,FIU/AML,1.25,True
-khaborwala.com,1,0.0,0,2026-04-02 12:03:33,Covéa Modernises Fraud Controls with Shift - Khaborwala,https://khaborwala.com,0,0,Other,1.25,True
-law.com,1,0.0,0,2026-03-31 21:50:00,"Heist Highlights Need for US Oversight of Art Market, Anti-Money Laundering, Experts Say - Law.com",https://www.law.com,0,0,FIU/AML,1.25,True
-lemonde.fr,1,0.0,0,2026-03-28 03:17:30,Singer Gims charged with 'aggravated money laundering' - Le Monde.fr,https://www.lemonde.fr,1,0,FIU/AML,2.75,True
-m.economictimes.com,1,0.0,0,2026-03-30 04:58:20,What changes will RBI’s new rules bring to digital payments from April 1? - The Economic Times,https://m.economictimes.com,0,0,Other,1.25,True
-m.thewire.in,1,0.0,0,2026-03-28 09:54:12,IBEX India 2026: Anchoring the Next Phase of BFSI Innovation - TheWire.in,https://m.thewire.in,1,0,Other,2.75,True
-malaymail.com,1,0.0,0,2026-04-01 10:00:19,Economic crime reset: New laws and tools — Leonard Yeoh and Sharon Teo - Malay Mail,https://www.malaymail.com,0,0,Legislation,1.25,True
-manilatimes.net,1,0.0,0,2026-03-31 17:15:44,Total Voting Rights - The Manila Times,https://www.manilatimes.net,1,0,Other,2.75,True
-medianama.com,1,0.0,0,2026-04-01 06:34:39,RBI May Regulate E-Commerce in Payments Ecosystem - MediaNama,https://www.medianama.com,0,0,Regulator,1.25,True
-miragenews.com,1,0.0,0,2026-04-01 05:23:00,"New Powers to Tackle Money Laundering, Terror Funding - Mirage News",https://www.miragenews.com,0,0,FIU/AML,1.25,True
-mkaugaming.com,1,0.0,0,2026-03-30 10:25:14,Who Regulates Online Casinos? Licensing Authorities and Oversight Systems Explained - MKAU Gaming,https://www.mkaugaming.com,0,0,Other,1.25,True
-moneyandbanking.co.th,1,0.0,0,2026-04-01 09:46:00,"Synology reports that cyber attacks in Thailand have exceeded 109,000, 164% higher than the global average. - วารสารการเงินธนาคาร",https://moneyandbanking.co.th,1,2,Regulator,5.75,True
-moonstone.co.za,1,0.0,0,2026-04-02 08:13:00,Directive 11 takes effect as FIC opens detailed RCR guidance for comment - Moonstone Information Refinery,https://www.moonstone.co.za,1,0,Other,2.75,True
-mortgagesolutions.co.uk,1,0.0,0,2026-04-01 11:12:41,Regulators consult to permanently scrap high-LTI cap - mortgagesolutions.co.uk,https://www.mortgagesolutions.co.uk,1,2,Other,5.75,True
-mpamag.com,1,0.0,0,2026-04-01 13:04:45,Regulator consults on high LTI mortgage rules - mpamag.com,https://www.mpamag.com,0,2,Other,4.25,True
-nationaltoday.com,1,0.0,0,2026-03-29 05:27:37,Pennsylvania man charged with stealing from NYC clothing company - National Today,https://nationaltoday.com,0,0,Other,1.25,True
-ndtvprofit.com,1,0.0,0,2026-03-30 11:32:45,UK's New Fraud Law Raises the Stakes for Indian Companies — Here's How - NDTV Profit,https://www.ndtvprofit.com,0,0,Media,1.25,True
-nigeriahousingmarket.com,1,0.0,0,2026-03-31 09:24:43,Nigeria’s New Anti-Money Laundering Rules Ranked Among World’s Best – Report - nigeriahousingmarket.com,https://www.nigeriahousingmarket.com,0,0,FIU/AML,1.25,True
-occrp.org,1,0.0,0,2026-04-02 12:12:09,‘Mr. X’ Revealed: U.K. Freezes $108M in Properties Purchased by Wanted Chinese National - Organized Crime and Corruption Reporting Project | OCCRP,https://www.occrp.org,2,0,Other,4.25,True
-pmnewsnigeria.com,1,0.0,0,2026-03-29 16:16:21,FCMB limits exposure in Fraud attempt - pmnewsnigeria.com,https://pmnewsnigeria.com,0,0,Media,1.25,True
-professionalplanner.com.au,1,0.0,0,2026-04-01 05:24:12,"Fiducian rejects APRA concerns, says processes blocked Shield and First Guardian - Professional Planner",https://www.professionalplanner.com.au,1,0,Other,2.75,True
-republicworld.com,1,0.0,0,2026-03-28 13:24:37,"Rs 23,000 Crore Online Betting–Fintech Network Under Probe - Republic World",https://www.republicworld.com,0,0,Other,1.25,True
-securityweek.com,1,0.0,0,2026-03-30 10:08:07,"Lloyds Data Security Incident Impacts 450,000 Individuals - SecurityWeek",https://www.securityweek.com,0,2,Regulator,4.25,True
-smartcompany.com.au,1,0.0,0,2026-03-30 22:43:26,What Australia’s new anti-money laundering rules could mean for your business - SmartCompany,https://www.smartcompany.com.au,1,0,FIU/AML,2.75,True
-southasianherald.com,1,0.0,0,2026-03-29 03:11:55,Beyond Diplomatic Assurances: Why Bangladesh Must Hold Its Embassies Accountable on Money Laundering - South Asian Herald,https://southasianherald.com,0,0,FIU/AML,1.25,True
-standard.co.uk,1,0.0,0,2026-04-01 18:14:54,Lenders to have greater flexibility offering higher loan to income mortgages - London Evening Standard,https://www.standard.co.uk,1,0,Other,2.75,True
-superreview.com.au,1,0.0,0,2026-03-31 22:59:59,Challenger and Allianz Retire+ welcome APRA’s retirement income reforms - superreview.com.au,https://www.superreview.com.au,1,0,Other,2.75,True
-theadviser.com.au,1,0.0,0,2026-03-26 21:25:17,Climate stress test flags growing home insurance fault line - The Adviser,https://www.theadviser.com.au,1,0,Other,2.75,True
-thefintechtimes.com,1,0.0,0,2026-04-01 18:00:04,UiPath Launches Agentic AI Solutions to Tackle Financial Crime and Accelerate Lending - The Fintech Times,https://thefintechtimes.com,0,0,Other,1.25,True
-thekanal.in,1,0.0,0,2026-03-31 13:50:27,"RBI Penalties on PSBs Raise Questions on Accountability, Says Devidas Tuljapurkar - Thekanal",https://thekanal.in,1,0,Other,2.75,True
-themandarin.com.au,1,0.0,0,2026-04-01 19:13:10,Bullock moves to arrest systemic gouging of payments - The Mandarin,https://www.themandarin.com.au,1,0,Other,2.75,True
-thetimes.com,1,0.0,0,2026-03-28 20:20:08,The fugitive who bought seven London flats in one day for £11.5m - The Times,https://www.thetimes.com,0,0,Other,1.25,True
-ti-ukraine.org,1,0.0,0,2026-03-31 07:00:00,Analysis of the Draft Anti-Corruption Strategy for 2026–2030 - Transparency International Ukraine,https://ti-ukraine.org,2,0,Other,4.25,True
-today.thefinancialexpress.com.bd,1,0.0,0,2026-04-01 18:11:15,When rape is not 'just' a crime - The Financial Express,https://today.thefinancialexpress.com.bd,1,0,Media,2.75,True
-togofirst.com,1,0.0,0,2026-03-27 12:14:52,Togo reviews NGO oversight under anti-money laundering reforms - Togo First,https://www.togofirst.com,0,0,FIU/AML,1.25,True
-tracxn.com,1,0.0,0,2026-03-28 17:26:44,"Unicorn startups in Israel (Mar, 2026) - Tracxn",https://tracxn.com,0,0,Other,1.25,True
-tradebrains.in,1,0.0,0,2026-04-01 11:41:00,Sattrix Secures Rs 9.30 Cr Cybersecurity Contract from SBI; Stock Gains 249% in a Year - Trade Brains,https://tradebrains.in,1,2,Regulator,5.75,True
-tradingview.com,1,0.0,0,2026-03-31 10:40:50,Russia moves to narrow crypto trading to regulated intermediaries - TradingView,https://www.tradingview.com,0,0,Media,1.25,True
-trtworld.com,1,0.0,0,2026-03-29 07:59:33,Nepal arrests former energy minister in money laundering probe - TRT World,https://www.trtworld.com,0,0,FIU/AML,1.25,True
-uktech.news,1,0.0,0,2026-04-01 10:00:51,The new competitive advantage - UKTN,https://www.uktech.news,1,0,Media,2.75,True
-upstox.com,1,0.0,0,2026-03-30 02:32:11,From e-cheques to payment ‘off switches’: RBI’s 2028 plan explained simply - Upstox,https://upstox.com,0,0,Other,1.25,True
-vajiramandravi.com,1,0.0,0,2026-03-31 07:12:27,AI in Internal Security India’s Predictive Policing and Cybercrime Control Framework - Vajiram & Ravi,https://vajiramandravi.com,0,2,Regulator,4.25,True
-wealthmanagement.com,1,0.0,0,2026-04-01 13:57:06,Recognizing Signs of Money Laundering - Wealth Management,https://www.wealthmanagement.com,0,0,FIU/AML,1.25,True
-whalesbook.com,1,0.0,0,2026-03-28 17:51:46,"RBI Unveils E-Cheques, Expands Digital Payment Oversight - Whalesbook",https://www.whalesbook.com,0,0,Other,1.25,True
-yogonet.com,1,0.0,0,2026-03-31 21:02:45,Spanish payment controls are making it harder for offshore casinos to operate - Yogonet,https://www.yogonet.com,0,0,Other,1.25,True
+bankofengland.co.uk,31,0.61,3,,The economic effects of changes to bank capital regulation: evidence from the United Kingdom,https://www.bankofengland.co.uk/working-paper/2026/the-economic-effects-of-changes-to-bank-capital-regulation-evidence-from-the-uk,1,2,Regulator,16.75,True
+federalreserve.gov,20,1.15,4,,Agencies request comment on proposals to modernize the regulatory capital framework and maintain the strength of the banking system,https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260319a.htm,2,2,Regulator,20.25,True
+fca.org.uk,20,0.25,1,2026-04-02 13:06:00,FCA and Bank seek members for their Transaction and Post-trade Reporting Taskforce,https://www.fca.org.uk/news/news-stories/fca-and-bank-seek-members-their-transaction-and-post-trade-reporting-taskforce,1,2,Regulator,12.75,True
+fsb.org,10,0.4,1,,Promoting Global Financial Stability: 2025 FSB Annual Report,https://www.fsb.org/2026/03/promoting-global-financial-stability-2025-fsb-annual-report/,2,2,Other,14.25,True
+jdsupra.com,8,1.0,2,,"Secondary OFAC Sanctions - Enforcement Trends , Case Studies , and Exposure of Non - U . S . Companies | Friling Law",https://www.jdsupra.com/legalnews/secondary-ofac-sanctions-enforcement-3448683/,0,2,Regulator,13.25,True
+finance.yahoo.com,3,0.33,1,,Australia Sets Strict Rules for Crypto Platforms Under New Law Here What Has Changed,https://finance.yahoo.com/markets/crypto/articles/australia-sets-strict-rules-crypto-095333360.html,0,0,Media,5.75,False
+livemint.com,3,0.33,1,,"CBDT clarifies TDS on bank interest under Income Tax Act 2025: Key updates, thresholds and smart money moves | Explained - Mint",https://www.livemint.com,0,2,Regulator,8.75,True
+nypost.com,3,0.0,0,,What Youre Actually Buying When You Buy Bitcoin : A 2026 Guide,https://nypost.com/business/how-to-buy-bitcoin-step-by-step/,0,0,Other,3.75,True
+premiumtimesng.com,2,1.5,3,,ACAMB lauds banking sector’s resilience on meeting recapitalisation deadline - Premium Times Nigeria,https://www.premiumtimesng.com,0,2,Regulator,11.5,False
+thisdaylive.com,2,2.5,3,,DataPro Advises Banks on CBN Stress Test Compliance - THISDAYLIVE,https://www.thisdaylive.com,0,2,Regulator,11.5,False
+bignewsnetwork.com,2,1.5,2,,"MetaComp unveils Web2.5 VisionX Engine and AgentX, Advancing the StableX Network as the Compliance Layer for Agentic Payment and Wealth (1) - bignewsnetwork.com",https://www.bignewsnetwork.com,0,2,Media,9.5,True
+ecb.europa.eu,2,1.5,2,,The Eurosystem’s comprehensive payments strategy - European Central Bank,https://www.ecb.europa.eu,2,2,Regulator,12.5,True
+moneylife.in,2,1.5,2,,"RBI Imposes ₹36.30 Lakh Penalty on Airtel Payments Bank, Two Cooperative Banks - Moneylife",https://www.moneylife.in,1,2,Regulator,11.0,True
+msn.com,2,1.5,2,,"Deutsche Bank compliance officer who flagged suspicious transactions linked to Epstein, Kushner was laid off - MSN",https://www.msn.com,0,2,Regulator,9.5,True
+natlawreview.com,2,1.0,2,,What Every Multinational Should Know About … How to Cope with New Court Decisions Expanding Supply Chain Integrity Risks: Six Steps for Enhancing Supply Chain Compliance - The National Law Review,https://natlawreview.com,0,2,Media,9.5,True
+nigerianeye.com,2,1.0,2,,"Flutterwave , Paystack , KuCoin … CBN selects six firms for pilot crypto supervisory programme - Latest News In Nigeria , Nigeria News Today , Your Online Nigerian Newspaper",https://www.nigerianeye.com/2026/04/flutterwave-paystack-kucoin-cbn-selects.html,0,0,Media,6.5,True
+pymnts.com,2,1.5,2,,UK’s FCA Says Payments Innovation Is Among Its Regulatory Priorities in 2026 - PYMNTS.com,https://www.pymnts.com,0,2,Regulator,9.5,True
+techcabal.com,2,1.5,2,,"CBN launches crypto AML pilot , names Flutterwave , Paystack",https://techcabal.com/2026/04/01/cbn-launches-crypto-aml-pilot-flutterwave-paystack/,0,0,FIU/AML,6.5,True
+bernama.com,2,1.0,1,,Financial System Remains resilient On Strong Regulatory Framework - BNM - Bernama,https://bernama.com,0,2,Other,7.5,True
+bitcoinmagazine.com,2,0.5,1,,"Australia Passes Landmark Crypto Law , Mandates Licensing For Exchanges And Custodians",https://bitcoinmagazine.com/news/australia-passes-landmark-crypto-law,0,0,Media,4.5,True
+cointelegraph.com,2,0.5,1,,US Treasury Seeks Comment on State - Level Stablecoin Regulatory Criteria,https://cointelegraph.com/news/us-treasury-state-stablecoin-regulation,0,2,Other,7.5,True
+lexology.com,2,0.5,1,,Financial services: key global compliance updates (4 Mar – 1 Apr) - Lexology,https://www.lexology.com,0,2,Other,7.5,True
+allafrica.com,2,0.0,0,,Nigeria : Money Laundering - CBN Mandates Financial Institutions On Real - Time Monitoring,https://allafrica.com/stories/202604020129.html,0,0,FIU/AML,2.5,True
+businessday.co.za,2,0.0,0,,Cabinet hails R2 - trillion Sars milestone and outlines investment drive,https://www.businessday.co.za/news/2026-04-02-cabinet-hails-r2-trillion-sars-milestone-and-outlines-investment-drive/,1,0,Other,4.0,True
+coindesk.com,2,0.0,0,,KuCoin operator barred from U . S . after CFTC order,https://www.coindesk.com/policy/2026/03/31/kucoin-permanently-barred-from-u-s-after-cftc-order-following-usd297-million-doj-case,0,0,Other,2.5,True
+curacaochronicle.com,2,0.0,0,,Curaçao Chronicle | IMF Urges Stronger Oversight of Anti - Money Laundering Framework,https://www.curacaochronicle.com/post/unknown/imf-urges-stronger-oversight-of-anti-money-laundering-framework,0,0,FIU/AML,2.5,True
+forbes.com,2,0.0,0,,The Digital DNA Defense In The AI Fight Against Financial Crime,https://www.forbes.com/councils/forbestechcouncil/2026/03/31/the-digital-dna-defense-in-the-ai-fight-against-financial-crime/,0,0,Other,2.5,True
+fortune.com,2,0.0,0,,Wave of insider trading means a prediction market crackdown is coming,https://fortune.com/2026/04/02/prediction-markets-insider-trading/,0,0,Other,2.5,True
+investegate.co.uk,2,0.0,0,,"Board changes , issue of equity | Company Announcement",https://www.investegate.co.uk/announcement/rns/panther-metals--palm/board-changes-issue-of-equity/9504453,1,0,Other,4.0,True
+justsecurity.org,2,0.0,0,,The Financial Action Task Force United States Evaluation,https://www.justsecurity.org/135314/fatf-accountability-mechanism-united-states/,2,2,Regulator,8.5,True
+kathmandupost.com,2,0.0,0,,Money laundering probe widens as Deuba family remains abroad,https://kathmandupost.com/national/2026/03/31/money-laundering-probe-widens-as-deuba-family-remains-abroad,0,0,FIU/AML,2.5,True
+punchng.com,2,0.0,0,,INEC Chair : Stronger Laws Needed to Safeguard Democracy,https://punchng.com/inec-chair-urges-stronger-laws-to-safeguard-democracy/,0,0,Legislation,2.5,True
+smartcompany.com.au,2,0.0,0,,What new anti - money laundering rules could mean for you,https://www.smartcompany.com.au/finance/what-new-anti-money-laundering-rules-mean-for-your-business/,1,0,FIU/AML,4.0,True
+thebftonline.com,2,0.0,0,,"Through The Looking Glass with Mandy Mawulikplim Ketorglo : From ambiguity to legal recognition : Understanding the Virtual Asset Service Providers ( VASP ) Act , 2025 ( Act 1145 ) ",https://thebftonline.com/2026/04/01/through-the-looking-glass-with-mandy-mawulikplim-ketorglo-from-ambiguity-to-legal-recognition-understanding-the-virtual-asset-service-providers-vasp-act-2025-act-1145/,0,0,Other,2.5,True
+thesun.ng,2,0.0,0,,INEC chairman calls for stronger legal framework,https://thesun.ng/inec-chairman-calls-for-stronger-legal-framework/,1,0,Other,4.0,True
+asiae.co.kr,1,5.0,5,,Red Flags for Banking Soundness Amid Triple Risks from the Middle East... FSS to Conduct 'Stress Tests' on Banks Next Month - 아시아경제,https://www.asiae.co.kr,1,2,Regulator,15.75,True
+arnoldporter.com,1,4.0,4,,Agencies’ Capital Proposals Seek to Reduce Regulatory Burden and Extend Capital Relief to the Banking Industry at Large - Arnold & Porter,https://www.arnoldporter.com,0,2,Regulator,12.25,True
+biztechmagazine.com,1,4.0,4,,AI for Regulatory Compliance in Banking: From SOX to Real-Time Monitoring - BizTech Magazine,https://biztechmagazine.com,0,2,Regulator,12.25,False
+leadership.ng,1,4.0,4,,Compliance Now Key Capital in Nigeria’s Banking Sector – Fairmoney - LEADERSHIP Newspapers,https://leadership.ng,1,2,Regulator,13.75,False
+newsghana.com.gh,1,4.0,4,,Bank of Ghana Warns Crypto Carries Risks Regulation Cannot Remove - NewsGhana,https://www.newsghana.com.gh,1,2,Regulator,13.75,True
+tlt.com,1,4.0,4,,UK Government strengthens AML and crypto controls through the Money Laundering and Terrorist Financing (Amendment) Regulations 2026 - TLT LLP,https://www.tlt.com,0,0,FIU/AML,9.25,False
+ad-hoc-news.de,1,3.0,3,,Cardano Gains Ground with Banking Integration and Regulatory Clarity - AD HOC NEWS,https://www.ad-hoc-news.de,1,2,Regulator,11.75,False
+asianbankingandfinance.net,1,3.0,3,,ZA Bank’s Sidney Siu champions compliance by design - Asian Banking & Finance,https://asianbankingandfinance.net,1,2,Regulator,11.75,False
+bankinfosecurity.com,1,3.0,3,,"New Regulatory Pressures Trigger Compliance Overhaul, Strain on Teams - Bank Info Security",https://www.bankinfosecurity.com,0,2,Regulator,10.25,False
+beincrypto.com,1,3.0,3,,BIS Economist Behind CBDC Push to Lead Korea’s Central Bank - BeInCrypto,https://beincrypto.com,0,2,Regulator,10.25,True
+bitcoinke.io,1,3.0,3,,FINTECH AFRICA | Bank of Namibia to Launch a National Instant Payment System by June 2026 - BitKE,https://bitcoinke.io,1,2,Regulator,11.75,True
+bizzbuzz.news,1,3.0,3,,RBI imposes monetary penalty on Airtel Payments Bank - BizzBuzz,https://www.bizzbuzz.news,1,2,Regulator,11.75,True
+businessday.ng,1,3.0,3,,Banks hit 96% recapitalisation compliance as ACAMB applauds sector strength - Businessday NG,https://businessday.ng,1,2,Regulator,11.75,False
+businessupturn.com,1,3.0,3,,Central Bank of India updates code of conduct for insider trading compliance - Business Upturn,https://www.businessupturn.com,0,2,Regulator,10.25,False
+cryptorank.io,1,3.0,3,,Bitcoin Basel III Rules Face Critical Scrutiny as Expert Warns of Regulatory Peril - CryptoRank,https://cryptorank.io,1,2,Other,11.75,True
+dmarketforces.com,1,3.0,3,,"Insider Risk, Systemic Vulnerabilities In Nigeria’s Banking Architecture - MarketForces Africa",https://dmarketforces.com,0,2,Regulator,10.25,False
+globalcapital.com,1,3.0,3,,Tilted playing field appears as banks parse US Basel capital cuts - GlobalCapital,https://www.globalcapital.com,0,2,Regulator,10.25,True
+greencentralbanking.com,1,3.0,3,,How central banks are using AI to manage climate risk - Green Central Banking,https://greencentralbanking.com,0,2,Regulator,10.25,True
+inc42.com,1,3.0,3,,Fino Payments Bank’s Compliance Officer Aashish Pathak Quits - Inc42,https://inc42.com,0,2,Regulator,10.25,False
+jonesday.com,1,3.0,3,,U.S. Banking Agencies Propose Sweeping Overhaul of Capital Framework - Jones Day,https://www.jonesday.com,0,2,Regulator,10.25,True
+law.asia,1,3.0,3,,"FSCA revises compliance fees for banking, finance entities - Law.asia",https://law.asia,1,2,Regulator,11.75,False
+legal.economictimes.indiatimes.com,1,3.0,3,,"RBI imposes monetary penalty on 3 govt banks, Pine Labs for non-compliance with directions - ETLegalWorld.com",https://legal.economictimes.indiatimes.com,0,2,Regulator,10.25,False
+livebitcoinnews.com,1,3.0,3,,"Crypto Firms Warn Capital, Licensing Rules Risk Driving Out Startups - Live Bitcoin News",https://www.livebitcoinnews.com,0,0,Media,7.25,True
+moneycontrol.com,1,3.0,3,,Banking Central | RBI has a message for payments industry - Moneycontrol.com,https://www.moneycontrol.com,0,2,Regulator,10.25,False
+newsdrum.in,1,3.0,3,,"RBI imposes monetary penalty on 3 govt banks, Pine Labs for non-compliance with directions - newsdrum.in",https://www.newsdrum.in,1,2,Regulator,11.75,True
+sokodirectory.com,1,3.0,3,,"Beyond Compliance: How NCBA’s Dual ISO Certification Signals a New Era of Trust, Privacy, and Digital Banking Discipline - Soko Directory",https://sokodirectory.com,0,2,Regulator,10.25,False
+thebanker.com,1,3.0,3,,Countdown starts for Amla supervision - TheBanker.com,https://www.thebanker.com,0,2,Regulator,10.25,False
+thehawk.in,1,3.0,3,,RBI imposes monetary penalty on Airtel Payments Bank - thehawk.in,https://www.thehawk.in,1,2,Regulator,11.75,True
+zeenews.india.com,1,3.0,3,,RBI imposes monetary penalty on Airtel Payments Bank - Zee News,https://zeenews.india.com,0,2,Regulator,10.25,True
+01net.it,1,2.0,2,,ARMAI Technologies Announces Strategic Relationship with First Federal Bank of Kansas City to Modernize Third-Party Risk and Embedded Finance Oversight - 01net,https://www.01net.it,1,2,Regulator,9.75,True
+a2ztaxcorp.net,1,2.0,2,,"Income tax Dept Clarifies TDS Provisions on Interest under Section 194A for Banking Institutions; Alignment with Income-tax Act, 2025 Explained - A2Z Taxcorp LLP",https://a2ztaxcorp.net,1,2,Regulator,9.75,False
+advisor.ca,1,2.0,2,,FINTRAC sanctions Alberta casino over compliance - Advisor.ca,https://www.advisor.ca,1,2,Enforcement,9.75,True
+arabictrader.com,1,2.0,2,,A new Australian law imposes strict financial regulations on the cryptocurrency sector - المتداول العربي,https://www.arabictrader.com,0,2,Regulator,8.25,True
+arise.tv,1,2.0,2,,"CBN Mandates Cybersecurity Self-Assessment For Banks, Fintechs - Arise News",https://www.arise.tv,1,2,Regulator,9.75,True
+bankingdive.com,1,2.0,2,,"Visa, Mastercard, PayPal, Stripe warned of debanking consequences - Banking Dive",https://www.bankingdive.com,0,2,Regulator,8.25,False
+binance.com,1,2.0,2,,CrypFine Partners With Elliptic to Strengthen Blockchain Analytics and AML Compliance - Binance,https://www.binance.com,0,2,FIU/AML,8.25,False
+bitget.com,1,2.0,2,,Global Crypto ATM Network: Net Removals of 597 Units Signal Compliance-Driven Contraction - Bitget,https://www.bitget.com,0,2,Other,8.25,True
+blockmanity.com,1,2.0,2,,Is Cryptocurrency Legal in Norway? Essential Regulations Guide for 2024 - blockmanity.com,https://blockmanity.com,0,0,Other,5.25,True
+blogs.cisco.com,1,2.0,2,,DORA Compliance at Scale: A Technical Account of Intesa Sanpaolo’s Transformation - Cisco Blogs,https://blogs.cisco.com,0,2,Media,8.25,True
+brokernews.com.au,1,2.0,2,,"APRA reshuffle puts seasoned regulators over banking, insurance, super - Australian Broker News",https://www.brokernews.com.au,1,2,Regulator,9.75,False
+businesspost.ng,1,2.0,2,,33 Nigerian Banks Raise N4.65trn as CBN Recapitalisation Exercise Closes - Business Post Nigeria,https://businesspost.ng,1,2,Regulator,9.75,True
+businesstoday.in,1,2.0,2,,RBI fines Pine Labs for KYC lapses in prepaid payment instruments - Business Today,https://www.businesstoday.in,1,0,Other,6.75,True
+bvinews.com,1,2.0,2,,NBVI is seeking a Chief Compliance and Risk Officer - BVI News,https://bvinews.com,0,2,Media,8.25,False
+bwmarketingworld.com,1,2.0,2,,Axis Bank Shifts To Proactive Service With New ‘ASLI KYC’ Campaign - BW Marketing World,https://www.bwmarketingworld.com,0,2,Regulator,8.25,True
+caixabank.com,1,2.0,2,,CaixaBank obtains the MiCA license to operate with crypto-assets in the EU - caixabank.com,https://www.caixabank.com,0,2,Regulator,8.25,True
+cfotech.com.au,1,2.0,2,,Pexa Clear opens for property AML compliance ahead - CFOtech Australia,https://cfotech.com.au,1,2,FIU/AML,9.75,False
+channeleye.media,1,2.0,2,,Cyber Security Law Workshop – Banking - channeleye.media,https://channeleye.media,1,2,Regulator,9.75,False
+cnbctv18.com,1,2.0,2,,"RBI fines Bank of India, Central Bank for breaking rules on loans, deposits, and KYC checks - CNBC TV18",https://www.cnbctv18.com,0,2,Regulator,8.25,False
+coinmarketcap.com,1,2.0,2,,Argentina Central Bank Eyes Crypto Trading for Banks - CoinMarketCap,https://coinmarketcap.com,0,2,Regulator,8.25,True
+commercialbaking.com,1,2.0,2,,Banking lessons for bakers: Investing in cybersecurity - Commercial Baking,https://commercialbaking.com,0,2,Regulator,8.25,False
+credit-connect.co.uk,1,2.0,2,,Bank of England streamlines reporting and disclosure requirements - Credit Connect,https://www.credit-connect.co.uk,1,2,Regulator,9.75,False
+cryptonews.net,1,2.0,2,,"Flexa Retires SPEDN After 7 Years, Shifts to Scalable Crypto Payment Infrastructure - Cryptonews.net",https://cryptonews.net,1,0,Media,6.75,True
+cyberguy.com,1,2.0,2,,Banking tech data breach exposes 672K in ransomware attack - Kurt the CyberGuy,https://cyberguy.com,0,2,Regulator,8.25,False
+daily-sun.com,1,2.0,2,,NPL crisis poses biggest challenge to banking sector - daily-sun.com,http://www.daily-sun.com,0,2,Regulator,8.25,True
+dailytimesng.com,1,2.0,2,,"CBN Launches AML Pilot Targeting Flutterwave, Paystack, Other Fintechs - Daily Times Nigeria News",https://dailytimesng.com,0,0,FIU/AML,5.25,True
+deloitte.com,1,2.0,2,,"AMLA, AML Regulation, and Financial Crime - Deloitte",https://www.deloitte.com,0,0,FIU/AML,5.25,False
+dentons.com,1,2.0,2,,Next chapter in Australia’s Regulation of Payment Service Providers - Dentons,https://www.dentons.com,0,0,Other,5.25,True
+deshkalnews.com,1,2.0,2,,Bangladesh Bank sets 31 Dec deadline for cybersecurity compliance - DeshkalNews,https://www.deshkalnews.com,0,2,Regulator,8.25,False
+elliptic.co,1,2.0,2,,Crypto regulatory affairs: CLARITY Act Senate compromise meets mixed reception - Elliptic,https://www.elliptic.co,1,2,Legislation,9.75,True
+etedge-insights.com,1,2.0,2,,Why AI-powered AML systems may be making financial crime risk invisible - ET Edge Insights,https://etedge-insights.com,0,0,FIU/AML,5.25,False
+ey.com,1,2.0,2,,How the EU AML package is transforming compliance for financial firms - EY,https://www.ey.com,0,2,FIU/AML,8.25,False
+fastcompanyme.com,1,2.0,2,,Geopolitics is rewriting fintech compliance in the Middle East—Here’s what that means - Fast Company Middle East,https://fastcompanyme.com,0,2,Other,8.25,True
+financialit.net,1,2.0,2,,Sumsub and ComplyAdvantage Announce Strategic Partnership to Enhance AML Screening for Compliance Teams - Financial IT,https://financialit.net,1,2,FIU/AML,9.75,True
+fintech.global,1,2.0,2,,How Australia’s AML reforms are reshaping FinCrime strategies - FinTech Global,https://fintech.global,1,0,FIU/AML,6.75,True
+fintechbiznews.com,1,2.0,2,,"Penalty On UBI (Rs95 lakh), BoI (Rs58 lakh), Central Bank (Rs63 Lakh) - fintechbiznews.com",https://www.fintechbiznews.com,0,2,Regulator,8.25,True
+fintechnews.my,1,2.0,2,,"Bank Rakyat Fined RM1 Million by BNM Over Cybersecurity, Data Safeguard Failures - Fintech News Malaysia",https://fintechnews.my,1,2,Regulator,9.75,True
+fintechnews.sg,1,2.0,2,,Sumsub Taps ComplyAdvantage to Expand AML Screening Capabilities - Fintech Singapore,https://fintechnews.sg,1,0,FIU/AML,6.75,True
+fintechweekly.com,1,2.0,2,,When Instant Payments Meet Digital Dollars - FinTech Weekly,https://www.fintechweekly.com,0,0,Other,5.25,True
+fstech.co.uk,1,2.0,2,,Banks call for deeper overhaul of UK capital rules - FStech,https://www.fstech.co.uk,1,2,Regulator,9.75,True
+globalbankingandfinance.com,1,2.0,2,,"UK Regulator Probes 5 Companies for Fake Reviews, Misleading Ratings - Global Banking & Finance Review®",https://www.globalbankingandfinance.com,0,2,Regulator,8.25,True
+globalinvestigationsreview.com,1,2.0,2,,Compliance officer withdraws Ghana International Bank whistleblowing claim - Global Investigations Review,https://globalinvestigationsreview.com,0,2,Regulator,8.25,False
+hackernoon.com,1,2.0,2,,How Financial Institutions Can Build a Strong Sanctions Compliance Framework - HackerNoon,https://hackernoon.com,0,2,Enforcement,8.25,True
+hoganlovells.com,1,2.0,2,,Amendments to the Regulations of the Federal Law for the Prevention and Identification of Operations with Resources of Illicit Origin (AML Law): Key legal implications - www.hoganlovells.com,https://www.hoganlovells.com,0,0,FIU/AML,5.25,False
+hsfkramer.com,1,2.0,2,,FinTech Global FS Regulatory Round-up - w/e 27 March 2026 - Herbert Smith Freehills Kramer,https://www.hsfkramer.com,0,2,Other,8.25,True
+humenglish.com,1,2.0,2,,SBP launches teen banking framework to promote financial literacy - Hum News English,https://humenglish.com,0,2,Regulator,8.25,True
+iflr.com,1,2.0,2,,UK crypto nears its regulatory reckoning - IFLR,https://www.iflr.com,0,2,Other,8.25,True
+infotechlead.com,1,2.0,2,,"Intesa Sanpaolo Fined $36.4 mn Over Data Breach, Exposing Gaps in Banking Cybersecurity Controls - InfotechLead",https://infotechlead.com,0,2,Regulator,8.25,False
+innovation-village.com,1,2.0,2,,"CBN Introduces New Crypto Compliance Programme for Flutterwave, Paystack, and Other VASPs - innovation-village.com",https://innovation-village.com,0,2,Other,8.25,True
+klsescreener.com,1,2.0,2,,Financial system remains resilient on strong regulatory framework – Bank Negara - KLSE Screener,https://www.klsescreener.com,0,2,Regulator,8.25,False
+legit.ng,1,2.0,2,,"‘Begin portfolio analysis"": DataPro advises banks as CBN orders stress test - legit.ng",https://www.legit.ng,1,2,Regulator,9.75,True
+livelaw.in,1,2.0,2,,Co-operative Society Can Undertake Banking Activities: Kerala High Court Upholds State Co-operative... - Live Law,https://www.livelaw.in,1,2,Regulator,9.75,False
+mccarthy.ca,1,2.0,2,,Canada’s AML Reform Advances: Bill C-12 Brings Hefty Penalties and Higher Compliance Expectations into Force - McCarthy Tétrault,https://www.mccarthy.ca,1,2,Legislation,9.75,False
+mexc.com,1,2.0,2,,How AI Is Transforming Financial Compliance and Risk Monitoring - MEXC,https://www.mexc.com,0,2,Other,8.25,True
+minichart.com.sg,1,2.0,2,,"Key Business Risks, Competitive Advantages, and Regulatory Challenges Facing The OLB Group, Inc. in the E-Commerce and Digital Asset Markets - Minichart",https://www.minichart.com.sg,1,2,Other,9.75,True
+nairametrics.com,1,2.0,2,,"Banks step up ESG compliance ahead of 2028 deadline, insurers lag - Nairametrics",https://nairametrics.com,0,2,Regulator,8.25,False
+nationaldailyng.com,1,2.0,2,,CBN confirms 33 Banks meet minimum capital requirements as recapitalization deadline ends - nationaldailyng.com,https://nationaldailyng.com,0,2,Regulator,8.25,True
+news.laodong.vn,1,2.0,2,,Russia adjusts gas payment regulations from early April - Laodong.vn,https://news.laodong.vn,1,0,Media,6.75,True
+newsbytesapp.com,1,2.0,2,,India delays cryptocurrency policy paper as RBI cites stablecoin risks - newsbytesapp.com,https://www.newsbytesapp.com,0,0,Media,5.25,True
+newsonair.gov.in,1,2.0,2,,"Banks in country operate under strict legal, regulatory framework to ensure safety of customers’ data: FM Sitharaman - News On AIR",https://www.newsonair.gov.in,1,2,Regulator,9.75,True
+ntu.org,1,2.0,2,,Updated Bank Capital Requirements Are a Win for America’s Economy - National Taxpayers Union,https://www.ntu.org,2,2,Regulator,11.25,True
+observerbd.com,1,2.0,2,,Real reforms must be carried out in our banking sector - Daily Observer,https://observerbd.com,0,2,Regulator,8.25,True
+omnilert.com,1,2.0,2,,Meet Omnilert at ABA Risk & Compliance Conference 2026 - Omnilert,https://www.omnilert.com,0,2,Other,8.25,False
+openpr.com,1,2.0,2,,Australia Banking Market - openPR.com,https://www.openpr.com,0,2,Regulator,8.25,False
+opinionnigeria.com,1,2.0,2,,"State Approved Predatory Lending: Excessive Interest Rates, Biweekly Repayment Schemes, and Regulatory Failure in Indonesia -By Fransiscus Nanga Roka - Opinion Nigeria",https://www.opinionnigeria.com,0,2,Other,8.25,True
+paloaltonetworks.com,1,2.0,2,,Platformization strengthens UK merchant banking group’s security and accelerates digital transformation - Palo Alto Networks,https://www.paloaltonetworks.com,0,2,Regulator,8.25,False
+passionateinmarketing.com,1,2.0,2,,Axis Bank’s ASLI KYC Campaign Reimagines Customer Connect with Five Story-Led Films - Passionate In Marketing,https://www.passionateinmarketing.com,0,2,Regulator,8.25,True
+patch.com,1,2.0,2,,New Hampshire Mutual Bancorp VP Earns Certified Regulatory Compliance Manager Credential - patch.com,https://patch.com,0,2,Other,8.25,False
+phemex.com,1,2.0,2,,Everything That Changed in Crypto Regulation in March 2026 and What It Means for You - Phemex,https://phemex.com,0,0,Other,5.25,True
+policycircle.org,1,2.0,2,,India’s CBDC strategy targets cross-border payments | Policy Circle - Policy Circle,https://www.policycircle.org,2,0,Other,8.25,True
+prlog.org,1,2.0,2,,SecurePoint USA Launches OFAC Sanctions Screening for Private Schools After $1.7M Enforcement Fine - PRLog,https://www.prlog.org,2,2,Regulator,11.25,True
+psuconnect.in,1,2.0,2,,"RBI Crackdown: Central Bank of India Slapped with ₹63.6 Lakh Penalty Over KYC, BSBDA Lapses - PSU Connect",https://www.psuconnect.in,1,2,Regulator,9.75,False
+qa-financial.com,1,2.0,2,,Compliance is not enough: Why banks must test AI beyond legal thresholds - QA Financial,https://qa-financial.com,0,2,Regulator,8.25,False
+qed.ng,1,2.0,2,,CBN: 33 banks meet capital requirement as recapitalisation ends - QED.NG,https://www.qed.ng,1,2,Regulator,9.75,True
+scanx.trade,1,2.0,2,,Union Bank of India Discloses ₹95.40 Lakh RBI Penalty for Regulatory Violations - scanx.trade,https://scanx.trade,1,2,Regulator,9.75,False
+sg.finance.yahoo.com,1,2.0,2,,Abrigo Now a Nacha Preferred Partner for ACH Experience/Compliance/Risk and Fraud Prevention - Yahoo Finance Singapore,https://sg.finance.yahoo.com,0,2,Other,8.25,False
+standardmedia.co.ke,1,2.0,2,,Kenya advances crypto regulation through VASP roundtable - standardmedia.co.ke,https://www.standardmedia.co.ke,1,0,Media,6.75,True
+streetinsider.com,1,2.0,2,,"North America Fintech Market Projected to Reach $154.33 Billion by 2031 Driven by Real-Time Payments, Generative AI Integration - StreetInsider",https://www.streetinsider.com,0,0,Legislation,5.25,True
+studycafe.in,1,2.0,2,,RBI Penalises Central Bank of India Over KYC and Financial Inclusion Violations - Studycafe,https://studycafe.in,1,2,Regulator,9.75,False
+tcs.com,1,2.0,2,,Deutsche Bank Accelerates Compliance with AI-powered Digital Assistant - Tata Consultancy Services,https://www.tcs.com,0,2,Regulator,8.25,False
+technadu.com,1,2.0,2,,"Cyber Job Moves: Security And Tech Appointments In Banking, AI, And Enterprise Systems - TechNadu",https://www.technadu.com,0,2,Regulator,8.25,False
+techpoint.africa,1,2.0,2,,"Flutterwave, Paystack, and Juicyway join CBN initiative targeting AML/CFT/CPF compliance - Techpoint Africa",https://techpoint.africa,1,2,FIU/AML,9.75,True
+thecable.ng,1,2.0,2,,"Flutterwave, Paystack, KuCoin... CBN selects six firms for pilot crypto supervisory programme - TheCable",https://www.thecable.ng,1,0,Other,6.75,True
+thecryptoupdates.com,1,2.0,2,,Kalp Digital Launches TreSori for Stablecoin Payments - TheCryptoUpdates,https://www.thecryptoupdates.com,0,0,Other,5.25,True
+thecurrencyanalytics.com,1,2.0,2,,Central Banks Push Digital Currencies as Key to Financial Stability - The Currency analytics,https://thecurrencyanalytics.com,0,2,Regulator,8.25,True
+theedgemalaysia.com,1,2.0,2,,"Over 280 supervisory, enforcement actions imposed against financial institutions in 2025, BNM says - The Edge Malaysia",https://theedgemalaysia.com,0,2,Enforcement,8.25,True
+theedgemarkets.com,1,2.0,2,,BNM stress test shows Malaysian banks resilient against a scenario worse than 2008 crisis - The Edge Malaysia,http://www.theedgemarkets.com,0,2,Regulator,8.25,True
+thefintechtimes.com,1,2.0,2,,Mollie Tackles ‘Divergence Trap’ as UK and EU Regulatory Paths Split - The Fintech Times,https://thefintechtimes.com,0,2,Other,8.25,True
+theijf.org,1,2.0,2,,Canada’s banking regulator gives itself substandard score on cybersecurity - Investigative Journalism Foundation,https://theijf.org,2,2,Regulator,11.25,False
+themachinemaker.com,1,2.0,2,,ASMS Wins Corporate Business Correspondent Mandate from Indian Overseas Bank - Machine Maker,https://themachinemaker.com,0,2,Regulator,8.25,True
+thenationonlineng.net,1,2.0,2,,"CBN rolls out cybersecurity tool for banks, sets compliance deadlines - The Nation Newspaper",https://thenationonlineng.net,1,2,Regulator,9.75,False
+thepointng.com,1,2.0,2,,Recapitalisation: 33 banks raise N4.65trn as exercise ends - ThePointNG,https://www.thepointng.com,0,2,Regulator,8.25,True
+thewhistler.ng,1,2.0,2,,Cardoso Steers Banks To Stronger Capital Base With Fresh N4.65tn Investments - The Whistler Newspaper,https://thewhistler.ng,1,2,Regulator,9.75,True
+thunes.com,1,2.0,2,,Why Real-Time Payment Compliance Is a Competitive Advantage - Thunes,https://www.thunes.com,0,2,Other,8.25,True
+tipranks.com,1,2.0,2,,Bank of Tianjin Names Executive Director Dong Xiaodong as Chief Compliance Officer - TipRanks,https://www.tipranks.com,0,2,Regulator,8.25,False
+tribuneonlineng.com,1,2.0,2,,"CBN rolls out cybersecurity tool for banks, sets compliance deadlines - Tribune Online",https://tribuneonlineng.com,0,2,Regulator,8.25,False
+visionias.in,1,2.0,2,,Reserve Bank of India (RBI) announces the 'Payments Vision 2028' - Vision IAS,https://visionias.in,1,2,Regulator,9.75,True
+vitallaw.com,1,2.0,2,,"FINANCIAL STABILITY—OCC rescinds recovery planning guidelines for large banks (Mar 31, 2026) - VitalLaw.com",https://www.vitallaw.com,0,2,Regulator,8.25,True
+vocal.media,1,2.0,2,,"Netherlands Cryptocurrency Market 2026: Digital Finance Expansion, Regulatory Clarity & Rising Investor Adoption - vocal.media",https://vocal.media,1,2,Media,9.75,True
+westafricatradehub.com,1,2.0,2,,AML for Crypto Course: CPD-Accredited Online Training - West Africa Trade Hub,https://westafricatradehub.com,0,0,FIU/AML,5.25,True
+9to5mac.com,1,1.0,1,,Apple subsidiary fined in the UK for breaching Russia sanctions rules - 9to5Mac,https://9to5mac.com,0,0,Enforcement,3.25,True
+aa.com.tr,1,1.0,1,,Bank of America to pay $72.5 million to Jeffrey Epstein survivors - Anadolu Ajansı,https://www.aa.com.tr,1,2,Regulator,7.75,True
+accountantsdaily.com.au,1,1.0,1,,Bodies shed light on referral issues with incoming Tranche 2 AML/CTF reforms - Accountants Daily,https://www.accountantsdaily.com.au,1,0,FIU/AML,4.75,True
+actusnews.com,1,1.0,1,,Structuring A Fintech And Stablecoin Infrastructure Platform Around IBEXIAL - actusnews.com,https://www.actusnews.com,0,0,Media,3.25,True
+aeon.co,1,1.0,1,,The underground bankers who reshape the flow of global money - Aeon,https://aeon.co,1,2,Regulator,7.75,True
+afr.com,1,1.0,1,,"CBA, Westpac and ANZ systems at risk as tech workers strike - AFR",https://www.afr.com,0,0,Other,3.25,True
+americanbanker.com,1,1.0,1,,AI agents are coming for money launderers - American Banker,https://www.americanbanker.com,0,2,Regulator,6.25,True
+amlintelligence.com,1,1.0,1,,LATEST: UK to overhaul AML rules – here are the main changes - AML Intelligence,https://www.amlintelligence.com,0,0,FIU/AML,3.25,True
+asgam.com,1,1.0,1,,"Australia’s new AML framework kicks in today, placing greater responsibility on gambling sector - IAG – Inside Asian Gaming",https://asgam.com,0,2,Regulator,6.25,True
+atlanticcouncil.org,1,1.0,1,,Global payment systems are fragmenting. Here’s what the G20 can do. - Atlantic Council,https://www.atlanticcouncil.org,2,0,Other,6.25,True
+australiannews.net,1,1.0,1,,Money laundering is big business especially for banks,http://www.australiannews.net/news/278956715/money-laundering-is-big-business-especially-for-banks,1,2,Regulator,7.75,True
+bangkokpost.com,1,1.0,1,,LH Bank Rolls out “Green Deposit” Joining the Drive Towards a Low-carbon Economy. - Bangkok Post,https://www.bangkokpost.com,0,2,Regulator,6.25,True
+bisnow.com,1,1.0,1,,"Fed Reforms Would Give Banks More Liquidity, But Murky Outlook Could Slow The Flow - Bisnow",https://www.bisnow.com,0,2,Regulator,6.25,True
+bitcoinworld.co.in,1,1.0,1,,Dubai Crypto Derivatives: VARA’s Pioneering 5x Leverage Cap Empowers Retail Investors - Bitcoin World,https://bitcoinworld.co.in,1,0,Other,4.75,True
+biz.chosun.com,1,1.0,1,,Samil PwC hosts Seoul seminar on stronger AML strategy ahead of FATF review - CHOSUNBIZ - Chosunbiz,https://biz.chosun.com,0,2,FIU/AML,6.25,True
+blockchain-council.org,1,1.0,1,,Stablecoin Regulation in 2026: Rules Explained - Blockchain Council,https://www.blockchain-council.org,2,0,Other,6.25,True
+blockonomi.com,1,1.0,1,,BNP Paribas Expands Exchange Offering With Six Crypto-Asset ETNs in France - Blockonomi,https://blockonomi.com,0,0,Other,3.25,True
+burges-salmon.com,1,1.0,1,,FCA Consults on the Handbook’s Application to Regulated Cryptoassets - Burges Salmon,https://www.burges-salmon.com,0,2,Regulator,6.25,True
+business-review.eu,1,1.0,1,,How Fintech Startups Can Successfully Navigate EMI Licensing in Europe - Business Review,https://business-review.eu,2,0,Other,6.25,True
+business-standard.com,1,1.0,1,,"RBI imposes penalties on Union Bank, Central Bank, Bank of India, Pine Labs - Business Standard",https://www.business-standard.com,0,2,Regulator,6.25,True
+businesstimes.com.sg,1,1.0,1,,Issue 188: Singapore banks face slower growth in sustainable finance; Grab's confusing dual-class shares - The Business Times,https://www.businesstimes.com.sg,1,2,Regulator,7.75,True
+caclubindia.com,1,1.0,1,,Rs 1500 Crore GST on Penal Charges - A Compliance Failure Auditors Must Examine in FY 2025-26 - CAclubindia,https://www.caclubindia.com,0,2,Other,6.25,False
+capitalbrief.com,1,1.0,1,,APRA finalises changes to capital rules for annuities and longevity products - Capital Brief,https://www.capitalbrief.com,0,2,Other,6.25,True
+cbsnews.com,1,1.0,1,,Bank of America reaches $72.5 million settlement in Epstein lawsuit - CBS News,https://www.cbsnews.com,0,2,Regulator,6.25,True
+ccn.com,1,1.0,1,,Australia Sets Strict Rules for Crypto Platforms Under New Law — Here's What Has Changed - CCN.com,https://www.ccn.com,0,0,Media,3.25,True
+channelstv.com,1,1.0,1,,CBN Sets Tough Timeline For Banks On Cybersecurity - Channels Television,https://www.channelstv.com,0,2,Regulator,6.25,True
+charlotteobserver.com,1,1.0,1,,Bank of America settles Epstein victim case for $72.5 million. What comes next - Charlotte Observer,https://www.charlotteobserver.com,0,2,Regulator,6.25,True
+coingape.com,1,1.0,1,,XRP News: Ripple Nears Becoming National Bank as OCC Final Rule Goes Live April 1 - CoinGape,https://coingape.com,0,2,Regulator,6.25,True
+coininsider.com,1,1.0,1,,Mitsubishi Taps JPMorgan Blockchain for Global Payments - coininsider.com,https://www.coininsider.com,0,2,Other,6.25,True
+community.nasscom.in,1,1.0,1,,RBI Payments Vision 2028: Analysis and Key Takeaways - Nasscom,https://community.nasscom.in,1,0,Other,4.75,True
+complianceweek.com,1,1.0,1,,How to establish an anti-corruption and anti-bribery compliance program - Compliance Week,https://www.complianceweek.com,0,2,Other,6.25,True
+complyadvantage.com,1,1.0,1,,"Responsible AI, stablecoins, and gatekeepers: Charting APAC's top regulatory trends for 2026 - ComplyAdvantage",https://complyadvantage.com,0,2,Other,6.25,True
+controlrisks.com,1,1.0,1,,US designations of cartels as FTOs: implications for companies one year on - Control Risks,https://www.controlrisks.com,0,0,Regulator,3.25,True
+corpgov.law.harvard.edu,1,1.0,1,,2026 Proxy Season Preview - The Harvard Law School Forum on Corporate Governance,https://corpgov.law.harvard.edu,1,0,Legislation,4.75,True
+ddnews.gov.in,1,1.0,1,,India launches CBDC-based digital food currency pilot in Puducherry - DD News,https://ddnews.gov.in,1,0,Media,4.75,True
+delano.lu,1,1.0,1,,CSSF tightens 2026 fund supervision - Delano.lu,https://delano.lu,1,2,Regulator,7.75,True
+devdiscourse.com,1,1.0,1,,Controversial Death Penalty Law Sparks Fear and Criticism in the West Bank - Devdiscourse,https://www.devdiscourse.com,0,2,Regulator,6.25,True
+dig.watch,1,1.0,1,,FCA outlines AI-driven plan to modernise financial regulation - Digital Watch Observatory,https://dig.watch,1,2,Regulator,7.75,True
+discoveryalert.com.au,1,1.0,1,,South Sudan Gold Mine Violence: 70+ Deaths Highlight Regulatory Failures - Discovery Alert,https://discoveryalert.com.au,1,2,Other,7.75,True
+duanemorris.com,1,1.0,1,,Loosening the Reins – A Closer Look at the Federal Reserve's Proposed Capital Rule Changes - Duane Morris LLP,https://www.duanemorris.com,0,0,Other,3.25,True
+eastleighvoice.co.ke,1,1.0,1,,"SASRA warns SACCOs of heightened cyber‑attack risks during Easter, Labour Day - The Eastleigh Voice",https://eastleighvoice.co.ke,1,0,Other,4.75,True
+economymiddleeast.com,1,1.0,1,,"UAE Ministry of Economy and Tourism, DFSA partner to enhance regulatory oversight, combat financial crime - Economy Middle East",https://economymiddleeast.com,0,2,Regulator,6.25,True
+edhat.com,1,1.0,1,,"Ventura Sheriff Warns of ""Bank Jugging"" Throughout the County - edhat",https://www.edhat.com,0,2,Regulator,6.25,True
+electronicpaymentsinternational.com,1,1.0,1,,The cross-border settlement problem stablecoins are built to fix - Electronic Payments International,https://www.electronicpaymentsinternational.com,0,0,Other,3.25,True
+emtv.com.pg,1,1.0,1,,BENEFICIAL OWNERSHIP REFORMS CRITICAL TO GOVERNMENT’S PLAN TO EXIT FATF GREY LIST—PSDI - emtv online,https://emtv.com.pg,1,2,FIU/AML,7.75,True
+en.bd-pratidin.com,1,1.0,1,,Bangladesh Bank issues uniform cyber security framework for financial sector - en.bd-pratidin.com,https://en.bd-pratidin.com,0,2,Regulator,6.25,True
+english.luatvietnam.vn,1,1.0,1,,Bank account names must match ID information from April 1: Central bank - LuatVietnam,https://english.luatvietnam.vn,1,2,Regulator,7.75,True
+environmentenergyleader.com,1,1.0,1,,Environmental Risk Is Now an Operational Problem - Environment+Energy Leader,https://www.environmentenergyleader.com,0,0,Other,3.25,True
+esgnews.com,1,1.0,1,,African Development Bank Backs $11.3 Million Facility To Finance Off-Grid Energy In Fragile African States - ESG News,https://esgnews.com,0,2,Regulator,6.25,True
+fieldfisher.com,1,1.0,1,,"UK, EU and US sanctions on Russia - Fieldfisher",https://www.fieldfisher.com,0,0,Enforcement,3.25,True
+fij.ng,1,1.0,1,,"5 Months Later, GTBank Yet to Recover N1m Fraudster Stole from Scholar’s Account - FIJ NG",https://fij.ng,1,2,Regulator,7.75,True
+finainews.com,1,1.0,1,,FactSet’s AI-driven AML tool reduces false positives by up to 80% - FinAi News,https://finainews.com,0,0,FIU/AML,3.25,True
+financefeeds.com,1,1.0,1,,FCA Fines Dinosaur Merchant Bank for CFD Surveillance Failures - FinanceFeeds,https://financefeeds.com,0,2,Regulator,6.25,True
+financial-news.co.uk,1,1.0,1,,CrypFine Integrates Shufti Pro to Enhance KYC and Identity Verification - Financial-News.co.uk,https://www.financial-news.co.uk,1,0,Media,4.75,True
+financialregnews.com,1,1.0,1,,NAIC seeks to better understand homeowners insurance markets - Financial Regulation News -,https://financialregnews.com,0,0,Media,3.25,True
+finansavisen.no,1,1.0,1,,Rhinebeck Bank Partners with MANTL to Accelerate Digital Account Opening - Finansavisen,https://www.finansavisen.no,1,2,Regulator,7.75,True
+fintechmagazine.com,1,1.0,1,,QNB: Anchoring Sustainability with Data-Driven Strategy - FinTech Magazine,https://fintechmagazine.com,0,0,Other,3.25,True
+forvismazars.us,1,1.0,1,,Suspicious Activity Report (SAR) Filings Hit Record in 2025 - Forvis Mazars US,https://www.forvismazars.us,1,0,Other,4.75,True
+ft.com,1,1.0,1,,UK watchdog hits Bank of London with new client freeze - Financial Times,https://www.ft.com,0,2,Regulator,6.25,True
+ft.lk,1,1.0,1,,Dossiers wins $ 350K+ in Google AI credits to build compliance database for EMs,https://www.ft.lk/it-telecom-tech/Dossiers-wins-350K-in-Google-AI-credits-to-build-compliance-database-for-EMs/50-790290,1,2,Other,7.75,True
+ftadviser.com,1,1.0,1,,EU anti-corruption directive looks promising for joined-up regulation - FT Adviser,https://www.ftadviser.com,0,0,Other,3.25,True
+fxstreet.com,1,1.0,1,,AML beyond rules and alerts - FXStreet,https://www.fxstreet.com,0,0,FIU/AML,3.25,True
+gazettengr.com,1,1.0,1,,"CBN ends recapitalisation as lenders raise N4.65 trillion, 33 meet requirements - Peoples Gazette Nigeria",https://gazettengr.com,0,2,Legislation,6.25,True
+grafa.com,1,1.0,1,,APRA finalises capital reforms for longevity products - grafa.com,https://grafa.com,0,2,Other,6.25,True
+greaterbirminghamchambers.com,1,1.0,1,,Wilkes rolls out platform to strengthen anti-money laundering and compliance capabilities - Greater Birmingham Chambers of Commerce,https://www.greaterbirminghamchambers.com,0,2,FIU/AML,6.25,True
+guardian.ng,1,1.0,1,,CBN reaffirms Adekilekun as chairman of LivingTrust Mortgage Bank - The Guardian Nigeria News,https://guardian.ng,1,2,Regulator,7.75,True
+gulf-times.com,1,1.0,1,,BoE revamps funding tool for banks used just once since 2008| Gulf Times - Gulf Times,https://www.gulf-times.com,0,2,Regulator,6.25,True
+homeaffairs.gov.au,1,1.0,1,,AML/CTF Transitional Rules - Department of Home Affairs Website,https://www.homeaffairs.gov.au,1,0,FIU/AML,4.75,True
+howdengroup.com,1,1.0,1,,Key risk themes for Australian law firms in 2026 - Howden,https://www.howdengroup.com,0,0,Media,3.25,True
+independent.org,1,1.0,1,,Why Loans Are Moving From Banks To Private Credit: News Article - Independent Institute,https://www.independent.org,2,2,Regulator,9.25,True
+independentaustralia.net,1,1.0,1,,Money laundering is big business — especially for banks - Independent Australia,https://independentaustralia.net,1,2,Regulator,7.75,True
+indiaherald.com,1,1.0,1,,⚠️ Fraudulent Emails in the Name of Banks Could Drain Your Account Be Sure to Protect Yourself - indiaherald.com,https://www.indiaherald.com,0,2,Regulator,6.25,True
+indiancooperative.com,1,1.0,1,,RBI imposes Rs 4.50 Lakh penalty on two Co-op Banks - Indian Cooperative,https://www.indiancooperative.com,0,2,Regulator,6.25,True
+innovationnewsnetwork.com,1,1.0,1,,How standardised geospatial schemas could be revolutionising emergency response and global risk management - Innovation News Network,https://www.innovationnewsnetwork.com,0,2,Media,6.25,True
+intlbm.com,1,1.0,1,,BankDhofar Introduces Basic Savings Account for the Wage Protection System - intlbm,https://intlbm.com,0,2,Regulator,6.25,True
+investywise.com,1,1.0,1,,Indian Overseas Bank Penalty Order Issued Under CGST Act for ₹8.23 Crore - InvestyWise,https://www.investywise.com,0,2,Regulator,6.25,True
+invezz.com,1,1.0,1,,"Interview: geopolitical stress makes case for digital payment rails, says Aquanow CEO - Invezz",https://invezz.com,0,0,Other,3.25,True
+japantimes.co.jp,1,1.0,1,,Japanese banks to share data on fraudulent accounts from April 2027 - The Japan Times,https://www.japantimes.co.jp,1,2,Regulator,7.75,True
+kenyainsights.com,1,1.0,1,,THE BANK THAT BROKE THE TRUCKER: How NCBA’s Asset Financing Empire Is on Trial Before London’s Most Feared Arbitral Tribunal - Kenya Insights,https://kenyainsights.com,0,2,Regulator,6.25,True
+kpler.com,1,1.0,1,,How to build a risk tree to assess shadow fleet exposure in your network - Kpler,https://www.kpler.com,0,0,Other,3.25,True
+kpmg.com,1,1.0,1,,Payments modernization: A Canadian perspective on a global shift - KPMG,https://kpmg.com,0,0,Other,3.25,True
+kuwaittimes.com,1,1.0,1,,PM presides over FATF compliance meeting as Kuwait boosts security - Kuwait Times,https://kuwaittimes.com,0,2,Regulator,6.25,True
+law360.com,1,1.0,1,,FDIC Reports Fewest Consumer Compliance Citations In Years - Law360,https://www.law360.com,0,2,Media,6.25,True
+lawgazette.co.uk,1,1.0,1,,Palantir primed to access law firm AML data - The Law Society Gazette,https://www.lawgazette.co.uk,1,2,Legislation,7.75,True
+lawscot.org.uk,1,1.0,1,,Money Laundering Regulations reform - Law Society of Scotland,https://www.lawscot.org.uk,1,0,Legislation,4.75,True
+ledgerinsights.com,1,1.0,1,,Treasury proposes rules for state stablecoin regulation under GENIUS Act - ledgerinsights.com,https://www.ledgerinsights.com,0,2,Other,6.25,True
+legalfutures.co.uk,1,1.0,1,,AML in an era of unpredictable threats - Legal Futures,https://www.legalfutures.co.uk,1,0,FIU/AML,4.75,True
+linkedin.com,1,1.0,1,,"AML MACHINE: A small suburban police station which dedicated just two of its officers to fighting financial crime became an “AML machine”, uncovering money laundering networks and prosecuting more than 200 suspects. The tiny team also discovered crimi - LinkedIn",https://www.linkedin.com,0,2,Regulator,6.25,True
+logisticsviewpoints.com,1,1.0,1,,Global Trade Compliance Is Under Strain. Execution Models Must Evolve - Logistics Viewpoints,https://logisticsviewpoints.com,0,2,Industry,6.25,True
+m.alphabiz.co.kr,1,1.0,1,,Korean Financial Regulators Face Rising Legal Challenges as Firms Ramp Up Lawsuits Against Sanctions - 알파경제,https://m.alphabiz.co.kr,1,2,Legislation,7.75,True
+m.au.investing.com,1,1.0,1,,Treasury urges banks to watch for healthcare fraud schemes By Investing.com - Investing.com Australia,https://m.au.investing.com,0,2,Regulator,6.25,True
+m.economictimes.com,1,1.0,1,,What changes will RBI’s new rules bring to digital payments from April 1? - The Economic Times,https://m.economictimes.com,0,0,Other,3.25,True
+maaal.com,1,1.0,1,,(FATF): Stablecoins' Market Capitalization Reaches $300 Billion... A Potential Tool for Money Laundering - صحيفة مال,https://maaal.com,0,2,Legislation,6.25,True
+mactrast.com,1,1.0,1,,UK Regulators Hit Apple Ireland With $500k Fine for Violating Sanctions Against Russia - MacTrast,https://www.mactrast.com,0,2,Enforcement,6.25,True
+medianama.com,1,1.0,1,,RBI May Regulate E-Commerce in Payments Ecosystem - MediaNama,https://www.medianama.com,0,0,Regulator,3.25,True
+meyka.com,1,1.0,1,,April 01: Saxony Cybercrime Surge Puts Banks and Platforms on Alert - Meyka,https://meyka.com,0,2,Regulator,6.25,True
+mirror.co.uk,1,1.0,1,,Messages 'could drain your bank account' as new alert issued - The Mirror,https://www.mirror.co.uk,1,2,Regulator,7.75,True
+mlex.com,1,1.0,1,,Whistleblower program aims to enhance US money laundering enforcement - mlex.com,https://www.mlex.com,0,2,Enforcement,6.25,True
+mmegi.bw,1,1.0,1,,"Pensioner loses P30,000 to KYC phone scam - Mmegi Online",https://www.mmegi.bw,1,0,Other,4.75,True
+mondaq.com,1,1.0,1,,From Complaints To Compliance: Understanding The RBI's Integrated Ombudsman Framework (Video) - Mondaq,https://www.mondaq.com,0,2,Other,6.25,True
+mondaq.com:443,1,1.0,1,,An EU View On The SEC - CFTC Joint Interpretative Release And MOU On Crypto - assets,https://www.mondaq.com:443/unitedstates/commoditiesderivativesstock-exchanges/1766230/an-eu-view-on-the-sec-cftc-joint-interpretative-release-and-mou-on-crypto-assets,1,2,Regulator,7.75,True
+moneymarketing.co.uk,1,1.0,1,,FCA ramps up AI as client use raises advice risks - Money Marketing,https://www.moneymarketing.co.uk,1,2,Regulator,7.75,True
+mybroadband.co.za,1,1.0,1,,Good news for Standard Bank customers who need a smart ID - MyBroadband,https://mybroadband.co.za,1,2,Regulator,7.75,True
+myjoyonline.com,1,1.0,1,,Ghana Fintech Architect Kwame Oppong Agyapong clinches top industry honour - MyJoyOnline,https://www.myjoyonline.com,0,0,Other,3.25,False
+mypunepulse.com,1,1.0,1,,"RBI Imposes Penalties On Union Bank, Bank Of India, Central Bank And Pine Labs - mypunepulse.com",https://www.mypunepulse.com,0,2,Regulator,6.25,True
+newsbywire.com,1,1.0,1,,New Climate Risk & Resilience Service Helps Businesses Navigate Climate Uncertainty - News By Wire,https://newsbywire.com,0,0,Media,3.25,True
+newtelegraphng.com,1,1.0,1,,Lagos Govt Seals Access Bank Branch Over Alleged Sewage Discharge - New Telegraph,https://newtelegraphng.com,0,2,Regulator,6.25,True
+nftplazas.com,1,1.0,1,,Best Crypto Exchange in UAE 2026: Top 10 Platforms Reviewed - NFT Plazas,https://nftplazas.com,0,0,Other,3.25,True
+nltimes.nl,1,1.0,1,,"Bank help desk con artists in Groningen, Amsterdam arrested over €1.7 million scam - NL Times",https://nltimes.nl,1,2,Regulator,7.75,True
+nortonrosefulbright.com,1,1.0,1,,Annual plan and budget 2026/2027: PSR lays down priorities | Inside FinTech | Global law firm - Norton Rose Fulbright,https://www.nortonrosefulbright.com,0,0,Media,3.25,True
+nst.com.my,1,1.0,1,,Bank Rakyat resolves Bank Negara penalty over cybersecurity incident - NST Online,https://www.nst.com.my,1,2,Regulator,7.75,True
+nytimes.com,1,1.0,1,,From Foe to Ally: The S.E.C. Is Now Writing Crypto-Friendly Policies - The New York Times,https://www.nytimes.com,0,0,Other,3.25,True
+orfonline.org,1,1.0,1,,Building a Regulatory Framework for Online Gaming in India - orfonline.org,https://www.orfonline.org,2,2,Other,9.25,True
+osborneclarke.com,1,1.0,1,,"Bribery, fraud and anti-money laundering | UK Regulatory Outlook March 2026 - Osborne Clarke",https://www.osborneclarke.com,0,2,FIU/AML,6.25,True
+outlookmoney.com,1,1.0,1,,"RBI Imposes Total Penalty Of Rs 2.17 Crore On Union Bank, Bank Of India, Central Bank - Outlook Money",https://www.outlookmoney.com,0,2,Regulator,6.25,True
+penbaypilot.com,1,1.0,1,,3/31 at Camden Rotary Club: Bank Fraud Prevention - PenBay Pilot,https://www.penbaypilot.com,0,2,Regulator,6.25,True
+pinsentmasons.com,1,1.0,1,,UAE Central Bank enhances SME customer protection framework - Pinsent Masons,https://www.pinsentmasons.com,0,2,Regulator,6.25,True
+pintu.co.id,1,1.0,1,,"3 XRP Facts of the Day: Ripple Approaches National Banks, Price of IDR22,270 Weakens? - Pintu",https://pintu.co.id,1,2,Regulator,7.75,True
+pressreader.com,1,1.0,1,,U.S. investigat­ion of dirty money trail leads to downfall of Swiss bank. - PressReader,https://www.pressreader.com,0,2,Regulator,6.25,True
+propakistani.pk,1,1.0,1,,SBP Announces Independent Bank Accounts for Teenagers - ProPakistani,https://propakistani.pk,1,2,Regulator,7.75,True
+psu.com,1,1.0,1,,"The UK Gambling Market: Regulation, Responsible Play and Online Slots - PlayStation Universe",https://www.psu.com,0,0,Other,3.25,True
+realclearpolicy.com,1,1.0,1,,Stop Harmful Credit Union Regulation - RealClearPolicy,https://www.realclearpolicy.com,0,0,Other,3.25,True
+regulationtomorrow.com,1,1.0,1,,Payday Super Readiness - Global Regulation Tomorrow,https://www.regulationtomorrow.com,0,0,Other,3.25,True
+reinasia.com,1,1.0,1,,APRA sets 1 July start for AILP in longevity product capital rules - (Re)in Asia,https://reinasia.com,0,2,Other,6.25,True
+report.az,1,1.0,1,,CBA discusses integration of ESG risks into credit and investment decisions - Report.az,https://report.az,1,0,Other,4.75,True
+republicworld.com,1,1.0,1,,"Rs 23,000 Crore Online Betting–Fintech Network Under Probe - Republic World",https://www.republicworld.com,0,0,Other,3.25,True
+research.hktdc.com,1,1.0,1,,UAE: Dubai’s Financial Services Authority Clarifies AML/CTF/S Terms - HKTDC Research,https://research.hktdc.com,0,2,Regulator,6.25,True
+ripplesnigeria.com,1,1.0,1,,"CBN wraps up recapitalisation exercise, raises N4.65tr to strengthen financial system resilience - Ripples Nigeria",https://www.ripplesnigeria.com,0,0,Other,3.25,True
+sahmcapital.com,1,1.0,1,,Bank Of America Faces Epstein Settlement And Paris Security Scrutiny - Sahm,https://www.sahmcapital.com,0,2,Regulator,6.25,True
+scoop.my,1,1.0,1,,Bank Rakyat fined RM1mil over cybersecurity and customer data lapses - scoop.my,https://www.scoop.my,1,2,Regulator,7.75,True
+sharecafe.com.au,1,1.0,1,,Challenger Welcomes APRA’s Capital Framework for Longevity Products - Sharecafe,https://www.sharecafe.com.au,1,2,Other,7.75,True
+simplywall.st,1,1.0,1,,Bank Of America Faces Epstein Settlement And Paris Security Scrutiny - simplywall.st,https://simplywall.st,1,2,Regulator,7.75,True
+ssir.org,1,1.0,1,,Making Compliance Work for Philanthropy,https://ssir.org/articles/entry/philanthropy-making-compliance-work,2,2,Other,9.25,True
+structuredcreditinvestor.com,1,1.0,1,,No SRT? Australian bank deal shows the workaround - Structured Credit Investor,https://www.structuredcreditinvestor.com,0,2,Regulator,6.25,True
+taxscan.in,1,1.0,1,,"Banks mandated to deduct TDS on annual interest income exceeding ₹50,000 - Taxscan",https://www.taxscan.in,1,2,Regulator,7.75,True
+tbsnews.net,1,1.0,1,,Cenbank introduces new cybersecurity framework for financial sector - The Business Standard,https://www.tbsnews.net,1,2,Regulator,7.75,True
+techbullion.com,1,1.0,1,,The Growth of Fintech Data Platforms - TechBullion,https://techbullion.com,0,0,Other,3.25,True
+techjuice.pk,1,1.0,1,,SBP Allows Teenagers to Open Independent Bank Accounts in Pakistan - TechJuice,https://www.techjuice.pk,1,2,Regulator,7.75,True
+technode.global,1,1.0,1,,"UOB sees stablecoins, CBDCs, and tokenized deposits drive digital money evolution - TNGlobal",https://technode.global,1,0,Other,4.75,True
+tekedia.com,1,1.0,1,,Jerome Powell Notes that Federal Reserve Has No Plans for a Central Bank Digital Currency - Tekedia,https://www.tekedia.com,0,2,Regulator,6.25,True
+the420.in,1,1.0,1,,"Massive Bank Fraud Crackdown: 1,105 Cases Probed, ₹64,920 Crore Assets Seized - The420.in",https://the420.in,1,2,Regulator,7.75,True
+theadviser.com.au,1,1.0,1,,Climate stress test flags growing home insurance fault line - The Adviser,https://www.theadviser.com.au,1,0,Other,4.75,True
+thebangladeshtoday.com,1,1.0,1,,"SBAC Bank steps into 14th year with steady growth, strong fundamentals - The Bangladesh Today",https://thebangladeshtoday.com,0,2,Regulator,6.25,True
+theenergymix.com,1,1.0,1,,"New Oil and Gas Projects Heighten Financial Risk for Canada, Carbon Tracker Analysis Shows - The Energy Mix",https://www.theenergymix.com,0,0,Other,3.25,True
+thegamingboardroom.com,1,1.0,1,,"Australia’s new AML framework kicks in today, placing greater responsibility on gambling sector - The Gaming Boardroom",https://thegamingboardroom.com,0,2,Regulator,6.25,True
+theintermediary.co.uk,1,1.0,1,,"Regulation, not demand, is driving the shape of lending - The Intermediary",https://theintermediary.co.uk,1,0,Media,4.75,True
+thejakartapost.com,1,1.0,1,,Fintech case exposes troubling misapplication of competition law - The Jakarta Post,https://www.thejakartapost.com,0,0,Media,3.25,True
+themalaysianreserve.com,1,1.0,1,,"BNM fines Bank Rakyat RM1m over cybersecurity, customer data breaches - The Malaysian Reserve",https://themalaysianreserve.com,0,2,Regulator,6.25,True
+themandarin.com.au,1,1.0,1,,Bullock moves to arrest systemic gouging of payments - The Mandarin,https://www.themandarin.com.au,1,0,Other,4.75,True
+thenextweb.com,1,1.0,1,,The Multi-Hop Challenge: Understanding Indirect Blockchain Exposure in Compliance - thenextweb.com,https://thenextweb.com,0,2,Other,6.25,True
+thequantuminsider.com,1,1.0,1,,15+ Global Banks Exploring Quantum Technologies [2026] - The Quantum Insider,https://thequantuminsider.com,0,2,Regulator,6.25,True
+thestar.com.my,1,1.0,1,,"Bank Negara fines Bank Rakyat RM1mil for cybersecurity, customer information protection breaches - The Star",https://www.thestar.com.my,1,2,Regulator,7.75,True
+thomsonreuters.com,1,1.0,1,,Pressure mounting on company boards to address nature-related financial risks - Thomson Reuters,https://www.thomsonreuters.com,0,0,Media,3.25,True
+times.co.sz,1,1.0,1,,IMF strengthens bank recovery planning framework :: Business & Economy News - Times of Eswatini,https://times.co.sz,1,2,Regulator,7.75,True
+timesofindia.indiatimes.com,1,1.0,1,,Indane LPG gas KYC online: Step-by-step guide to update Aadhaar and complete eKYC for uninterrupted gas s - The Times of India,https://timesofindia.indiatimes.com,0,0,Other,3.25,True
+tokenpost.com,1,1.0,1,,Mastercard's $1.8B BVNK Acquisition Signals the Future of Stablecoin Payments - tokenpost.com,https://tokenpost.com,0,2,Other,6.25,True
+tradingview.com,1,1.0,1,,Russia moves to narrow crypto trading to regulated intermediaries - tradingview.com,https://www.tradingview.com,0,0,Media,3.25,True
+travelandtourworld.com,1,1.0,1,,Tourists Beware: Europe’s New Stablecoin Regulations Will Make Paying for Your Dream Vacation Easier Than Ever! - travelandtourworld.com,https://www.travelandtourworld.com,0,0,Media,3.25,True
+tynmagazine.com,1,1.0,1,,Stablecoins gain traction in Latin America but questions linger over their role in global payments - TyN Magazine,https://tynmagazine.com,0,0,Other,3.25,True
+upstox.com,1,1.0,1,,From e-cheques to payment ‘off switches’: RBI’s 2028 plan explained simply - Upstox,https://upstox.com,0,0,Other,3.25,True
+urbanmilwaukee.com,1,1.0,1,,Milwaukee City Attorney Files One of the Largest Public Nuisance Enforcement Actions in City History - Urban Milwaukee,https://urbanmilwaukee.com,0,2,Enforcement,6.25,True
+usaherald.com,1,1.0,1,,"Judge Allows Epstein Survivor’s Claims Against Bank of America to Proceed, Dismisses Case Against BNY - USA Herald",https://usaherald.com,0,2,Regulator,6.25,True
+vanguardngr.com,1,1.0,1,,"CBN, financial system and regulatory balance - Vanguard News",https://www.vanguardngr.com,0,2,Media,6.25,True
+walesonline.co.uk,1,1.0,1,,Three text messages 'could empty your bank account' - Wales Online,https://www.walesonline.co.uk,1,2,Regulator,7.75,True
+washingtontimes.com,1,1.0,1,,Protests erupt in West Bank as Israel approves death penalty for Palestinians convicted of murder - washingtontimes.com,https://www.washingtontimes.com,0,2,Regulator,6.25,True
+wealthbriefing.com,1,1.0,1,,UK Financial Regulator Cuts Motor Finance Redress Hit To Banks - WealthBriefing,https://www.wealthbriefing.com,0,2,Regulator,6.25,True
+whalesbook.com,1,1.0,1,,"RBI Unveils E-Cheques, Expands Digital Payment Oversight - Whalesbook",https://www.whalesbook.com,0,0,Other,3.25,True
+wsj.com,1,1.0,1,,Bank of America Agrees to Pay $72.5 Million to Settle Epstein Lawsuit - WSJ,https://www.wsj.com,0,2,Regulator,6.25,True
+yellow.com,1,1.0,1,,Ripple And The Race To Build A Global Payments Network - Yellow.com,https://yellow.com,0,0,Other,3.25,True
+yogonet.com,1,1.0,1,,Spanish payment controls are making it harder for offshore casinos to operate - Yogonet,https://www.yogonet.com,0,0,Other,3.25,True
+zebpay.com,1,1.0,1,,"Is Crypto Legal in India? Legal Status, Tax Rules, RBI & More - ZebPay",https://zebpay.com,0,0,Other,3.25,True
+zpravy.kurzy.cz,1,1.0,1,,"Frank Elderson, Piero Cipollone: Digital euro: an opportunity for banks - Zprávy Kurzy.cz",https://zpravy.kurzy.cz,1,2,Regulator,7.75,True
+2merkato.com,1,0.0,0,,Ethiopia: NBE Moves to Tighten Oversight of SACCOs and Pension Funds - 2Merkato,https://www.2merkato.com,0,0,Regulator,1.25,True
+africanlawbusiness.com,1,0.0,0,,Controls must not become our constraints - African Law & Business,https://www.africanlawbusiness.com,0,0,Media,1.25,True
+agbi.com,1,0.0,0,,Qatar says liquidity sufficient to overcome any war stress - Arabian Gulf Business Insight | AGBI,https://www.agbi.com,0,0,Other,1.25,True
+aijourn.com,1,0.0,0,,Best AI Companies for Financial Industry (2026 Guide) - The AI Journal,https://aijourn.com,0,0,Other,1.25,True
+annaharkw.com,1,0.0,0,,جريدة النهار الكويتية | العبدالله ترأس اجتماعاً بشأن ملاحظات ومتطلبات « فاتف » ,https://www.annaharkw.com/annahar/Article.aspx?id=1042163,0,0,Other,1.25,True
+antt.vn,1,0.0,0,,Lãi suất tiết kiệm vẫn neo cao sau văn bản chấn chỉnh của Ngân hàng Nhà nước,http://antt.vn/lai-suat-tiet-kiem-van-neo-cao-sau-van-ban-chan-chinh-cua-ngan-hang-nha-nuoc-403800.htm,1,0,Other,2.75,True
+arabtimesonline.com,1,0.0,0,,Kuwait steps up efforts to meet FATF anti-money laundering standards - Arab Times Kuwait News,https://www.arabtimesonline.com,0,2,FIU/AML,4.25,True
+asean.bernama.com,1,0.0,0,,"Islamic Finance Gains Momentum In ASEAN, Reflecting Wider Appeal And Interest - BNM - Bernama",https://asean.bernama.com,0,0,Other,1.25,True
+assetservicingtimes.com,1,0.0,0,,Withholding nothing - Asset Servicing Times,https://www.assetservicingtimes.com/specialistfeatures/specialistfeature.php?specialist_id=683,0,0,Other,1.25,True
+banklesstimes.com,1,0.0,0,,"KuCoin Ordered to Block U . S . Traders , Ordered to Pay $500K to Settle CFTC Case",https://www.banklesstimes.com/articles/2026/03/31/kucoin-ordered-to-block-u-s-traders-ordered-to-pay-500k-to-settle-cftc-case/,0,2,Regulator,4.25,True
+barbadostoday.bb,1,0.0,0,,Business Barbados ramps up support for nonprofits,https://barbadostoday.bb/2026/03/31/business-barbados-ramps-up-support-for-nonprofits/,1,0,Other,2.75,True
+blockzeit.com,1,0.0,0,,Digital Yuan Finds Large-Scale Use In Iran’s Hormuz Toll Booth - blockzeit.com,https://blockzeit.com,0,0,Other,1.25,True
+bloomberg.com,1,0.0,0,,"Apple Fined £390,000 by UK Over Russian Sanction Breaches - Bloomberg.com",https://www.bloomberg.com,0,0,Enforcement,1.25,True
+bnldata.com.br,1,0.0,0,,'Illegal betting sites help fuel organized crime' - BNLData,https://bnldata.com.br,1,0,Other,2.75,True
+bolsamania.com,1,0.0,0,,BlackRock Smaller Companies Trust Plc - Result of Tender Offer - Bolsamania,https://www.bolsamania.com,0,0,Other,1.25,True
+breitbart.com,1,0.0,0,,Sec. Bessent: Treasury Could Reward Healthcare Fraud Whistleblowers Up to 30% as Tips Surpass 700 - breitbart.com,https://www.breitbart.com,0,2,Regulator,4.25,True
+britannica.com,1,0.0,0,,U.S. Secret Service - britannica.com,https://www.britannica.com,0,2,Regulator,4.25,True
+businessdailyafrica.com,1,0.0,0,,Why quality disclosures are critical when navigating uncertainties - Business Daily,https://www.businessdailyafrica.com,0,0,Other,1.25,True
+businessreport.co.za,1,0.0,0,,Unpacking a year of SA being greylisted - businessreport.co.za,https://businessreport.co.za,1,0,Regulator,2.75,True
+businesswire.com,1,0.0,0,,"Cybersecurity Firm TAC Security Surpasses 10,000 Clients, Emerges Among the Top 5 Vulnerability Management, AppSec Companies Globally - Business Wire",https://www.businesswire.com,0,2,Regulator,4.25,True
+capitalfm.co.ke,1,0.0,0,,DPP Secures Arrest Warrant for JKIA Immigration Officer in Human - Trafficking Case,https://www.capitalfm.co.ke/news/2026/04/dpp-secures-arrest-warrant-for-jkia-immigration-officer-in-human-trafficking-case/,1,2,Regulator,5.75,True
+cato.org,1,0.0,0,,Oh BOI: Reforming Financial Reporting - Cato Institute,https://www.cato.org,2,0,Other,4.25,True
+cepr.org,1,0.0,0,,Information equalisation and competition in selection markets: Evidence from auto insurance - CEPR,https://cepr.org,2,0,Other,4.25,True
+china-briefing.com,1,0.0,0,,Entering Hong Kong: Operational Roadmap for Chinese Mainland Enterprises - China Briefing,https://www.china-briefing.com,0,0,Other,1.25,True
+cobrapost.com,1,0.0,0,,Cobrapost Investigation : LOOTWALLAHS : HOW INDIAN BUSINESS IS ROBBING INDIANS Part,https://cobrapost.com/blog/cobrapost-investigation-lootwallahs-how-indian-business-is-robbing-indians-part-i-13871,0,0,Other,1.25,True
+cointrust.com,1,0.0,0,,FinChain Integrates Chainlink to Boost RWA Adoption in Asia - CoinTrust,https://www.cointrust.com,0,0,Other,1.25,True
+consumerfinancialserviceslawmonitor.com,1,0.0,0,,"Troutman Pepper Locke Weekly Consumer Financial Services Newsletter – March 26, 2026 - Consumer Financial Services Law Monitor",https://www.consumerfinancialserviceslawmonitor.com,0,0,Media,1.25,True
+corporate.cyrilamarchandblogs.com,1,0.0,0,,FIG Paper No. 55 (VDA Series 10): India’s First Asset Tokenisation Bill: What It Means for the Digital Assets Space - Cyril Amarchand Mangaldas,https://corporate.cyrilamarchandblogs.com,0,0,Legislation,1.25,True
+crowdfundinsider.com,1,0.0,0,,Bitpanda’s Vision Chain Assists With Tokenization - Crowdfund Insider,https://www.crowdfundinsider.com,0,0,Other,1.25,True
+crowe.com,1,0.0,0,,Financial reporting judgements under increased scrutiny - Crowe,https://www.crowe.com,0,0,Other,1.25,True
+ctvnews.ca,1,0.0,0,,Break‑in suspect arrested after police recognize clothing from suspicious surveillance video - CTV News,https://www.ctvnews.ca,1,0,Media,2.75,True
+dailyasianage.com,1,0.0,0,,The Silent Siege of NPLs on Bangladesh’s Economic Citadel - dailyasianage.com,https://dailyasianage.com,0,0,Regulator,1.25,True
+dailytrust.com,1,0.0,0,,Traditional Finance Faces Structural Change In The Digital Economy - Daily Trust,https://dailytrust.com,0,0,Other,1.25,True
+decrypt.co,1,0.0,0,,Fed's Barr Says Stablecoins Need Tighter Controls to Fight Money Laundering - Decrypt,https://decrypt.co,1,0,FIU/AML,2.75,True
+digi.china.com,1,0.0,0,,蓝莎集团 ( Lansha united kingdom ) 武汉启幕 ： 深耕华中 ， 连接全球多语种资管新生态 _ 中华网,https://digi.china.com/articles/20260401/202604011838197.html,0,0,Other,1.25,True
+digitaltoday.co.kr,1,0.0,0,,KB Financial wins MSCI ESG 'AAA' for fifth straight time - 디지털투데이,https://www.digitaltoday.co.kr,1,0,Other,2.75,True
+dlnews.com,1,0.0,0,,‘Not pretty’: Ripple boss says Clarity Act negotiations have been tough but deal is close - dlnews.com,https://www.dlnews.com,0,0,Media,1.25,True
+dominicantoday.com,1,0.0,0,,The Dominican innovation gap No One is assigned to fix,https://dominicantoday.com/dr/digital-nomad/2026/03/31/the-dominican-innovation-gap-no-one-is-assigned-to-fix/,0,0,Other,1.25,True
+dostor.org,1,0.0,0,,الهيئة العامة للرقابة المالية تعقد لقاءً موسعًا لتطوير نشاط التمويل العقاري,https://www.dostor.org/5484661,2,0,Other,4.25,True
+dw.com,1,0.0,0,,Nepal: Ex-energy minister arrested in money laundering case - dw.com,https://www.dw.com,0,0,FIU/AML,1.25,True
+easternherald.com,1,0.0,0,,AI Casino Scam Exposed Targeting UK Gamblers - The Eastern Herald,https://easternherald.com,0,0,Other,1.25,True
+el-balad.com,1,0.0,0,,Governor Barr Highlights Key Insights on Stablecoins,https://www.el-balad.com/16898665,0,0,Other,1.25,True
+en.bitcoinsistemi.com,1,0.0,0,,Expert Warns US Institutions About Bitcoin (BTC)! “Think Carefully!” - Bitcoin Sistemi,https://en.bitcoinsistemi.com,0,0,Other,1.25,True
+en.bloomingbit.io,1,0.0,0,,Shin Hyun-song: “Why do we need stablecoins when we already have the real thing?”… Momentum builds for ‘Project Hangang’ - bloomingbit,https://en.bloomingbit.io,1,0,Other,2.75,True
+en.nhandan.vn,1,0.0,0,,Green credit: Key driver of new growth model - Nhan Dan Online,https://en.nhandan.vn,1,0,Other,2.75,True
+en.vneconomy.vn,1,0.0,0,,How to access transition finance? - Vietnam Economic Times,https://en.vneconomy.vn,1,0,Other,2.75,True
+english.mathrubhumi.com,1,0.0,0,,"End of Financial Year: Kerala govt tightens treasury controls, caps bill clearance at Rs 25 lakh - Mathrubhumi English",https://english.mathrubhumi.com,0,2,Legislation,4.25,True
+enterpriseai.economictimes.indiatimes.com,1,0.0,0,,India's critical infrastructure faces rising cyber threats from state actors - Indiatimes,https://enterpriseai.economictimes.indiatimes.com,0,0,Other,1.25,True
+eurasiareview.com,1,0.0,0,,Major Operation Targets One Of Scotland’s Most Violent Crime Networks - Eurasia Review,https://www.eurasiareview.com,0,0,Other,1.25,True
+eureporter.co,1,0.0,0,,New anti-corruption rules only a 'first step' - EU Reporter,https://www.eureporter.co,1,0,Other,2.75,True
+facilitiesmanagement-now.com,1,0.0,0,,New FCA Operational Incident & Third‑Party Reporting Rules: What You Need to Know - facilitiesmanagement-now.com,https://www.facilitiesmanagement-now.com,0,2,Regulator,4.25,True
+fijisun.com.fj,1,0.0,0,,"National ID Bill aims to simplify services, integrate systems nationwide - Fiji Sun",https://fijisun.com.fj,1,0,Legislation,2.75,True
+financialnewswire.com.au,1,0.0,0,,APRA looks internally to fill exec director roles - Financial Newswire,https://financialnewswire.com.au,1,2,Media,5.75,True
+finanznachrichten.de,1,0.0,0,,Churchill Downs Incorporated Statement Regarding United States District Court Victory in Churchill Downs Inc . v . Horseracing Integrity and Safety Authority,https://www.finanznachrichten.de/nachrichten-2026-04/68105669-churchill-downs-incorporated-statement-regarding-united-states-district-court-victory-in-churchill-downs-inc-v-horseracing-integrity-and-safety-auth-399.htm,1,2,Regulator,5.75,True
+finfacts.ie,1,0.0,0,,Best Online Casinos in Ireland 2026 | Top Irish Sites,http://www.finfacts.ie/,1,0,Other,2.75,True
+focusmalaysia.my,1,0.0,0,,RM277 bil lost: Malaysia’s economic crime crackdown enters a new phase - focusmalaysia.my,https://focusmalaysia.my,1,0,Regulator,2.75,True
+freemalaysiatoday.com,1,0.0,0,,"  Corporate crime  an emerging threat , warns MACC",https://www.freemalaysiatoday.com/category/nation/2026/04/02/corporate-crime-an-emerging-threat-warns-macc,0,0,Other,1.25,True
+fticonsulting.com,1,0.0,0,,The Lifeblood of Recovery: Venezuela and the Global Financial System - FTI Consulting,https://www.fticonsulting.com,0,0,Other,1.25,True
+futuretransport-news.com,1,0.0,0,,Geotab’s 2025 Sustainability and Impact Report Highlights - Future Transport-News,https://futuretransport-news.com,0,0,Media,1.25,True
+fxnewsgroup.com,1,0.0,0,,Australian regulator imposes additional licence conditions on Fiducian - FX News Group,https://fxnewsgroup.com,0,2,Media,4.25,True
+gamingintelligence.com,1,0.0,0,,Star Entertainment agrees refinancing as Sydney licence suspension extended,https://www.gamingintelligence.com/legal/228537-star-entertainment-agrees-refinancing-as-sydney-licence-suspension-extended/,0,0,Other,1.25,True
+gcis.gov.za,1,0.0,0,,"Statement on the Cabinet meeting of 25 March 2026 , and Special Cabinet meeting of 1 April 2026 . | Government Communication and Information System ( GCIS ) ",https://www.gcis.gov.za/statement-on-the-cabinet-meeting-of-25-march-2026-and-special-cabinet-meeting-of-1-april-2026,1,0,Other,2.75,True
+gfmag.com,1,0.0,0,,Stablecoins Gain Traction But CFOs Face Challenges - Global Finance Magazine,https://gfmag.com,0,0,Regulator,1.25,True
+ghanaweb.com,1,0.0,0,,Make cybersecurity core business infrastructure - GAB - GhanaWeb,http://www.ghanaweb.com,0,2,Regulator,4.25,True
+gijn.org,1,0.0,0,,How Journalists Can Fight Back Against the Rising Tide of Money Laundering - Global Investigative Journalism Network (GIJN),https://gijn.org,2,0,FIU/AML,4.25,True
+globalinitiative.net,1,0.0,0,,Papua New Guinea returns to the FATF grey list - Global Initiative against Transnational Organized Crime (GI-TOC),https://globalinitiative.net,1,2,FIU/AML,5.75,True
+globenewswire.com,1,0.0,0,,Geotab’s 2025 Sustainability and Impact Report shows fleets - GlobeNewswire,https://www.globenewswire.com,0,0,Media,1.25,True
+gov.uk,1,0.0,0,,Voluntary carbon and nature markets: raising integrity - summary of responses (accessible webpage) - GOV.UK,https://www.gov.uk,1,0,Other,2.75,True
+gtlaw.com,1,0.0,0,,"Greenberg Traurig Attorneys , Practices Named to Chambers Europe and Germany 2026 | News",https://www.gtlaw.com/en/news/2026/03/press-releases/greenberg-traurig-attorneys-practices-named-to-chambers-europe-and-germany-2026,0,0,Industry,1.25,True
+gulfnews.com,1,0.0,0,,Dubai launches ‘Amer’ cybersecurity reporting service to combat online fraud - Gulf News,https://gulfnews.com,0,2,Regulator,4.25,True
+helpnetsecurity.com,1,0.0,0,,Financial groups lay out a plan to fight AI identity attacks - Help Net Security,https://www.helpnetsecurity.com,0,2,Regulator,4.25,True
+heraldonline.co.zw,1,0.0,0,,Fees for Victoria Falls offshore financial centre gazetted - heraldonline.co.zw,https://www.heraldonline.co.zw,1,2,Legislation,5.75,True
+housingwire.com,1,0.0,0,,FinCEN’s anti-money laundering rule struck down — now what? - HousingWire,https://www.housingwire.com,0,2,FIU/AML,4.25,True
+hunton.com,1,0.0,0,,ISO Publishes New Standard for Carbon Storage With Potential as Subpart RR Substitute - Hunton Andrews Kurth LLP,https://www.hunton.com,0,0,Media,1.25,True
+ibtimes.com.au,1,0.0,0,,HESTA Super Fund Faces Executive Exodus Amid Strong 2025 Returns and Reform Push - International Business Times Australia,https://www.ibtimes.com.au,1,0,Other,2.75,False
+icij.org,1,0.0,0,,"Ten years after the Panama Papers , enablers and tax cheats are still being brought to justice",https://www.icij.org/investigations/panama-papers/ten-years-after-the-panama-papers-enablers-and-tax-cheats-are-still-being-brought-to-justice/,2,0,Enforcement,4.25,True
+ieefa.org,1,0.0,0,,Advancing South Korea's climate finance potential in ASEAN+3 - Institute for Energy Economics and Financial Analysis (IEEFA),https://ieefa.org,2,0,Other,4.25,True
+igamingbusiness.com,1,0.0,0,,Star Entertainment secures A$590 million refinancing facility,https://igamingbusiness.com/finance/star-entertainment-secures-a590-million-refinancing-facility/,0,2,Regulator,4.25,True
+images.dawn.com,1,0.0,0,,Hamza Ali Abbasi distances himself from sister Fazeela Abbasi’s money laundering case - Dawn Images,https://images.dawn.com,0,0,FIU/AML,1.25,True
+informalnewz.com,1,0.0,0,,PNB account holders should immediately complete this work or else it may be closed in April. - informalnewz,https://www.informalnewz.com,0,0,Media,1.25,True
+insurancebusinessmag.com,1,0.0,0,,APRA adjusts executive ranks with dual director promotions - Insurance Business,https://www.insurancebusinessmag.com,0,2,Other,4.25,True
+insurancejournal.com,1,0.0,0,,Secret Codes and Yuan Fees Get Ships Through Iran Hormuz Tollbooth,https://www.insurancejournal.com/news/international/2026/04/02/864357.htm,0,2,Regulator,4.25,True
+insurancenewsnet.com,1,0.0,0,,"MARCH 31 , 2026 BRIEF REMARKS ON STABLECOINS",https://insurancenewsnet.com/oarticle/march-31-2026-brief-remarks-on-stablecoins,0,0,Media,1.25,True
+interest.co.nz,1,0.0,0,,ASB's long running transaction monitoring woes - Interest.co.nz,https://www.interest.co.nz,1,0,Other,2.75,True
+itnews.com.au,1,0.0,0,,APRA pulls data submission system after security pentest - iTnews,https://www.itnews.com.au,1,2,Regulator,5.75,True
+kaieteurnewsonline.com,1,0.0,0,,  GBTI acted in bad faith when it closed WIN party member account - court rules,https://kaieteurnewsonline.com/2026/03/31/gbti-acted-in-bad-faith-when-it-closed-win-party-members-accounts-court-rules/,0,0,Media,1.25,True
+khaborwala.com,1,0.0,0,,Covéa Modernises Fraud Controls with Shift - Khaborwala,https://khaborwala.com,0,0,Other,1.25,True
+kompas.id,1,0.0,0,,KPPU Needs to Be More Careful in Its Smartar Decisions - Kompas.id,https://www.kompas.id,1,0,Other,2.75,True
+ktpress.rw,1,0.0,0,,Episode 3: Digitising Contract Practice and Management — How Smart Technology is Reshaping Contract Work in Rwanda - KT PRESS -,https://www.ktpress.rw,1,0,Media,2.75,True
+law.com,1,0.0,0,,"Heist Highlights Need for US Oversight of Art Market, Anti-Money Laundering, Experts Say - Law.com",https://www.law.com,0,0,FIU/AML,1.25,True
+lawchakra.in,1,0.0,0,,"Vedanta Vs Adani: Supreme Court Battle Begins Over Rs 57,000 Crore Jaiprakash Insolvency Deal - LawChakra",https://lawchakra.in,1,0,Media,2.75,True
+lemonde.fr,1,0.0,0,,Singer Gims charged with 'aggravated money laundering' - Le Monde.fr,https://www.lemonde.fr,1,0,FIU/AML,2.75,True
+m.tech.china.com,1,0.0,0,,"全球跨境收款 : PingPong以全球支付网络 , 让外贸订单回款更快 、 成本更省 _ 中华网",https://m.tech.china.com/redian/2026/0402/042026_1838914.html,0,0,Other,1.25,True
+maltatoday.com.mt,1,0.0,0,,Anchoring stability through effective oversight - MaltaToday,https://www.maltatoday.com.mt,1,0,Other,2.75,True
+manilatimes.net,1,0.0,0,,Total Voting Rights - The Manila Times,https://www.manilatimes.net,1,0,Other,2.75,True
+marketscreener.com,1,0.0,0,,TAKKT : Non-financial statement 2025 (part of the sustainability statement) - MarketScreener,https://www.marketscreener.com,0,0,Other,1.25,True
+mediotiempo.com,1,0.0,0,,Cierre de bancos Semana Santa 2026 : Horarios 2 y 3 de abril,https://www.mediotiempo.com/actualidad/comunidad/bancos-semana-santa-2026-cierran-opciones-tienes-pagar,0,0,Other,1.25,True
+mexc.co,1,0.0,0,,Why Financial Institutions Are Exploring Blockchain - MEXC Exchange,https://www.mexc.co,1,0,Other,2.75,True
+mexicobusiness.news,1,0.0,0,,Banco Multiva to Deploy MX$170 Billion in ESG Projects - Mexico Business News,https://mexicobusiness.news,1,0,Legislation,2.75,True
+miragenews.com,1,0.0,0,,"New Powers to Tackle Money Laundering, Terror Funding - Mirage News",https://www.miragenews.com,0,0,FIU/AML,1.25,True
+mkaugaming.com,1,0.0,0,,Who Regulates Online Casinos? Licensing Authorities and Oversight Systems Explained - MKAU Gaming,https://www.mkaugaming.com,0,0,Other,1.25,True
+modernhealthcare.com,1,0.0,0,,Bipartisan bill would cap Medicare physician pay cuts - Modern Healthcare,http://www.modernhealthcare.com,0,0,Legislation,1.25,True
+moneyandbanking.co.th,1,0.0,0,,"Synology reports that cyber attacks in Thailand have exceeded 109,000, 164% higher than the global average. - วารสารการเงินธนาคาร",https://moneyandbanking.co.th,1,2,Regulator,5.75,True
+moonstone.co.za,1,0.0,0,,Directive 11 takes effect as FIC opens detailed RCR guidance for comment - Moonstone Information Refinery,https://www.moonstone.co.za,1,0,Other,2.75,True
+mortgagesolutions.co.uk,1,0.0,0,,Regulators consult to permanently scrap high-LTI cap - mortgagesolutions.co.uk,https://www.mortgagesolutions.co.uk,1,2,Other,5.75,True
+mpamag.com,1,0.0,0,,Regulator consults on high LTI mortgage rules - mpamag.com,https://www.mpamag.com,0,2,Other,4.25,True
+nashfm923krst.com,1,0.0,0,,加密货币现状 ： 从今日头条热度看大众关注与行业趋势 我们从数据热度切入 - 奉若神明网,http://www.nashfm923krst.com/html/467c54298990.html,0,0,Other,1.25,True
+nationaltoday.com,1,0.0,0,,Pennsylvania man charged with stealing from NYC clothing company - National Today,https://nationaltoday.com,0,0,Other,1.25,True
+nationthailand.com,1,0.0,0,,"Green finance no longer optional in climate transition, speakers warn - Nation Thailand",https://www.nationthailand.com,0,0,Other,1.25,True
+ndtvprofit.com,1,0.0,0,,UK's New Fraud Law Raises the Stakes for Indian Companies — Here's How - NDTV Profit,https://www.ndtvprofit.com,0,0,Media,1.25,True
+newkerala.com,1,0.0,0,,"UAE , UNODC Strengthen Anti - Money Laundering Cooperation",https://www.newkerala.com/news/a/uae-unodc-explore-prospects-joint-cooperation-389.htm,0,0,FIU/AML,1.25,True
+newsmakerslive.org,1,0.0,0,,From Ban to Oversight: CBN Signals Shift in Nigeria’s Digital Asset Policy - newsmakerslive.org,https://newsmakerslive.org,2,0,Media,4.25,True
+nigeriahousingmarket.com,1,0.0,0,,Nigeria’s New Anti-Money Laundering Rules Ranked Among World’s Best – Report - nigeriahousingmarket.com,https://www.nigeriahousingmarket.com,0,0,FIU/AML,1.25,True
+niskanencenter.org,1,0.0,0,,"Doing as they say, not as they do: The Trump administration's golden passport problem - Niskanen Center",https://www.niskanencenter.org,2,0,Other,4.25,True
+nomadlawyer.org,1,0.0,0,,XRP price prediction: Standard Chartered targets $28 surge in 2026 - Nomad Lawyer,https://www.nomadlawyer.org,2,0,Media,4.25,True
+occrp.org,1,0.0,0,,‘Mr. X’ Revealed: U.K. Freezes $108M in Properties Purchased by Wanted Chinese National - Organized Crime and Corruption Reporting Project | OCCRP,https://www.occrp.org,2,2,Other,7.25,True
+onlinecasinoreports.com,1,0.0,0,,Italy to Release Final Draft of Land - Based Gambling Reforms on April 10,https://www.onlinecasinoreports.com/articles/italy-to-release-final-draft-of-land-based-gambling-reforms-on-april-10.php,0,0,Other,1.25,True
+openaccessgovernment.org,1,0.0,0,,Tackling poor practices in motor finance claims through FCA taskforce - Open Access Government,https://www.openaccessgovernment.org,2,2,Regulator,7.25,True
+ourfinancialsecurity.org,1,0.0,0,,"Statement: Tom Feltner, Associate Director of Consumer Policy on the Consumer Financial Protection Bureau’s New Proposed Layoff Plan - Americans for Financial Reform",https://ourfinancialsecurity.org,2,2,Regulator,7.25,True
+pmnewsnigeria.com,1,0.0,0,,FCMB limits exposure in Fraud attempt - pmnewsnigeria.com,https://pmnewsnigeria.com,0,0,Media,1.25,True
+polity.org.za,1,0.0,0,,Leaving South Africa is not a tax strategy: The hidden cost of a silent exit - Polity.org.za,https://www.polity.org.za,1,0,Other,2.75,True
+ppc.land,1,0.0,0,,UK regulators warn agentic AI is already here - and it needs watching now - PPC Land,https://ppc.land,1,2,Other,5.75,True
+professionalplanner.com.au,1,0.0,0,,"Fiducian rejects APRA concerns, says processes blocked Shield and First Guardian - Professional Planner",https://www.professionalplanner.com.au,1,2,Other,5.75,True
+rawstory.com,1,0.0,0,,White House insiders put on notice as federal prosecutors look into insider trading,https://www.rawstory.com/white-house-insider-trading-investigation/,0,2,Regulator,4.25,True
+realnewsmagazine.net,1,0.0,0,,CBN raises ₦4.65trn to strengthen financial system resilience - Realnews Magazine,https://realnewsmagazine.net,1,0,Media,2.75,True
+responsible-investor.com,1,0.0,0,,"ISSB moves forward on nature-related metrics, targets and transition plans - Responsible Investor",https://www.responsible-investor.com,0,0,Other,1.25,True
+reuters.com,1,0.0,0,,The Clarity Act and the future digital asset market - Reuters,https://www.reuters.com,0,0,Media,1.25,True
+saamana.com,1,0.0,0,,नियमांचे पालन न करणाऱ्या तीन बँकांना दंड,https://www.saamana.com/fines-imposed-on-three-banks-for-non-compliance-with-regulations/,0,0,Other,1.25,True
+scmp.com,1,0.0,0,,"Opinion | Dubai loss could be Hong Kong gain , but only if city is ready",https://www.scmp.com/opinion/hong-kong-opinion/article/3347848/dubais-loss-could-be-hong-kongs-gain-only-if-city-ready,0,0,Other,1.25,True
+secnews.gr,1,0.0,0,,UK: Apple's Irish subsidiary fined - SecNews.gr,https://www.secnews.gr,1,2,Regulator,5.75,True
+securityweek.com,1,0.0,0,,"Lloyds Data Security Incident Impacts 450,000 Individuals - securityweek.com",https://www.securityweek.com,0,2,Regulator,4.25,True
+solicitornews.co.uk,1,0.0,0,,Regulators Launch Taskforce on Motor Finance Claims Practices - Solicitor News,https://solicitornews.co.uk,1,2,Media,5.75,True
+southasianherald.com,1,0.0,0,,Beyond Diplomatic Assurances: Why Bangladesh Must Hold Its Embassies Accountable on Money Laundering - South Asian Herald,https://southasianherald.com,0,0,FIU/AML,1.25,True
+standard.co.uk,1,0.0,0,,Lenders to have greater flexibility offering higher loan to income mortgages - London Evening Standard,https://www.standard.co.uk,1,0,Other,2.75,True
+stocktitan.net,1,0.0,0,,"SHG SEC Filings - Shinhan Finan 10-K, 10-Q, 8-K Forms - Stock Titan",https://www.stocktitan.net,1,2,Regulator,5.75,True
+sudanile.com,1,0.0,0,,لجنة إزالة التمكين واسترداد الأموال العامة في السودان : ( الجزء الثاني ) ,https://sudanile.com/%D9%84%D8%AC%D9%86%D8%A9-%D8%A5%D8%B2%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D8%AA%D9%85%D9%83%D9%8A%D9%86-%D9%88%D8%A7%D8%B3%D8%AA%D8%B1%D8%AF%D8%A7%D8%AF-%D8%A7%D9%84%D8%A3%D9%85%D9%88%D8%A7%D9%84-%D8%A7-2/,0,0,Other,1.25,True
+superreview.com.au,1,0.0,0,,Challenger and Allianz Retire+ welcome APRA’s retirement income reforms - superreview.com.au,https://www.superreview.com.au,1,2,Other,5.75,True
+sustainabilitymag.com,1,0.0,0,,ING: Sustainable Finance to Reach US$1.62tn in 2026 - Sustainability Magazine,https://sustainabilitymag.com,0,0,Other,1.25,True
+the-star.co.ke,1,0.0,0,,DPP secures arrest warrant of immigration officer in human - trafficking case,https://www.the-star.co.ke/news/2026-04-01-dpp-secures-arrest-warrant-for-immigration-officer-in-trafficking-case,1,2,Regulator,5.75,True
+thebusinessjournal.com,1,0.0,0,,Public Notices 4 / 1 / 2026,https://thebusinessjournal.com/public-notices-4-1-2026/,0,0,Other,1.25,True
+theglobeandmail.com,1,0.0,0,,"Companies in carbon-intensive industries pay higher interest rates on their bonds, study shows - The Globe and Mail",https://www.theglobeandmail.com,0,0,Other,1.25,True
+thehansindia.com,1,0.0,0,,Understanding the National Sustainability Reporting Framework (NSRF) - The Hans India,https://www.thehansindia.com,0,0,Other,1.25,True
+theherald.co.za,1,0.0,0,,Cabinet hails R2 - trillion Sars milestone and outlines investment drive,https://www.theherald.co.za/news/2026-04-02-cabinet-hails-r2-trillion-sars-milestone-and-outlines-investment-drive/,1,0,Other,2.75,True
+thekanal.in,1,0.0,0,,"RBI Penalties on PSBs Raise Questions on Accountability, Says Devidas Tuljapurkar - Thekanal",https://thekanal.in,1,0,Other,2.75,True
+thelec.net,1,0.0,0,,UiPath Launches Agentic AI Financial Solution - thelec.net,https://www.thelec.net,1,0,Other,2.75,True
+theshillongtimes.com,1,0.0,0,,Liquor policy case : Delhi HC issues notice to Kejriwal on ED plea,https://theshillongtimes.com/2026/04/01/liquor-policy-case-delhi-hc-issues-notice-to-kejriwal-on-ed-plea/,0,0,Other,1.25,True
+thetimes.com,1,0.0,0,,The fugitive who bought seven London flats in one day for £11.5m - The Times,https://www.thetimes.com,0,0,Other,1.25,True
+timeslive.co.za,1,0.0,0,,Cabinet hails R2 - trillion Sars milestone and outlines investment drive,https://www.timeslive.co.za/news/south-africa/2026-04-02-cabinet-hails-r2-trillion-sars-milestone-and-outlines-investment-drive/,1,0,Other,2.75,True
+timestabloid.com,1,0.0,0,,Big News for XRP: SBI Japan Starts Distributing Ripple’s RLUSD Today - Times Tabloid,https://timestabloid.com,0,0,Media,1.25,True
+today.thefinancialexpress.com.bd,1,0.0,0,,When rape is not 'just' a crime - The Financial Express,https://today.thefinancialexpress.com.bd,1,0,Media,2.75,True
+togofirst.com,1,0.0,0,,Togo reviews NGO oversight under anti-money laundering reforms - Togo First,https://www.togofirst.com,0,0,FIU/AML,1.25,True
+tracxn.com,1,0.0,0,,"Unicorn startups in Israel (Mar, 2026) - Tracxn",https://tracxn.com,0,0,Other,1.25,True
+tradebrains.in,1,0.0,0,,Sattrix Secures Rs 9.30 Cr Cybersecurity Contract from SBI; Stock Gains 249% in a Year - Trade Brains,https://tradebrains.in,1,2,Regulator,5.75,True
+tradingkey.com,1,0.0,0,,Goldman Sachs Group Inc Stock (GS) Moved Up by 4.95% on Mar 31: Facts Behind the Movement - TradingKey,https://www.tradingkey.com,0,0,Other,1.25,True
+trtworld.com,1,0.0,0,,Nepal arrests former energy minister in money laundering probe - TRT World,https://www.trtworld.com,0,0,FIU/AML,1.25,True
+tvcnews.tv,1,0.0,0,,"CBN Selects Flutterwave, Paystack, Others For Virtual Assets Oversight Pilot - - TVC News",https://www.tvcnews.tv,1,0,Media,2.75,True
+ukranews.com,1,0.0,0,,NBU doubts professional competence of Ukrposhta CEO Smilianskyi - Українські Новини,https://ukranews.com,0,0,Media,1.25,True
+uktech.news,1,0.0,0,,The new competitive advantage - UKTN,https://www.uktech.news,1,0,Media,2.75,True
+undp.org,1,0.0,0,,"Nature Is Business: How biodiversity standards can unlock finance, strengthen competitiveness, and secure Rwanda’s economic future - United Nations Development Programme",https://www.undp.org,2,2,Regulator,7.25,True
+vajiramandravi.com,1,0.0,0,,AI in Internal Security India’s Predictive Policing and Cybercrime Control Framework - Vajiram & Ravi,https://vajiramandravi.com,0,2,Regulator,4.25,True
+wealthmanagement.com,1,0.0,0,,Recognizing Signs of Money Laundering - Wealth Management,https://www.wealthmanagement.com,0,0,FIU/AML,1.25,True
+weeklyblitz.net,1,0.0,0,,Unseized Florida properties raise questions in Nigerian corruption case against former education official,https://weeklyblitz.net/2026/04/01/unseized-florida-properties-raise-questions-in-nigerian-corruption-case-against-former-education-official/,1,0,Other,2.75,True
+wired-gov.net,1,0.0,0,,GAD contributes to cross government climate conference - Wired-Gov,https://www.wired-gov.net,1,0,Other,2.75,True
+wnp.pl,1,0.0,0,,Czas na legalizację kasyn on - line ?  Nie chcemy robić z Polski drugiego Las Vegas  ,"https://www.wnp.pl/rynki/czas-na-legalizacje-kasyn-on-line-nie-chcemy-robic-z-polski-drugiego-las-vegas,1048321.html",1,0,Other,2.75,True
+yahoo.com,1,0.0,0,,"Lawsuit alleges racketeering , conspiracy at Resorts World Las Vegas",https://www.yahoo.com/news/articles/lawsuit-alleges-racketeering-conspiracy-resorts-004319690.html,0,0,Legislation,1.25,False
+yangtse.com,1,0.0,0,,精准服务筑根基 深耕客群提质效 江南农商银行武进高新区支行践行本土金融使命赋能区域发展,https://www.yangtse.com/news/jiangsu/202604/t20260401_337762.html,0,0,Other,1.25,True

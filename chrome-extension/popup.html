@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Banking Compliance Source Finder</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="shell">
+    <header class="hero">
+      <div class="eyebrow">VIXIO Regulatory Intelligence</div>
+      <h1>Banking Compliance Source Finder</h1>
+      <p>Built for finding viable sources for our Banking vertical through web-wide trace scanning, excluding what we already cover.</p>
+      <div class="chips">
+        <span>Run Now</span>
+        <span>Findings Table</span>
+        <span>Export CSV</span>
+      </div>
+    </header>
+
+    <section class="controls card">
+      <button id="runNowBtn" class="run">Run Now</button>
+      <button id="exportBtn" class="export" disabled>Export Findings CSV</button>
+      <label class="notify">
+        <input id="notifyCheck" type="checkbox" checked />
+        Notify when scan completes
+      </label>
+      <div id="statusText" class="status">Status: Ready</div>
+    </section>
+
+    <section class="tabs card">
+      <div class="tab-row" role="tablist" aria-label="Source views">
+        <button id="tabFindings" class="tab-btn active" role="tab" aria-selected="true">Findings</button>
+        <button id="tabCurrentSources" class="tab-btn" role="tab" aria-selected="false">Current Banking Sources</button>
+      </div>
+    </section>
+
+    <section class="card covered-card">
+      <div class="table-title">Already Covered Domains (excluded from findings)</div>
+      <textarea id="coveredDomains" rows="4" placeholder="fca.org.uk&#10;bankofengland.co.uk&#10;ecb.europa.eu"></textarea>
+    </section>
+
+    <section id="panelFindings" class="tab-panel active">
+      <section class="card table-card">
+        <div class="table-title">Findings</div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Source Domain</th>
+                <th>Source Type</th>
+                <th>Source Relevance</th>
+                <th>Banking Update Cadence</th>
+              </tr>
+            </thead>
+            <tbody id="findingsBody">
+              <tr>
+                <td colspan="4" class="empty">Run a scan to load findings.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="card history-card">
+        <div class="table-title">Scan History</div>
+        <div class="history-row">
+          <select id="historySelect"></select>
+          <button id="loadHistoryBtn" class="run">Load Selected</button>
+        </div>
+        <div id="historyInfo" class="history-info">No history yet.</div>
+      </section>
+    </section>
+
+    <section id="panelCurrentSources" class="tab-panel">
+      <section class="card current-sources-card">
+        <div class="table-title">Current Banking Sources</div>
+        <div id="currentSourcesCount" class="history-info"></div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Covered Source Domain</th>
+              </tr>
+            </thead>
+            <tbody id="currentSourcesBody"></tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -202,6 +202,27 @@ def domains_from_urls(urls: Iterable[str]) -> list[str]:
     return list(dict.fromkeys(domains))
 
 
+def domain_is_known(domain: str, known_domains: set[str]) -> bool:
+    candidate = domain.lower().strip()
+    if not candidate:
+        return False
+
+    for known in known_domains:
+        reference = str(known).lower().strip()
+        if not reference:
+            continue
+
+        # Treat parent/child domains as covered to avoid resurfacing known sources.
+        if candidate == reference:
+            return True
+        if candidate.endswith(f".{reference}"):
+            return True
+        if reference.endswith(f".{candidate}"):
+            return True
+
+    return False
+
+
 def load_current_source_domains() -> set[str]:
     if not CURRENT_SOURCES_FILE.exists():
         return set()
@@ -547,7 +568,9 @@ def build_domain_rollup(discovery_df: pd.DataFrame, known_domains: set[str], con
         ),
         axis=1,
     ).round(2)
-    grouped["is_new_source"] = ~grouped["domain"].isin(known_domains)
+    grouped["is_new_source"] = ~grouped["domain"].apply(
+        lambda d: domain_is_known(str(d), known_domains)
+    )
     return grouped
 
 

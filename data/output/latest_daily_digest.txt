@@ -1,27 +1,28 @@
 Daily Digest: New Banking Compliance Sources
 ===========================================
-Generated at (UTC): 2026-04-02T12:31:26.472810+00:00
+Generated at (UTC): 2026-04-02T13:51:14.946644+00:00
 
 Source types identified:
-- Regulator: 48
+- Regulator: 47
+- Other: 19
+- Media: 10
 - FIU/AML: 7
-- Other: 3
-- Legislation: 1
-- Media: 1
+- Enforcement: 3
+- Legislation: 2
 
 Top sources to review:
-- leadership.ng (Regulator) | priority=13.75 | sample=Compliance Now Key Capital in Nigeria’s Banking Sector – Fairmoney - LEADERSHIP Newspapers
-- biztechmagazine.com (Regulator) | priority=12.25 | sample=AI for Regulatory Compliance in Banking: From SOX to Real-Time Monitoring - BizTech Magazine
-- businessday.ng (Regulator) | priority=11.75 | sample=Banks hit 96% recapitalisation compliance as ACAMB applauds sector strength - Businessday NG
-- law.asia (Regulator) | priority=11.75 | sample=FSCA revises compliance fees for banking, finance entities - Law.asia
-- asianbankingandfinance.net (Regulator) | priority=11.75 | sample=ZA Bank’s Sidney Siu champions compliance by design - Asian Banking & Finance
-- ad-hoc-news.de (Regulator) | priority=11.75 | sample=Cardano Gains Ground with Banking Integration and Regulatory Clarity - AD HOC NEWS
-- theijf.org (Regulator) | priority=11.25 | sample=Canada’s banking regulator gives itself substandard score on cybersecurity - Investigative Journalism Foundation
-- businessupturn.com (Regulator) | priority=10.25 | sample=Central Bank of India updates code of conduct for insider trading compliance - Business Upturn
-- bankinfosecurity.com (Regulator) | priority=10.25 | sample=New Regulatory Pressures Trigger Compliance Overhaul, Strain on Teams - Bank Info Security
-- thebanker.com (Regulator) | priority=10.25 | sample=Countdown starts for Amla supervision - TheBanker.com
-- premiumtimesng.com (Regulator) | priority=10.25 | sample=ACAMB lauds banking sector’s resilience on meeting recapitalisation deadline - Premium Times Nigeria
-- sokodirectory.com (Regulator) | priority=10.25 | sample=Beyond Compliance: How NCBA’s Dual ISO Certification Signals a New Era of Trust, Privacy, and Digital Banking Discipline - Soko Directory
-- dmarketforces.com (Regulator) | priority=10.25 | sample=Insider Risk, Systemic Vulnerabilities In Nigeria’s Banking Architecture - MarketForces Africa
-- proshare.co (Regulator) | priority=9.75 | sample=CBN Launches AML/CFT Supervision Pilot with Flutterwave, Paystack, KuCoin and Other VASPs - Proshare
-- thenationonlineng.net (Regulator) | priority=9.75 | sample=CBN rolls out cybersecurity tool for banks, sets compliance deadlines - The Nation Newspaper
+- federalreserve.gov (Regulator) | priority=20.25 | sample=Agencies request comment on proposals to modernize the regulatory capital framework and maintain the strength of the banking system
+- bankofengland.co.uk (Regulator) | priority=16.75 | sample=The economic effects of changes to bank capital regulation: evidence from the United Kingdom
+- asiae.co.kr (Regulator) | priority=15.75 | sample=Red Flags for Banking Soundness Amid Triple Risks from the Middle East... FSS to Conduct 'Stress Tests' on Banks Next Month - 아시아경제
+- newsghana.com.gh (Regulator) | priority=13.75 | sample=Bank of Ghana Warns Crypto Carries Risks Regulation Cannot Remove - NewsGhana
+- jdsupra.com (Regulator) | priority=13.25 | sample=Secondary OFAC Sanctions - Enforcement Trends , Case Studies , and Exposure of Non - U . S . Companies | Friling Law
+- ecb.europa.eu (Regulator) | priority=12.5 | sample=The Eurosystem’s comprehensive payments strategy - European Central Bank
+- arnoldporter.com (Regulator) | priority=12.25 | sample=Agencies’ Capital Proposals Seek to Reduce Regulatory Burden and Extend Capital Relief to the Banking Industry at Large - Arnold & Porter
+- bitcoinke.io (Regulator) | priority=11.75 | sample=FINTECH AFRICA | Bank of Namibia to Launch a National Instant Payment System by June 2026 - BitKE
+- bizzbuzz.news (Regulator) | priority=11.75 | sample=RBI imposes monetary penalty on Airtel Payments Bank - BizzBuzz
+- cryptorank.io (Other) | priority=11.75 | sample=Bitcoin Basel III Rules Face Critical Scrutiny as Expert Warns of Regulatory Peril - CryptoRank
+- newsdrum.in (Regulator) | priority=11.75 | sample=RBI imposes monetary penalty on 3 govt banks, Pine Labs for non-compliance with directions - newsdrum.in
+- thehawk.in (Regulator) | priority=11.75 | sample=RBI imposes monetary penalty on Airtel Payments Bank - thehawk.in
+- ntu.org (Regulator) | priority=11.25 | sample=Updated Bank Capital Requirements Are a Win for America’s Economy - National Taxpayers Union
+- prlog.org (Regulator) | priority=11.25 | sample=SecurePoint USA Launches OFAC Sanctions Screening for Private Schools After $1.7M Enforcement Fine - PRLog
+- moneylife.in (Regulator) | priority=11.0 | sample=RBI Imposes ₹36.30 Lakh Penalty on Airtel Payments Bank, Two Cooperative Banks - Moneylife

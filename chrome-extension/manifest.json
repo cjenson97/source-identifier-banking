@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Banking Compliance Source Finder",
+  "description": "Find viable new sources for the Banking vertical, excluding already covered domains.",
+  "version": "1.0.0",
+  "action": {
+    "default_title": "Banking Compliance Source Finder",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage", "notifications"],
+  "host_permissions": [
+    "https://api.gdeltproject.org/*",
+    "https://news.google.com/*",
+    "https://*/*"
+  ]
+}

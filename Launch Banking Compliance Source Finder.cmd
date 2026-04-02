@@ -7,5 +7,4 @@ if not exist ".venv\Scripts\python.exe" (
   exit /b 1
 )
 
-start "" "http://localhost:8501"
-".venv\Scripts\python.exe" -m streamlit run app.py --server.headless true --server.port 8501
+".venv\Scripts\python.exe" "app.py"
