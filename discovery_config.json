@@ -1,0 +1,57 @@
+{
+  "check_interval_hours": 6,
+  "lookback_days": 7,
+  "max_records_per_term": 80,
+  "min_relevance_score": 2,
+  "min_articles_per_domain": 1,
+  "terms": [
+    "banking compliance",
+    "anti money laundering",
+    "prudential regulation",
+    "bank enforcement action",
+    "financial crime controls",
+    "payment systems regulation",
+    "cybersecurity banking"
+  ],
+  "relevance_terms": [
+    "compliance",
+    "regulation",
+    "regulatory",
+    "supervision",
+    "aml",
+    "anti money laundering",
+    "kyc",
+    "sanctions",
+    "prudential",
+    "capital",
+    "conduct",
+    "enforcement",
+    "risk",
+    "governance",
+    "bank",
+    "banking"
+  ],
+  "high_trust_tlds": [
+    ".gov",
+    ".gob",
+    ".gc.ca",
+    ".eu",
+    ".int",
+    ".org"
+  ],
+  "regulator_hints": [
+    "bank",
+    "centralbank",
+    "fca",
+    "finra",
+    "sec",
+    "prudential",
+    "supervision",
+    "ministry",
+    "treasury",
+    "parliament",
+    "gazette",
+    "regulator",
+    "authority"
+  ]
+}

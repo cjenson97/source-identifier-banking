@@ -1,0 +1,35 @@
+Banking Compliance Source Monitor Update
+======================================
+Run time (UTC): 2026-04-02T12:31:26.472810+00:00
+Articles fetched: 238
+Net-new domains found: 237
+New sources worth monitoring: 60
+
+Top 20 new sources worth monitoring:
+- leadership.ng | priority=13.75 | relevance=4 | articles=1
+- biztechmagazine.com | priority=12.25 | relevance=4 | articles=1
+- businessday.ng | priority=11.75 | relevance=3 | articles=1
+- law.asia | priority=11.75 | relevance=3 | articles=1
+- asianbankingandfinance.net | priority=11.75 | relevance=3 | articles=1
+- ad-hoc-news.de | priority=11.75 | relevance=3 | articles=1
+- theijf.org | priority=11.25 | relevance=2 | articles=1
+- businessupturn.com | priority=10.25 | relevance=3 | articles=1
+- bankinfosecurity.com | priority=10.25 | relevance=3 | articles=1
+- thebanker.com | priority=10.25 | relevance=3 | articles=1
+- premiumtimesng.com | priority=10.25 | relevance=3 | articles=1
+- sokodirectory.com | priority=10.25 | relevance=3 | articles=1
+- dmarketforces.com | priority=10.25 | relevance=3 | articles=1
+- proshare.co | priority=9.75 | relevance=2 | articles=1
+- thenationonlineng.net | priority=9.75 | relevance=2 | articles=1
+- livelaw.in | priority=9.75 | relevance=2 | articles=1
+- studycafe.in | priority=9.75 | relevance=2 | articles=1
+- channeleye.media | priority=9.75 | relevance=2 | articles=1
+- brokernews.com.au | priority=9.75 | relevance=2 | articles=1
+- ibtimes.com.au | priority=9.75 | relevance=2 | articles=1
+
+Generated files:
+- data/output/latest_new_sources_worth_monitoring.csv
+- data/output/latest_all_net_new_sources.csv
+- data/output/latest_source_overview.csv
+- data/output/latest_article_matches.csv
+- data/output/compiled_new_sources.csv

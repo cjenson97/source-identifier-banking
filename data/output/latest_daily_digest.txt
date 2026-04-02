@@ -1,0 +1,27 @@
+Daily Digest: New Banking Compliance Sources
+===========================================
+Generated at (UTC): 2026-04-02T12:31:26.472810+00:00
+
+Source types identified:
+- Regulator: 48
+- FIU/AML: 7
+- Other: 3
+- Legislation: 1
+- Media: 1
+
+Top sources to review:
+- leadership.ng (Regulator) | priority=13.75 | sample=Compliance Now Key Capital in Nigeria’s Banking Sector – Fairmoney - LEADERSHIP Newspapers
+- biztechmagazine.com (Regulator) | priority=12.25 | sample=AI for Regulatory Compliance in Banking: From SOX to Real-Time Monitoring - BizTech Magazine
+- businessday.ng (Regulator) | priority=11.75 | sample=Banks hit 96% recapitalisation compliance as ACAMB applauds sector strength - Businessday NG
+- law.asia (Regulator) | priority=11.75 | sample=FSCA revises compliance fees for banking, finance entities - Law.asia
+- asianbankingandfinance.net (Regulator) | priority=11.75 | sample=ZA Bank’s Sidney Siu champions compliance by design - Asian Banking & Finance
+- ad-hoc-news.de (Regulator) | priority=11.75 | sample=Cardano Gains Ground with Banking Integration and Regulatory Clarity - AD HOC NEWS
+- theijf.org (Regulator) | priority=11.25 | sample=Canada’s banking regulator gives itself substandard score on cybersecurity - Investigative Journalism Foundation
+- businessupturn.com (Regulator) | priority=10.25 | sample=Central Bank of India updates code of conduct for insider trading compliance - Business Upturn
+- bankinfosecurity.com (Regulator) | priority=10.25 | sample=New Regulatory Pressures Trigger Compliance Overhaul, Strain on Teams - Bank Info Security
+- thebanker.com (Regulator) | priority=10.25 | sample=Countdown starts for Amla supervision - TheBanker.com
+- premiumtimesng.com (Regulator) | priority=10.25 | sample=ACAMB lauds banking sector’s resilience on meeting recapitalisation deadline - Premium Times Nigeria
+- sokodirectory.com (Regulator) | priority=10.25 | sample=Beyond Compliance: How NCBA’s Dual ISO Certification Signals a New Era of Trust, Privacy, and Digital Banking Discipline - Soko Directory
+- dmarketforces.com (Regulator) | priority=10.25 | sample=Insider Risk, Systemic Vulnerabilities In Nigeria’s Banking Architecture - MarketForces Africa
+- proshare.co (Regulator) | priority=9.75 | sample=CBN Launches AML/CFT Supervision Pilot with Flutterwave, Paystack, KuCoin and Other VASPs - Proshare
+- thenationonlineng.net (Regulator) | priority=9.75 | sample=CBN rolls out cybersecurity tool for banks, sets compliance deadlines - The Nation Newspaper
