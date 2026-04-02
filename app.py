@@ -23,6 +23,8 @@ LATEST_UPDATE_FILE = OUTPUT_DIR / "latest_update.txt"
 LATEST_DIGEST_FILE = OUTPUT_DIR / "latest_daily_digest.txt"
 RUN_CHECK_CMD_FILE = Path("run_check_once.cmd")
 DEFAULT_TASK_NAME = "BankingComplianceSourceCheck"
+DEFAULT_LOOKBACK_DAYS = 7
+DEFAULT_MAX_RECORDS = 80
 
 DEFAULT_TERMS = [
     "banking compliance",
@@ -33,6 +35,21 @@ DEFAULT_TERMS = [
     "know your customer",
     "financial crime controls",
     "capital requirements bank",
+    "Basel III capital adequacy",
+    "DORA digital operational resilience",
+    "sanctions screening compliance",
+    "open banking PSD2 regulation",
+    "crypto asset regulation bank",
+    "climate risk financial disclosure",
+    "FATF money laundering recommendations",
+    "fintech regulatory supervision",
+    "CBDC central bank digital currency",
+    "correspondent banking regulation",
+    "bank resolution recovery planning",
+    "payment services regulation",
+    "stress testing bank supervision",
+    "beneficial ownership bank compliance",
+    "suspicious activity report bank",
 ]
 
 RELEVANCE_TERMS = [
@@ -40,6 +57,7 @@ RELEVANCE_TERMS = [
     "regulation",
     "regulatory",
     "supervision",
+    "supervisory",
     "aml",
     "anti money laundering",
     "kyc",
@@ -52,6 +70,22 @@ RELEVANCE_TERMS = [
     "governance",
     "bank",
     "banking",
+    "financial stability",
+    "monetary",
+    "resolution",
+    "stress test",
+    "buffer",
+    "dora",
+    "basel",
+    "fintech",
+    "cbdc",
+    "crypto",
+    "open banking",
+    "payment",
+    "beneficial ownership",
+    "suspicious activity",
+    "correspondent",
+    "terrorist financing",
 ]
 
 SOURCE_TYPE_RULES = [
@@ -78,6 +112,52 @@ REGULATOR_HINTS = [
     "gazette",
     "regulator",
     "authority",
+    "fincen",
+    "fatf",
+    "fsb",
+    "esma",
+    "eiopa",
+    "eba",
+    "apra",
+    "mas",
+    "hkma",
+    "osfi",
+    "cfpb",
+    "fdic",
+    "occ",
+    "bis",
+    "bcbs",
+    "enforcement",
+    "compliance",
+]
+
+REGULATOR_RSS_FEEDS: list[str] = [
+    # UK
+    "https://www.fca.org.uk/news/rss.xml",
+    "https://www.bankofengland.co.uk/rss/publications",
+    # EU
+    "https://www.eba.europa.eu/rss/press-releases",
+    "https://www.esma.europa.eu/rss/press-news.xml",
+    "https://www.eiopa.europa.eu/rss/press-news_en.xml",
+    # International
+    "https://www.fsb.org/feed/",
+    "https://www.bis.org/rss/bcbspubl.rss",
+    "https://www.bis.org/rss/fsi_papers.rss",
+    "https://www.fatf-gafi.org/en/media/news/rss.xml",
+    # US
+    "https://www.federalreserve.gov/feeds/press_all.xml",
+    "https://www.occ.gov/rss/rss-news.xml",
+    "https://www.fdic.gov/resources/rss.xml",
+    "https://www.consumerfinance.gov/about-us/newsroom/activity-feed.xml",
+    "https://www.sec.gov/rss/litigation/litreleases.xml",
+    "https://www.fincen.gov/rss.xml",
+    # Asia-Pacific
+    "https://www.mas.gov.sg/news/rss",
+    "https://www.hkma.gov.hk/eng/rss/_rss_press-releases.xml",
+    # Canada
+    "https://www.osfi-bsif.gc.ca/en/news-communications/feed",
+    # Industry / global news
+    "https://feeds.reuters.com/reuters/businessNews",
 ]
 
 
@@ -145,6 +225,16 @@ def calculate_priority_score(
     )
 
 
+def relevance_band(score: float) -> str:
+    if score >= 4:
+        return "Very Strong"
+    if score >= 3:
+        return "Strong"
+    if score >= 2:
+        return "Moderate"
+    return "Early Signal"
+
+
 def classify_source_type(domain: str, title: str) -> str:
     haystack = f"{domain} {title}".lower().replace(" ", "")
     for label, hints in SOURCE_TYPE_RULES:
@@ -197,8 +287,97 @@ def fetch_google_news_rss_articles(search_term: str, lookback_days: int, max_rec
     return articles
 
 
+def fetch_regulator_rss_articles() -> list[dict]:
+    """Fetch articles directly from curated banking/compliance regulator RSS and Atom feeds."""
+    articles: list[dict] = []
+    ATOM_NS = "http://www.w3.org/2005/Atom"
+
+    for feed_url in REGULATOR_RSS_FEEDS:
+        try:
+            resp = requests.get(
+                feed_url,
+                timeout=15,
+                headers={"User-Agent": "Mozilla/5.0 (compatible; BankingComplianceMonitor/1.0)"},
+            )
+            if resp.status_code != 200:
+                continue
+            root = ET.fromstring(resp.content)
+
+            if ATOM_NS in root.tag:
+                # Atom 1.0 feed
+                for entry in root.findall(f"{{{ATOM_NS}}}entry")[:30]:
+                    title = (entry.findtext(f"{{{ATOM_NS}}}title") or "").strip()
+                    link_elem = entry.find(f"{{{ATOM_NS}}}link[@rel='alternate']")
+                    if link_elem is None:
+                        link_elem = entry.find(f"{{{ATOM_NS}}}link")
+                    link = link_elem.get("href", "") if link_elem is not None else ""
+                    pub = (
+                        entry.findtext(f"{{{ATOM_NS}}}published")
+                        or entry.findtext(f"{{{ATOM_NS}}}updated")
+                        or ""
+                    )
+                    if link:
+                        articles.append({
+                            "title": title,
+                            "url": link,
+                            "sourceurl": link,
+                            "sourcename": normalize_domain(feed_url),
+                            "seendate": pub,
+                            "sourcecountry": "",
+                            "language": "en",
+                            "socialimage": "",
+                        })
+            else:
+                # RSS 2.0 feed
+                for item in root.findall("./channel/item")[:30]:
+                    title = (item.findtext("title") or "").strip()
+                    link = (item.findtext("link") or "").strip()
+                    pub = item.findtext("pubDate") or ""
+                    if link:
+                        articles.append({
+                            "title": title,
+                            "url": link,
+                            "sourceurl": link,
+                            "sourcename": normalize_domain(feed_url),
+                            "seendate": pub,
+                            "sourcecountry": "",
+                            "language": "en",
+                            "socialimage": "",
+                        })
+        except Exception:  # noqa: BLE001
+            pass
+
+    return articles
+
+
 def run_discovery(config: DiscoveryConfig) -> pd.DataFrame:
     records: list[dict] = []
+
+    # --- Fetch directly from curated regulator RSS/Atom feeds (once, no search term filter) ---
+    try:
+        reg_items = fetch_regulator_rss_articles()
+    except Exception:  # noqa: BLE001
+        reg_items = []
+
+    for item in reg_items:
+        url = item.get("url", "")
+        source_url = item.get("sourceurl", "")
+        domain = normalize_domain(source_url or url)
+        if not domain:
+            continue
+        title = item.get("title", "")
+        score = relevance_score(title, RELEVANCE_TERMS)
+        records.append({
+            "search_term": "regulator_feed",
+            "title": title,
+            "url": source_url or url,
+            "domain": domain,
+            "source_country": "",
+            "language": "en",
+            "seen_date": item.get("seendate", ""),
+            "social_image": "",
+            "relevance_score": score,
+        })
 
     for term in config.terms:
         articles: list[dict] = []
@@ -348,7 +527,7 @@ def build_domain_rollup(df: pd.DataFrame, known_domains: set[str]) -> pd.DataFra
                 "avg_relevance",
                 "max_relevance",
                 "latest_seen_date",
-                "sample_title",
+                "example_headline",
                 "is_new_source",
             ]
         )
@@ -360,7 +539,7 @@ def build_domain_rollup(df: pd.DataFrame, known_domains: set[str]) -> pd.DataFra
             avg_relevance=("relevance_score", "mean"),
             max_relevance=("relevance_score", "max"),
             latest_seen_date=("seen_date", "max"),
-            sample_title=("title", "first"),
+            example_headline=("title", "first"),
         )
         .sort_values(by=["article_count", "max_relevance"], ascending=[False, False])
     )
@@ -369,11 +548,11 @@ def build_domain_rollup(df: pd.DataFrame, known_domains: set[str]) -> pd.DataFra
     grouped["avg_relevance"] = grouped["avg_relevance"].round(2)
     grouped["trust_score"] = grouped["domain"].apply(tld_trust_score)
     grouped["regulator_score"] = grouped.apply(
-        lambda r: regulator_hint_score(str(r["domain"]), str(r["sample_title"])),
+        lambda r: regulator_hint_score(str(r["domain"]), str(r["example_headline"])),
         axis=1,
     )
     grouped["source_type"] = grouped.apply(
-        lambda r: classify_source_type(str(r["domain"]), str(r["sample_title"])),
+        lambda r: classify_source_type(str(r["domain"]), str(r["example_headline"])),
         axis=1,
     )
     grouped["priority_score"] = grouped.apply(
@@ -385,6 +564,7 @@ def build_domain_rollup(df: pd.DataFrame, known_domains: set[str]) -> pd.DataFra
         ),
         axis=1,
     ).round(2)
+    grouped["relevance_band"] = grouped["max_relevance"].apply(relevance_band)
     return grouped
 
 
@@ -397,45 +577,103 @@ def inject_ui_styles() -> None:
     st.markdown(
         """
         <style>
+        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap');
+
+        :root {
+            --vixio-red: #d92d27;
+            --vixio-red-dark: #a81d19;
+            --vixio-ink: #0f172a;
+            --vixio-slate: #334155;
+            --vixio-bg: #f8fafc;
+            --vixio-card: #ffffff;
+        }
+
         .stApp {
+            font-family: 'Manrope', sans-serif;
             background:
-                radial-gradient(circle at top left, rgba(196, 224, 255, 0.7), transparent 28%),
-                linear-gradient(180deg, #f7fbff 0%, #eef4f7 100%);
+                radial-gradient(circle at top right, rgba(217, 45, 39, 0.10), transparent 30%),
+                radial-gradient(circle at top left, rgba(15, 23, 42, 0.06), transparent 28%),
+                linear-gradient(180deg, #ffffff 0%, var(--vixio-bg) 100%);
+            color: var(--vixio-ink);
         }
         .hero {
-            padding: 1.4rem 1.6rem;
-            border-radius: 20px;
-            background: linear-gradient(135deg, #12344d 0%, #1d587b 58%, #2d88a8 100%);
+            padding: 1.6rem 1.8rem;
+            border-radius: 24px;
+            background: linear-gradient(130deg, var(--vixio-ink) 0%, #1e293b 52%, #334155 100%);
             color: #ffffff;
-            box-shadow: 0 18px 42px rgba(18, 52, 77, 0.18);
-            margin-bottom: 1rem;
+            box-shadow: 0 20px 44px rgba(15, 23, 42, 0.26);
+            margin-bottom: 1.2rem;
         }
         .hero h1 {
             margin: 0;
-            font-size: 2rem;
-            font-weight: 700;
+            font-size: 2.1rem;
+            font-weight: 800;
+            letter-spacing: 0.2px;
         }
         .hero p {
             margin: 0.45rem 0 0 0;
             font-size: 1rem;
-            opacity: 0.92;
+            opacity: 0.94;
         }
         .panel {
-            background: rgba(255, 255, 255, 0.86);
-            border: 1px solid rgba(18, 52, 77, 0.09);
+            background: var(--vixio-card);
+            border: 1px solid rgba(15, 23, 42, 0.10);
             border-radius: 18px;
             padding: 1rem 1.1rem;
-            box-shadow: 0 10px 24px rgba(18, 52, 77, 0.08);
+            box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
             margin-bottom: 1rem;
         }
         .panel h3 {
             margin-top: 0;
             margin-bottom: 0.35rem;
-            color: #12344d;
+            color: var(--vixio-ink);
         }
         .panel p {
             margin-bottom: 0;
-            color: #35556b;
+            color: var(--vixio-slate);
+        }
+        .kpi-note {
+            font-size: 0.9rem;
+            color: var(--vixio-slate);
+            margin-bottom: 0.6rem;
+        }
+
+        .stTabs [data-baseweb="tab-list"] {
+            gap: 0.35rem;
+            border-bottom: 2px solid rgba(15, 23, 42, 0.10);
+        }
+        .stTabs [data-baseweb="tab"] {
+            color: var(--vixio-slate) !important;
+            font-weight: 700;
+            background: transparent;
+            border-radius: 10px 10px 0 0;
+            padding: 0.65rem 0.9rem;
+        }
+        .stTabs [aria-selected="true"] {
+            color: var(--vixio-red) !important;
+            border-bottom: 3px solid var(--vixio-red) !important;
+        }
+
+        .stMarkdown, .stText, .stCaption, .stDataFrame, .stAlert, .stMetric, label, p, h1, h2, h3, h4 {
+            color: var(--vixio-ink);
+        }
+
+        .stButton > button {
+            border-radius: 10px;
+            border: 1px solid rgba(15, 23, 42, 0.18);
+        }
+        .stButton > button[kind="primary"] {
+            background: var(--vixio-red);
+            border-color: var(--vixio-red-dark);
+            color: #ffffff;
+        }
+        .stButton > button[kind="primary"]:hover {
+            background: var(--vixio-red-dark);
+        }
+
+        .stSpinner > div {
+            color: var(--vixio-ink);
+            font-weight: 600;
         }
         </style>
         """,
@@ -448,11 +686,73 @@ def render_hero() -> None:
         """
         <div class="hero">
             <h1>Banking Compliance Source Finder</h1>
-            <p>Run live scans, schedule automatic checks, and review new sources worth monitoring in one place.</p>
+            <p>Open the app and it automatically scans for net-new compliance sources your team does not yet monitor.</p>
         </div>
         """,
         unsafe_allow_html=True,
     )
+
+
+def run_live_discovery(
+    all_terms: list[str],
+    seen_sources: pd.DataFrame,
+    current_source_domains: set[str],
+    strict_mode: bool,
+    max_records: int,
+) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+    discovery_df = run_discovery(
+        DiscoveryConfig(
+            terms=all_terms,
+            lookback_days=DEFAULT_LOOKBACK_DAYS,
+            max_records_per_term=max_records,
+        )
+    )
+
+    seen_domains = set(seen_sources["domain"].astype(str).tolist())
+    known_domains = seen_domains.union(current_source_domains)
+    domain_rollup = build_domain_rollup(discovery_df, known_domains)
+    new_sources = domain_rollup[domain_rollup["is_new_source"]].copy()
+
+    if strict_mode:
+        monitor_candidates = new_sources[
+            new_sources["relevance_band"].isin(["Very Strong", "Strong"])
+        ].copy()
+    else:
+        monitor_candidates = new_sources[
+            new_sources["relevance_band"].isin(["Very Strong", "Strong", "Moderate"])
+        ].copy()
+
+    monitor_candidates = monitor_candidates.sort_values(
+        by=["priority_score", "max_relevance", "article_count", "latest_seen_date"],
+        ascending=[False, False, False, False],
+    )
+    return discovery_df, domain_rollup, monitor_candidates
+
+
+def format_source_table(df: pd.DataFrame) -> pd.DataFrame:
+    if df.empty:
+        return df
+    formatted = df.copy()
+    if "latest_seen_date" in formatted.columns:
+        formatted["latest_seen_date"] = pd.to_datetime(formatted["latest_seen_date"], errors="coerce").dt.strftime("%Y-%m-%d")
+    rename_map = {
+        "domain": "Source Domain",
+        "source_type": "Source Type",
+        "relevance_band": "Relevance",
+        "article_count": "Recent Mentions",
+        "latest_seen_date": "Last Seen",
+        "example_headline": "Example Headline",
+    }
+    keep_cols = [
+        "domain",
+        "source_type",
+        "relevance_band",
+        "article_count",
+        "latest_seen_date",
+        "example_headline",
+    ]
+    keep_cols = [c for c in keep_cols if c in formatted.columns]
+    return formatted[keep_cols].rename(columns=rename_map)
 
 
 def latest_update_text() -> str:
@@ -591,22 +891,49 @@ def main() -> None:
     control_tab, discovery_tab, baseline_tab = st.tabs(["Control Center", "Live Discovery", "Baseline Sources"])
 
     with st.sidebar:
-        st.header("Discovery Settings")
+        st.header("Scan Preferences")
         selected_defaults = st.multiselect(
-            "Baseline search terms",
+            "Focus Topics",
             options=DEFAULT_TERMS,
-            default=DEFAULT_TERMS[:4],
+            default=DEFAULT_TERMS,
         )
         custom_terms_raw = st.text_area(
-            "Custom search terms (one per line)",
+            "Optional extra topics (one per line)",
             placeholder="Basel 3.1\nPSD3 banking\nfraud controls bank",
         )
-        lookback_days = st.slider("Lookback window (days)", min_value=1, max_value=30, value=7)
-        max_records = st.slider("Max records per term", min_value=10, max_value=250, value=60, step=10)
-        min_relevance = st.slider("Minimum relevance score", min_value=0, max_value=8, value=2)
-        min_articles = st.slider("Minimum articles per domain", min_value=1, max_value=10, value=1)
+        strict_mode = st.toggle("Show only Strong matches", value=True)
+        max_records = st.slider("Scan depth", min_value=20, max_value=250, value=DEFAULT_MAX_RECORDS, step=10)
+        manual_refresh = st.button("Refresh Scan", type="primary")
 
-        run = st.button("Run Discovery", type="primary")
+    custom_terms = [t.strip() for t in custom_terms_raw.splitlines() if t.strip()]
+    all_terms = list(dict.fromkeys(selected_defaults + custom_terms))
+    if not all_terms:
+        all_terms = DEFAULT_TERMS
+
+    should_scan = manual_refresh or ("last_scan" not in st.session_state)
+    if should_scan:
+        with st.spinner("Scanning for new sources..."):
+            discovery_df, domain_rollup, monitor_candidates = run_live_discovery(
+                all_terms=all_terms,
+                seen_sources=seen_sources,
+                current_source_domains=current_source_domains,
+                strict_mode=strict_mode,
+                max_records=max_records,
+            )
+        st.session_state["last_scan"] = {
+            "discovery_df": discovery_df,
+            "domain_rollup": domain_rollup,
+            "monitor_candidates": monitor_candidates,
+            "scan_time": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
+            "strict_mode": strict_mode,
+        }
+
+    scan_state = st.session_state.get("last_scan", {})
+    discovery_df = scan_state.get("discovery_df", pd.DataFrame())
+    domain_rollup = scan_state.get("domain_rollup", pd.DataFrame())
+    monitor_candidates = scan_state.get("monitor_candidates", pd.DataFrame())
+    scan_time = scan_state.get("scan_time", "Not scanned yet")
+    strict_mode_used = scan_state.get("strict_mode", strict_mode)
 
     with control_tab:
         status_col, schedule_col = st.columns([1.1, 1])
@@ -626,16 +953,16 @@ def main() -> None:
             summary_col1.metric("Baseline URLs", len(current_source_urls))
             summary_col2.metric("Baseline Domains", len(current_source_domains))
             summary_col3.metric("Schedule Status", task_status)
+            st.markdown(f"<div class='kpi-note'>Latest scan: {scan_time} | Mode: {'Strong only' if strict_mode_used else 'Broad'}</div>", unsafe_allow_html=True)
 
             live_col1, live_col2 = st.columns(2)
-            if live_col1.button("Run Live Scan Now", use_container_width=True, type="primary"):
-                with st.spinner("Running live scan..."):
+            if live_col1.button("Run Background Scan Now", use_container_width=True, type="primary"):
+                with st.spinner("Running background scan..."):
                     ok, message = run_live_scan_now()
                 if ok:
-                    st.success("Live scan finished.")
+                    st.success("Background scan finished and files updated.")
                     if message:
                         st.text_area("Scan log", value=message, height=160)
-                    st.rerun()
                 else:
                     st.error(message)
 
@@ -687,7 +1014,7 @@ def main() -> None:
         if latest_candidates_df.empty:
             st.info("No saved live-scan results yet.")
         else:
-            st.dataframe(latest_candidates_df.head(50), use_container_width=True, hide_index=True)
+            st.dataframe(format_source_table(latest_candidates_df.head(50)), use_container_width=True, hide_index=True)
 
     with baseline_tab:
         st.markdown(
@@ -728,48 +1055,17 @@ def main() -> None:
         st.dataframe(seen_sources, use_container_width=True, hide_index=True)
 
     with discovery_tab:
-        custom_terms = [t.strip() for t in custom_terms_raw.splitlines() if t.strip()]
-        all_terms = list(dict.fromkeys(selected_defaults + custom_terms))
-
         st.markdown(
             """
             <div class="panel">
-                <h3>Live Discovery Workspace</h3>
-                <p>Use this tab for analyst-led ad hoc scans. Background monitoring can keep running separately.</p>
+                <h3>Live Discovery Results</h3>
+                <p>This scan runs automatically when the app opens. Use Refresh Scan in the sidebar at any time.</p>
             </div>
             """,
             unsafe_allow_html=True,
         )
 
-        if not run:
-            st.info("Adjust the filters in the sidebar and click Run Discovery for an analyst-led live scan.")
-            return
-
-        if not all_terms:
-            st.warning("Select at least one search term.")
-            return
-
-        with st.spinner("Running discovery..."):
-            discovery_df = run_discovery(
-                DiscoveryConfig(
-                    terms=all_terms,
-                    lookback_days=lookback_days,
-                    max_records_per_term=max_records,
-                )
-            )
-
-        seen_domains = set(seen_sources["domain"].astype(str).tolist())
-        known_domains = seen_domains.union(current_source_domains)
-        domain_rollup = build_domain_rollup(discovery_df, known_domains)
-        new_sources = domain_rollup[domain_rollup["is_new_source"]].copy()
-        monitor_candidates = new_sources[
-            (new_sources["max_relevance"] >= min_relevance)
-            & (new_sources["article_count"] >= min_articles)
-        ].copy()
-        monitor_candidates = monitor_candidates.sort_values(
-            by=["priority_score", "max_relevance", "article_count", "latest_seen_date"],
-            ascending=[False, False, False, False],
-        )
+        new_sources = domain_rollup[domain_rollup["is_new_source"]].copy() if not domain_rollup.empty else pd.DataFrame()
 
         col1, col2, col3 = st.columns(3)
         col1.metric("Articles", int(discovery_df.shape[0]))
@@ -777,17 +1073,17 @@ def main() -> None:
         col3.metric("New Domains", int(monitor_candidates.shape[0]))
 
         st.subheader("New Sources Worth Monitoring")
-        st.caption("Filtered to domains not in baseline and meeting your relevance/article thresholds.")
-        st.dataframe(monitor_candidates, use_container_width=True, hide_index=True)
+        st.caption("Only sources not already in your monitored baseline are listed here.")
+        st.dataframe(format_source_table(monitor_candidates), use_container_width=True, hide_index=True)
 
         st.subheader("All Net-New Sources")
-        st.dataframe(new_sources, use_container_width=True, hide_index=True)
+        st.dataframe(format_source_table(new_sources), use_container_width=True, hide_index=True)
 
         st.subheader("Source Overview")
-        st.dataframe(domain_rollup, use_container_width=True, hide_index=True)
+        st.dataframe(format_source_table(domain_rollup), use_container_width=True, hide_index=True)
 
-        st.subheader("Article Matches")
-        st.dataframe(discovery_df, use_container_width=True, hide_index=True)
+        with st.expander("View matching articles"):
+            st.dataframe(discovery_df, use_container_width=True, hide_index=True)
 
         articles_csv = discovery_df.to_csv(index=False).encode("utf-8")
         sources_csv = domain_rollup.to_csv(index=False).encode("utf-8")

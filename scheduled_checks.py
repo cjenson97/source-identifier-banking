@@ -35,12 +35,31 @@ DEFAULT_CONFIG = {
         "financial crime controls",
         "payment systems regulation",
         "cybersecurity banking",
+        "Basel III capital adequacy",
+        "DORA digital operational resilience",
+        "sanctions screening compliance",
+        "open banking PSD2 regulation",
+        "crypto asset regulation bank",
+        "climate risk financial disclosure",
+        "FATF money laundering recommendations",
+        "fintech regulatory supervision",
+        "CBDC central bank digital currency",
+        "correspondent banking regulation",
+        "bank resolution recovery planning",
+        "stress testing bank supervision",
+        "beneficial ownership bank compliance",
+        "suspicious activity report bank",
+        "consumer protection financial regulation",
+        "ESG sustainable finance bank",
+        "know your customer KYC bank",
+        "bank capital buffer requirement",
     ],
     "relevance_terms": [
         "compliance",
         "regulation",
         "regulatory",
         "supervision",
+        "supervisory",
         "aml",
         "anti money laundering",
         "kyc",
@@ -53,6 +72,22 @@ DEFAULT_CONFIG = {
         "governance",
         "bank",
         "banking",
+        "financial stability",
+        "monetary",
+        "resolution",
+        "stress test",
+        "buffer",
+        "dora",
+        "basel",
+        "fintech",
+        "cbdc",
+        "crypto",
+        "open banking",
+        "payment",
+        "beneficial ownership",
+        "suspicious activity",
+        "correspondent",
+        "terrorist financing",
     ],
     "high_trust_tlds": [".gov", ".gob", ".gc.ca", ".eu", ".int", ".org"],
     "regulator_hints": [
@@ -69,6 +104,23 @@ DEFAULT_CONFIG = {
         "gazette",
         "regulator",
         "authority",
+        "fincen",
+        "fatf",
+        "fsb",
+        "esma",
+        "eiopa",
+        "eba",
+        "apra",
+        "mas",
+        "hkma",
+        "osfi",
+        "cfpb",
+        "fdic",
+        "occ",
+        "bis",
+        "bcbs",
+        "enforcement",
+        "compliance",
     ],
 }
 
@@ -76,9 +128,38 @@ SOURCE_TYPE_RULES = [
     ("Regulator", ["fca", "sec", "finra", "fma", "fsa", "bank", "centralbank", "supervision", "authority", "prudential"]),
     ("Legislation", ["parliament", "legislation", "gazette", "congress", "senate", "assembly", "laws", "bill"]),
     ("Enforcement", ["enforcement", "sanction", "penalty", "attorneygeneral", "justice", "cease-desist", "revocation"]),
-    ("FIU/AML", ["fiu", "aml", "moneylaundering", "fintrac", "fincen", "uif", "uaf"]),
+    ("FIU/AML", ["fiu", "aml", "moneylaundering", "fintrac", "fincen", "uif", "uaf", "fatf"]),
     ("Industry", ["association", "bankingassociation", "trade", "chamber", "federation"]),
     ("Media", ["news", "media", "press", "reuters", "law", "blog"]),
+]
+
+REGULATOR_RSS_FEEDS: list[str] = [
+    # UK
+    "https://www.fca.org.uk/news/rss.xml",
+    "https://www.bankofengland.co.uk/rss/publications",
+    # EU
+    "https://www.eba.europa.eu/rss/press-releases",
+    "https://www.esma.europa.eu/rss/press-news.xml",
+    "https://www.eiopa.europa.eu/rss/press-news_en.xml",
+    # International
+    "https://www.fsb.org/feed/",
+    "https://www.bis.org/rss/bcbspubl.rss",
+    "https://www.bis.org/rss/fsi_papers.rss",
+    "https://www.fatf-gafi.org/en/media/news/rss.xml",
+    # US
+    "https://www.federalreserve.gov/feeds/press_all.xml",
+    "https://www.occ.gov/rss/rss-news.xml",
+    "https://www.fdic.gov/resources/rss.xml",
+    "https://www.consumerfinance.gov/about-us/newsroom/activity-feed.xml",
+    "https://www.sec.gov/rss/litigation/litreleases.xml",
+    "https://www.fincen.gov/rss.xml",
+    # Asia-Pacific
+    "https://www.mas.gov.sg/news/rss",
+    "https://www.hkma.gov.hk/eng/rss/_rss_press-releases.xml",
+    # Canada
+    "https://www.osfi-bsif.gc.ca/en/news-communications/feed",
+    # Industry / global news
+    "https://feeds.reuters.com/reuters/businessNews",
 ]
 
 
@@ -256,8 +337,95 @@ def fetch_google_news_rss_articles(search_term: str, lookback_days: int, max_rec
     return articles
 
 
+def fetch_regulator_rss_articles() -> list[dict]:
+    """Fetch articles directly from curated banking/compliance regulator RSS and Atom feeds."""
+    articles: list[dict] = []
+    ATOM_NS = "http://www.w3.org/2005/Atom"
+
+    for feed_url in REGULATOR_RSS_FEEDS:
+        try:
+            resp = requests.get(
+                feed_url,
+                timeout=15,
+                headers={"User-Agent": "Mozilla/5.0 (compatible; BankingComplianceMonitor/1.0)"},
+            )
+            if resp.status_code != 200:
+                continue
+            root = ET.fromstring(resp.content)
+
+            if ATOM_NS in root.tag:
+                for entry in root.findall(f"{{{ATOM_NS}}}entry")[:30]:
+                    title = (entry.findtext(f"{{{ATOM_NS}}}title") or "").strip()
+                    link_elem = entry.find(f"{{{ATOM_NS}}}link[@rel='alternate']")
+                    if link_elem is None:
+                        link_elem = entry.find(f"{{{ATOM_NS}}}link")
+                    link = link_elem.get("href", "") if link_elem is not None else ""
+                    pub = (
+                        entry.findtext(f"{{{ATOM_NS}}}published")
+                        or entry.findtext(f"{{{ATOM_NS}}}updated")
+                        or ""
+                    )
+                    if link:
+                        articles.append({
+                            "title": title,
+                            "url": link,
+                            "sourceurl": link,
+                            "sourcename": normalize_domain(feed_url),
+                            "seendate": pub,
+                            "sourcecountry": "",
+                            "language": "en",
+                        })
+            else:
+                for item in root.findall("./channel/item")[:30]:
+                    title = (item.findtext("title") or "").strip()
+                    link = (item.findtext("link") or "").strip()
+                    pub = item.findtext("pubDate") or ""
+                    if link:
+                        articles.append({
+                            "title": title,
+                            "url": link,
+                            "sourceurl": link,
+                            "sourcename": normalize_domain(feed_url),
+                            "seendate": pub,
+                            "sourcecountry": "",
+                            "language": "en",
+                        })
+        except Exception:  # noqa: BLE001
+            pass
+
+    return articles
+
+
 def run_discovery(config: dict) -> pd.DataFrame:
     rows: list[dict] = []
+
+    # --- Direct regulator/authority RSS feeds (fetched once, independent of search terms) ---
+    try:
+        reg_items = fetch_regulator_rss_articles()
+    except Exception:  # noqa: BLE001
+        reg_items = []
+
+    print(f"[INFO] Regulator RSS feeds returned {len(reg_items)} articles")
+
+    for item in reg_items:
+        url = item.get("url", "")
+        source_url = item.get("sourceurl", "")
+        domain = normalize_domain(source_url or url)
+        if not url or not domain:
+            continue
+        title = item.get("title", "")
+        score = relevance_score(f"{title}", config["relevance_terms"])
+        rows.append({
+            "search_term": "regulator_feed",
+            "title": title,
+            "url": source_url or url,
+            "domain": domain,
+            "seen_date": item.get("seendate", ""),
+            "source_country": "",
+            "language": "en",
+            "relevance_score": score,
+        })
+
     terms = config["terms"]
     for term in terms:
         articles: list[dict] = []
