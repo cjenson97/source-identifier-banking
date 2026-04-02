@@ -1,0 +1,65 @@
+# Search provider configuration
+provider: "duckduckgo"
+# provider: "serper"
+# api_key_env: "SERPER_API_KEY"
+
+max_results_per_query: 10
+rate_limit_delay_seconds: 2.0
+request_timeout_seconds: 10
+
+# Scoring thresholds
+recommend_add_threshold: 0.65
+recommend_watchlist_threshold: 0.35
+
+scoring_weights:
+  authority: 0.30
+  relevance: 0.30
+  frequency: 0.15
+  usability: 0.15
+  uniqueness: 0.10
+
+# Search query templates - {jurisdiction} and {regime} are substituted
+query_templates:
+  - "{jurisdiction} {regime} regulator official website"
+  - "{jurisdiction} {regime} regulatory authority publications"
+  - "{jurisdiction} financial {regime} supervision news feed"
+
+# Jurisdictions to search across
+jurisdictions:
+  - "EU"
+  - "UK"
+  - "US"
+  - "APAC"
+  - "International"
+
+# Regulatory regimes to search for
+regimes:
+  - "banking"
+  - "AML"
+  - "consumer protection"
+  - "crypto"
+  - "ESG"
+  - "payments"
+  - "cybersecurity"
+  - "capital markets"
+
+# Seed URLs for link-expansion crawling
+seed_urls:
+  - "https://www.fsb.org"
+  - "https://www.iosco.org"
+  - "https://www.bis.org"
+
+# Policy filters
+policy_filters:
+  exclude_domain_patterns:
+    - "insurance"
+    - "pension"
+    - "wikipedia"
+    - "linkedin"
+    - "twitter"
+    - "facebook"
+    - "youtube"
+  us_legislation_trackers:
+    - "congress.gov"
+    - "govtrack.us"
+    - "trackbill.com"

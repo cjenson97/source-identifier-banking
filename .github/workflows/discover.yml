@@ -1,0 +1,36 @@
+name: Source Discovery
+
+on:
+  schedule:
+    - cron: '0 7 * * 1'  # Every Monday at 07:00 UTC
+  workflow_dispatch:
+    inputs:
+      config_path:
+        description: 'Path to search config'
+        required: false
+        default: 'config/search_config.yaml'
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install -e .
+      - name: Run discovery
+        env:
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+        run: |
+          python -m source_identifier_banking discover \
+            --config ${{ github.event.inputs.config_path || 'config/search_config.yaml' }} \
+            --output artifacts/candidate_sources.json
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: candidate-sources
+          path: artifacts/
